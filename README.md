@@ -114,7 +114,7 @@ C#関連の訳語はMSDNに準拠しています。
 ## ビルド
 
 ```
-$ msgfmt -f -o monodevelop.mo monodevelop.ja.po
+$ msgfmt -f -o monodevelop.mo ja.po
 ```
 
 ## 作者
