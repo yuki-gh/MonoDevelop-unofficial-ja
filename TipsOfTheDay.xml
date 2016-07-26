@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<TIPS>
+        <TIP>monodevelop-list@lists.ximian.com 宛てに「本日のTip」をお寄せください。</TIP>
+        <TIP>ソリューションを使うと、アプリケーションを構成するライブラリとアプリケーションのプロジェクトをひとまとめにして、相互に参照することが可能になります。</TIP>
+        <TIP>パッドを自動で隠れるよう設定して、編集スペースを最大にしましょう。</TIP>
+        <TIP>検索パッドをピン留めして、検索を続けても検索結果が失われないようにできます。</TIP>
+        <TIP>「ファイル」→「ソリューション内のファイルを開く」で、ソリューション内のどのファイルにもすぐに飛ぶことができます。</TIP>
+        <TIP>The 'override' keyword in C# activates code completion that can stub out overrides for virtual and abstract members from base classes and implementations of members in the interfaces that the class implements.</TIP>
+        <TIP>コード補完ウィンドウが利用可能であれば、コードエディタ内のどこでも、Ctrl+Spaceで呼び出せます。</TIP>
+        <TIP>コードナビゲーションとリファクタリングの操作は、コードエディタで変数・型・メンバを右クリックでアクセスできます。</TIP>
+        <TIP>ASP.NETプロジェクトをビルドするとき、MonoDevelopはaspxページ内のコントロールを表現するフィールドを、それに対応するコードビハインドクラスに自動的に追加できます。</TIP>
+        <TIP>エディタのタブをダブルクリックすると、すべてのパッドを隠して、編集スペースを最大にできます。元の状態に戻すには再度ダブルクリックします。</TIP>
+        <TIP>If you need to use an external assembly in your project, you can just add a reference to it by right-clicking on the References folder in the Solution Pad and selecting it from the list of assemblies registered in your system, a list of projects in the current Solution, or any assembly that exists on your filesystem</TIP>
+        <TIP>gettextを用いた翻訳には、翻訳プロジェクトをソリューションに加えます。</TIP>
+        <TIP>You can control how a file is treated in your project, whether it is included in the build, embedded as a resource, included in deployment, or ignored yet still included in the file list. To change these options for each file, open the Properties Pad by going to 'View -> Properties', and select the file you want from your project file list. You can then select how the file is treated by changing the 'Build -> Build Action' option the the Properties tab.</TIP>
+        <TIP>Designing a form with GTK# involves packing widgets into nested containers. Widget sizes and positions are calculated automatically, depending on the size of the form and the widget.</TIP>
+        <TIP>Simple code templates can be activated by entering the template's code, such as 'scwl', and pressing the Tab key. Templates may be added and edited in the Editor Preferences.</TIP>
+        <TIP>You can change the targeted runtime -- 1.1, 2.0, Silverlight 1.1 -- by right-clicking on the project name in the Solution tab, selecting 'Project Options', and going to 'General -> Runtime Options'.</TIP>
+        <TIP>You can refresh your project file list by right-clicking on the project name, and selecting 'Display Options -> Refresh'. This can be particularly useful if you use the Version Control Addin and you update or commit files externally and need to refresh their updated status inside MonoDevelop.</TIP>
+        <TIP>If your project is under version control, the Status/Commit view can be used to enter messages for each file. These will be used to create a commit message and a ChangeLog entry that you can editr before committing.</TIP>
+        <TIP>ASP.NETプロジェクトの参照を編集すると、自動的にweb.configファイルを更新します。</TIP>
+        <TIP>If you have the sshfs FUSE filesystem installed, the Web Deploy dialog can be used to deploy your ASP.NET project to a remote server over SSH.</TIP>
+        <TIP>The Properties Pad provides contextual properties for many things. As well as editing widgets in the GUI designer, it can be used to set the deploy/build mode of files in the Solution Pad, the resource ID of resources, and whether a file is to be built or deployed.</TIP>
+        <TIP>MonoDevelop can open and save most Visual Studio 2005 and Visual Studio 2008 solution and project files directly, but not all MonoDevelop or Visual Studio features are fully supported.</TIP>
+        <TIP>コマンドラインプログラムmdtoolで、MonoDevelopソリューションのビルド、Makefileの生成、その他が可能です。</TIP>
+        <TIP>Makefile integration can be used to synchronise file lists and references to variables in Makefiles, and can invoke Makefile targets to perform builds.</TIP>
+        <TIP>Additional add-ins may be available from MonoDevelop's online add-in repositories, providing new or updated functionality. To install them, go to 'Tools -> Add-in Manager', and click 'Install Add-ins'.</TIP>
+        <TIP>///で始まるXML文書コメントを追加すると、ツールチップとコード補完で表示されます。</TIP>
+        <TIP>When you add an event handler in the GTK# GUI designer using the 'Signals' tab in the Properties Pad, MonoDevelop will add a stub for the method.</TIP>
+        <TIP>C#のコンパイラオプションで、#defineマクロはコンマで区切ります。例 VERBOSE,MONO,ETC</TIP>
+        <TIP>If you have '//TODO:' and other task comments in your code, they will show up in the task list. You can customize it with your own like '//THINK:' or '//RESEARCH:'.</TIP>
+        <TIP>In Gtk#, create widgets that inherit Gtk.Bin and they will show up in the designer's toolbox for easy reuse.</TIP>
+        <TIP>The Subversion integration makes source control very easy. If not convinced, investigate the ChangeLog integration.</TIP>
+        <TIP>If you get any 'Type not found' compilation errors, you may be missing a reference to a common assembly such as System or System.Xml. Edit your project's referenced assemblies by right-clicking on the 'References' folder in the Solution Pad and selecting 'Edit references'.</TIP>
+        <TIP>起動を速くするには、アドイン マネージャーを使って不要なアドインを無効化します。</TIP>
+        <TIP>配布用に他のプロジェクトの出力をパッケージ化するには、パッケージ化するプロジェクトをソリューションに追加します。</TIP>
+        <TIP>ソースエディタでフィールド上で右クリックすると、プロパティとして自動的にカプセル化することができます。</TIP>
+        <TIP>コードの識別子に対する「名前を変更」コンテキストメニューコマンドは、自動的にすべての参照を見つけて修正します。</TIP>
+        <TIP>C#のスマートインデントが有効な場合、Tabキーは現在の行を再インデントします。</TIP>
+        <TIP>When writing applications that may be used on other platforms such as Windows, be aware of differences in the path separators and casing of filenames. Detailed guidelines for cross-platform development are available at http://www.mono-project.com/Guidelines:Application_Portability.</TIP>
+</TIPS>
