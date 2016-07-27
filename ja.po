@@ -30161,3 +30161,17 @@ msgstr "usingを整理"
 msgid "Go to _Base Type"
 msgstr "基底型へ移動(_B)"
 
+# code template
+
+msgid "Function"
+msgstr "機能"
+
+msgid "ToolTip"
+msgstr "ツールチップ"
+
+msgid "Values"
+msgstr "値"
+
+msgid "Values Editor"
+msgstr "値エディタ"
+
