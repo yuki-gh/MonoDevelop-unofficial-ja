@@ -11,6 +11,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - `ja.po`
 - `monodevelop.mo`
 - `TipsOfTheDay.ja.xml`
+
 - `install_win.bat`
 - `install_mac.sh`
 - `install_linux.sh`
@@ -35,7 +36,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 
 ## インストール
 
-各OS用のインストールスクリプトを、*管理者権限で* 実行してください。
+各OS用のインストールスクリプトを、**管理者権限で** 実行してください。
 
 手作業で行う場合は、`monodevelop.mo` を以下の場所にコピーします。
 
@@ -51,7 +52,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 	- `/opt/monodevelop/share/locale/ja/LC_MESSAGES`
 	- `/opt/monodevelop/lib/monodevelop/locale/ja/LC_MESSAGES`
 
-また、以下の場所にある `TipsOfTheDay.xml` をバックアップし、`TipsOfTheDay.xml` をコピーします。
+また、`TipsOfTheDay.xml` を以下の場所にコピーします。
 
 - Windows
 	- `C:\Program Files\Unity\MonoDevelop\data\options`
