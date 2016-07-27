@@ -10,7 +10,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 
 - `ja.po`
 - `monodevelop.mo`
-- `TipsOfTheDay.ja.xml`
+- `TipsOfTheDay.xml`
 
 - `install_win.bat`
 - `install_mac.sh`
@@ -89,6 +89,7 @@ UIは日本語になりません。単体で起動してください。
 	- ツールボックスのコード片のポップアップ
 		- `main/src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeTemplates/MonoDevelop-templates.xml`
 	- エラーウィンドウに出るコード分析
+	- コードテンプレートの説明
 - ハイライティングスキームの説明
 	- `main/src/core/Mono.Texteditor/Styles/NightshadeStyle.json`
 - 各種サンプルテキスト 
