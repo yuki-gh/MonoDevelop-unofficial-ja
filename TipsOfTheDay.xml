@@ -15,8 +15,8 @@
         <TIP>You can control how a file is treated in your project, whether it is included in the build, embedded as a resource, included in deployment, or ignored yet still included in the file list. To change these options for each file, open the Properties Pad by going to 'View -> Properties', and select the file you want from your project file list. You can then select how the file is treated by changing the 'Build -> Build Action' option the the Properties tab.</TIP>
         <TIP>Designing a form with GTK# involves packing widgets into nested containers. Widget sizes and positions are calculated automatically, depending on the size of the form and the widget.</TIP>
         <TIP>シンプルなコードテンプレートを呼び出すには、'scwl'などのテンプレートのコードを入力し、Tabキーを押します。テンプレートの追加・編集はテキストエディタの設定で可能です。</TIP>
-        <TIP>対象のランタイム(1.1、2.0、Silverlight 1.1など)を変更するには、ソリューションタブ内のプロジェクト名で右クリックし、「プロジェクトオプション」を選び、「全般」→「ランタイムオプション」に行きます。</TIP>
-        <TIP>プロジェクトのファイル一覧を更新するには、プロジェクト名で右クリックし、「表示オプション」→「最新の状態に更新」を選びます。バージョン管理アドインを使っていて、外部でファイルを更新・コミットし、その更新された状態をMonoDevelopの中に反映する必要がある場合に非常に有用です。</TIP>
+        <TIP>対象のランタイム(1.1、2.0、Silverlight 1.1など)を変更するには、ソリューションタブ内のプロジェクト名で右クリックし、「オプション」を選び、「ビルド」→「全般」に行きます。</TIP>
+        <TIP>プロジェクトのファイル一覧を更新するには、プロジェクト名で右クリックし、「最新の状態に更新」を選びます。バージョン管理アドインを使っていて、外部でファイルを更新・コミットし、その更新された状態をMonoDevelopの中に反映する必要がある場合に非常に有用です。</TIP>
         <TIP>If your project is under version control, the Status/Commit view can be used to enter messages for each file. These will be used to create a commit message and a ChangeLog entry that you can editr before committing.</TIP>
         <TIP>ASP.NETプロジェクトの参照を編集すると、自動的にweb.configファイルを更新します。</TIP>
         <TIP>sshfs FUSEファイルシステムをインストールしていれば、Webデプロイダイアログを使って、ASP.NETプロジェクトをSSH越しにリモートサーバにデプロイできます。</TIP>
@@ -32,11 +32,11 @@
         <TIP>In Gtk#, create widgets that inherit Gtk.Bin and they will show up in the designer's toolbox for easy reuse.</TIP>
         <TIP>Subversion統合はソース管理をとても簡単にします。嘘だと思ったら、ChangeLog統合を調べてみましょう。</TIP>
         <TIP>Type not foundというコンパイルエラーが出る場合は、SystemやSystem.Xmlのような一般的なアセンブリの参照が欠けていることがあります。
-ソリューションパッドの参照フォルダで右クリックし、「参照を編集」を選んで、プロジェクトが参照しているアセンブリを編集します。</TIP>
+ソリューションパッドの参照フォルダで右クリックし、「参照アセンブリを編集」を選んで、プロジェクトが参照しているアセンブリを編集します。</TIP>
         <TIP>起動を速くするには、アドイン マネージャーを使って不要なアドインを無効化します。</TIP>
         <TIP>配布用に他のプロジェクトの出力をパッケージ化するには、パッケージ化するプロジェクトをソリューションに追加します。</TIP>
         <TIP>ソースエディタでフィールド上で右クリックすると、プロパティとして自動的にカプセル化することができます。</TIP>
-        <TIP>コードの識別子に対する「名前を変更」コンテキストメニューコマンドは、自動的にすべての参照を見つけて修正します。</TIP>
+        <TIP>コードの識別子に対する「名前の変更」コンテキストメニューコマンドは、自動的にすべての参照を見つけて修正します。</TIP>
         <TIP>C#のスマートインデントが有効な場合、Tabキーは現在の行を再インデントします。</TIP>
         <TIP>Windowsのような他のプラットフォームで使われる可能性のあるアプリケーションを書く際は、パスの区切りとファイル名の大文字小文字の違いに注意しましょう。クロスプラットフォーム開発の詳細なガイドラインは http://www.mono-project.com/Guidelines:Application_Portability にあります。</TIP>
 </TIPS>
