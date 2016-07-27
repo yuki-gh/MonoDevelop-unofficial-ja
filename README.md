@@ -46,7 +46,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
 	- `/Applications/Xamarin Studio.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
-- Linux
+- CentOS
 	- `/usr/share/locale/ja/LC_MESSAGES`
 	- `/opt/monodevelop/share/locale/ja/LC_MESSAGES`
 	- `/opt/monodevelop/lib/monodevelop/locale/ja/LC_MESSAGES`
@@ -59,7 +59,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/lib/monodevelop/data/options`
 	- `/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/data/options`
-- Linux
+- CentOS
 	- `/usr/lib/monodevelop/data/options`
 	- `/opt/monodevelop/lib/monodevelop/data/options`
 
@@ -116,6 +116,10 @@ C#関連の訳語はMSDNに準拠しています。
 ```
 $ msgfmt -f -o monodevelop.mo ja.po
 ```
+
+## ライセンス
+
+オリジナルに従います。
 
 ## 作者
 
