@@ -43,7 +43,8 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - Windows
 	- `C:\Program Files\Unity\MonoDevelop\bin\locale\ja\LC_MESSAGES`
 	- `C:\Program Files\Xamarin Studio\bin\locale\ja\LC_MESSAGES`
-	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、`C:\Program Files (x86)`となります。
+	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、
+	  `C:\Program Files (x86)`となります。
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
 	- `/Applications/Xamarin Studio.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
@@ -68,7 +69,8 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 
 日本語入力の問題を解消するものではありません。
 
-Unity EditorからMonoDevelopを起動した場合は、オプションの言語設定にかかわらず、UIは日本語になりません。単体で起動してください。
+Unity EditorからMonoDevelopを起動した場合は、オプションの言語設定にかかわらず、
+UIは日本語になりません。単体で起動してください。
 なお、Tipsは日本語です。
 
 フォントはMSゴシックなど日本語が使えるものを設定してください。
