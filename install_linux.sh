@@ -16,6 +16,6 @@ do
 	target="$prefix/$dir"
 	if [ -d "$target" ]
 	then
-		cp -i TipsOfTheDay.xml "$target/TipsOfTheDay.xml"
+		cp -i TipsOfTheDay.xml "$target"
 	fi
 done

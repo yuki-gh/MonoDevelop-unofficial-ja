@@ -6,7 +6,7 @@ do
 	target="/Applications/$app.app/$dir"
 	if [ -d "$target" ]
 	then
-		cp monodevelop.mo "$target"
+		cp -i monodevelop.mo "$target"
 	fi
 done
 
@@ -16,6 +16,6 @@ do
 	target="/Applications/$app/$dir"
 	if [ -d "$target" ]
 	then
-		cp TipsOfTheDay.ja.xml "$target/TipsOfTheDay.xml"
+		cp -i TipsOfTheDay.xml "$target"
 	fi
 done
