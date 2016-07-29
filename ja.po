@@ -30175,3 +30175,17 @@ msgstr "基底型へ移動(_B)"
 #~ msgid "Values Editor"
 #~ msgstr "値エディタ"
 
+msgid "Scripts Status"
+msgstr "スクリプトの状態"
+
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoringService.cs
+msgid ""
+"WARNING: The Xamarin Studio refactoring operations do not yet support C# 6.\n\n"
+"You may continue to use refactoring operations with C# 6, "
+"however you should check the results carefully to make sure that they have not made incorrect changes to your code. "
+"In particular, the \"?.\" null propagating dereference will be changed to \".\", a simple dereference, "
+"which can cause unexpected NullReferenceExceptions at runtime."
+msgstr ""
+
+msgid "Use refactorings on this solution"
+msgstr ""
