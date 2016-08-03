@@ -48,7 +48,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
 	- `/Applications/Xamarin Studio.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
-- CentOS
+- Linux
 	- `/usr/share/locale/ja/LC_MESSAGES`
 	- `/opt/monodevelop/share/locale/ja/LC_MESSAGES`
 	- `/opt/monodevelop/lib/monodevelop/locale/ja/LC_MESSAGES`
@@ -61,7 +61,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/lib/monodevelop/data/options`
 	- `/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/data/options`
-- CentOS
+- Linux
 	- `/usr/lib/monodevelop/data/options`
 	- `/opt/monodevelop/lib/monodevelop/data/options`
 
