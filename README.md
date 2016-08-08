@@ -24,7 +24,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 	- MonoDevelop 5.9.6(Unity 5.3以降にバンドル)
 	- MonoDevelop 5.10.0(Linux用安定版)
 - Xamarin Studio
-	- Xamarin Studio 6.0.0(安定版/ベータ版)
+	- Xamarin Studio 6.0.2(安定版/ベータ版)
 	- Xamarin Studio 6.1.0(アルファ版)
 - OS
 	- Windows 7 Professional x64 SP1 日本語版
