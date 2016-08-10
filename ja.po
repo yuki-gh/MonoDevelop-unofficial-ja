@@ -30208,10 +30208,10 @@ msgid "Enable Feedback"
 msgstr "フィードバックを有効化"
 
 msgid "Default compiler to use for new C projects."
-msgstr ""
+msgstr "新規Cプロジェクトに用いるデフォルトコンパイラ"
 
 msgid "Default compiler to use for new C++ projects."
-msgstr ""
+msgstr "新規C++プロジェクトに用いるデフォルトコンパイラ"
 
 msgid "Choose whether you want to parse system tags or not, if you do you will get completion for things like printf, but the tag parsing process will take considerably longer."
-msgstr ""
+msgstr "システムタグを解析したいかどうかを選びます。解析する場合はprintfなどに補完を受けられますが、タグ解析過程はかなり時間を要します。"
