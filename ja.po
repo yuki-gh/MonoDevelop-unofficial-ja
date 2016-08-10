@@ -30207,3 +30207,11 @@ msgstr "いいえ、結構です"
 msgid "Enable Feedback"
 msgstr "フィードバックを有効化"
 
+msgid "Default compiler to use for new C projects."
+msgstr ""
+
+msgid "Default compiler to use for new C++ projects."
+msgstr ""
+
+msgid "Choose whether you want to parse system tags or not, if you do you will get completion for things like printf, but the tag parsing process will take considerably longer."
+msgstr ""
