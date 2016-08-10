@@ -30194,3 +30194,16 @@ msgstr ""
 
 msgid "Use refactorings on this solution"
 msgstr "このソリューションにリファクタリングを適用"
+
+msgid "Please help improve {0} by enabling Automatic Feedback"
+msgstr "{0}を改善するために自動フィードバックを有効にしてください"
+
+msgid "{0} can automatically report errors and usage information to help Xamarin improve your experience."
+msgstr "{0}は自動でエラーと利用状況の情報を報告し、Xamarinがユーザー体験を改善するのに役立てます。"
+
+msgid "No, Thank You"
+msgstr "いいえ、結構です"
+
+msgid "Enable Feedback"
+msgstr "フィードバックを有効化"
+
