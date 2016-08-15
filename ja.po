@@ -98,6 +98,28 @@ msgstr "デフォルト"
 msgid "OptionName"
 msgstr "OptionName"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:11
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:13
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:66
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:41
+msgid "File not found: {0}"
+msgstr "ファイルが見つかりません: {0}"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:15
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:23
+msgid ""
+"The solution '{0}' is referencing the file '{1}' which is located outside "
+"the root solution directory."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:15
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:23
+#, fuzzy
+msgid ""
+"The project '{0}' is referencing the file '{1}' which is located outside the "
+"project directory."
+msgstr "'{1}'から参照されているプロジェクト '{0}' が見付かりません"
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:23
 msgid "File '{0}' not found."
 msgstr "ファイル '{0}' が 見つかりません"
@@ -118,6 +140,10 @@ msgstr "プロジェクトの構成プラットフォーム"
 msgid "Target File"
 msgstr "ターゲットファイル"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/DotNetProjectConfiguration.cs:13
+msgid "Target Path"
+msgstr "ターゲットのパス"
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/DotNetProjectConfiguration.cs:11
 msgid "Target Name"
 msgstr "ターゲット名"
@@ -131,6 +157,15 @@ msgstr "ターゲットディレクトリ"
 msgid "Target Extension"
 msgstr "ターゲットの拡張子"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:135
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:74
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:77
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:87
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:90
+#, fuzzy
+msgid "Custom command execution failed"
+msgstr "実行に失敗しました。"
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:29
 msgid "Cannot create directory {0}, as a file with that name exists."
 msgstr "ディレクトリ {0} は作成できません。同じ名前のファイルがすでに存在します。"
@@ -140,6 +175,10 @@ msgstr "ディレクトリ {0} は作成できません。同じ名前のファ�
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:51
 msgid "Configuration '{0}' not found in project '{1}'"
 msgstr "プロジェクト '{1}' の設定 '{0}' が見つかりません"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:185
+msgid "Performing main compilation…"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:34
 msgid "Build complete -- "
@@ -161,6 +200,10 @@ msgstr "サポートファイル '{0}' の削除でエラーが発生しまし�
 msgid "Clean complete"
 msgstr "クリーン完了"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:264
+msgid "Project file doesn't have a valid ProjectGuid"
+msgstr ""
+
 #  FIXME: make this a resource in the resource file
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:33
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:35
@@ -168,6 +211,7 @@ msgstr "クリーン完了"
 msgid "{0} error"
 msgid_plural "{0} errors"
 msgstr[0] "エラー {0}件"
+msgstr[1] "エラー {0}件"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Project.cs:33
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:35
@@ -175,6 +219,11 @@ msgstr[0] "エラー {0}件"
 msgid "{0} warning"
 msgid_plural "{0} warnings"
 msgstr[0] "警告 {0}件"
+msgstr[1] "警告 {0}件"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectReference.cs:23
+msgid "Invalid file path"
+msgstr "無効なファイルパスです"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectReference.cs:12
 msgid "Specified version not found: expected {0}, found {1}"
@@ -208,6 +257,73 @@ msgstr "対象のフレームワーク（{0}）には互換性がありません
 msgid "File not found"
 msgstr "ファイルが見つかりません"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "Before Build"
+msgstr "ビルド前"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/DefaultPolicyPanels.addin.xml:2
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:3
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:75
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CombineConfigurationPanel.cs:8
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:97
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:107
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:115
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:123
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:131
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:5
+msgid "Build"
+msgstr "ビルド"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "After Build"
+msgstr "ビルド後"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "Before Execute"
+msgstr "実行前"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "Execute"
+msgstr "実行"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "After Execute"
+msgstr "実行後"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "Before Clean"
+msgstr "クリーン前"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "Clean"
+msgstr "クリーン"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "After Clean"
+msgstr "クリーン後"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
+msgid "Custom Command"
+msgstr "カスタム コマンド"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:6
+msgid ""
+"Invalid custom command for '{0}' step: the path to the command to execute "
+"has not been provided."
+msgstr ""
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:3
 msgid "Executing: {0} {1}"
 msgstr "実行中 : {0} {1}"
@@ -215,6 +331,11 @@ msgstr "実行中 : {0} {1}"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:3
 msgid "Custom command working directory does not exist"
 msgstr "カスタムコマンドの作業ディレクトリが存在しません"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:10
+#, fuzzy
+msgid "Custom command failed (exit code: {0})"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:3
 msgid "Failed to execute custom command '{0}': {1}"
@@ -266,26 +387,23 @@ msgstr "ソリューションディレクトリ"
 msgid "Cyclic dependencies are not supported."
 msgstr "プロジェクトの循環参照はサポートされていません"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionFolder.cs:28
+msgid "Cleaning Solution: {0} ({1})"
+msgstr "ソリューション {0} ({1}) をクリーン中"
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionFolder.cs:27
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionFolder.cs:29
 msgid "Building Solution: {0} ({1})"
 msgstr "ソリューション {0} ({1}) をビルド中"
 
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionFolder.cs:28
-msgid "Cleaning Solution: {0} ({1})"
-msgstr "ソリューション {0} ({1}) をクリーン中"
-
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:15
-msgid "Cleaning: {0} ({1})"
-msgstr "クリーン中: {0} ({1})"
-
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:15
-msgid "Building: {0} ({1})"
-msgstr "ビルド中: {0} ({1})"
-
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/FileFormat.cs:3
 msgid "The project '{0}' is not supported by {1}"
 msgstr "プロジェクト参照の種類 '{0}' は {1} によってまだサポートされていません"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/BuildResult.cs:7
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:42
+msgid "Cancelled"
+msgstr "キャンセルしました"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/FileCopyMode.cs:2
 msgid "Do not copy"
@@ -435,10 +553,6 @@ msgstr ""
 "プロジェクト '{0}' はファイルフォーマット '{1}' で保存されますが、このバージョンのVisual Studioは、このプロジェクトが対象とするフレームワーク（{2}）をサポートしま"
 "せん"
 
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/MSBuildProjectHandler.cs:60
-msgid "Invalid file path"
-msgstr "無効なファイルパスです"
-
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/MSBuildProjectHandler.cs:90
 msgid "Reference to unknown project '{0}' ignored."
 msgstr "未知のプロジェクト '{0}' への参照は無視されます"
@@ -481,18 +595,6 @@ msgstr "{0} ({1}): ローカルでないソース (http://...) を含むプロ�
 msgid "Invalid project path found in {0} : {1}"
 msgstr "{0}中のプロジェクトパスが無効です : {1}"
 
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:68
-msgid "Could not load {0} project '{1}'. {2}"
-msgstr "{0}プロジェクト'{1}' をロードできませんでした。{2}"
-
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:68
-msgid "Could not load project '{0}' with unknown item type '{1}'"
-msgstr "項目タイプ '{1}' が不明のためプロジェクト '{0}' をロードできませんでした"
-
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:68
-msgid "Could not load project '{0}' with unknown item type"
-msgstr "項目タイプが不明のためプロジェクト '{0}' を読み込めませんでした"
-
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:69
 msgid "Error while trying to load the project '{0}': {1}"
 msgstr "プロジェクト '{0}' のロード中にエラーが発生しました: {1}"
@@ -501,13 +603,15 @@ msgstr "プロジェクト '{0}' のロード中にエラーが発生しまし�
 msgid "Invalid solution file. There are two projects with the same GUID. The project {0} will be ignored."
 msgstr "無効なソリューションファイルです。同一のGUIDに2つのプロジェクトが割り当てられています。プロジェクト {0} は無視されます。"
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MSBuild/SlnFileFormat.cs:84
+msgid "{0} ({1}) : Project with guid = '{2}' not found or not loaded. Ignoring"
+msgstr ""
+"{0} ({1}): GUID='{2}'のプロジェクトが見つからないか、またはロードできませんで"
+"した。無視します。"
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:94
 msgid "{0} ({1}) : Unknown action. Only ActiveCfg, Build.0 and Deploy.0 supported."
 msgstr "{0} ({1}): 未定義のアクションです。ActiveCfg と Build.0 と Deploy.0のみサポートされています。"
-
-#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:98
-msgid "{0} ({1}) : Project with guid = '{2}' not found or not loaded. Ignoring"
-msgstr "{0} ({1}): GUID='{2}'のプロジェクトが見つからないか、またはロードできませんでした。無視します。"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:108
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:109
@@ -517,6 +621,29 @@ msgstr "GUID '{0}' のプロジェクトが見つかりません。"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:108
 msgid "Item with guid '{0}' is not a folder."
 msgstr "GUID '{0}' の項目はフォルダではありません"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:68
+msgid "Could not load {0} project '{1}'. {2}"
+msgstr "{0}プロジェクト'{1}' をロードできませんでした。{2}"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MSBuild/MSBuildProjectService.cs:43
+#, fuzzy
+msgid "Unknown project type: {0}"
+msgstr "未知のプロジェクト種別 {0}"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:68
+msgid "Could not load project '{0}' with unknown item type '{1}'"
+msgstr "項目タイプ '{1}' が不明のためプロジェクト '{0}' をロードできませんでした"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MSBuild/MSBuildProjectService.cs:43
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:57
+#, fuzzy
+msgid "Unknown project type"
+msgstr "未知のプロジェクト種別"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:68
+msgid "Could not load project '{0}' with unknown item type"
+msgstr "項目タイプが不明のためプロジェクト '{0}' を読み込めませんでした"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Text/TextEncoding.cs:2
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Text/TextEncoding.cs:8
@@ -637,12 +764,25 @@ msgstr "タイ語"
 msgid "ApplicationName"
 msgstr ""
 
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:8
+#, fuzzy
+msgid "ApplicationLongName"
+msgstr ""
+
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:2
 msgid "SuiteName"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:2
 msgid "ProfileDirectoryName"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:8
+msgid "StatusAreaSteadyIcon"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:8
+msgid "HelpAboutIcon"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Extensions/UnknownProjectTypeNode.cs:11
@@ -660,6 +800,14 @@ msgstr "アドイン '{0}' がインストールされていません。"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Extensions/UnknownProjectTypeNode.cs:15
 msgid "This project type is not supported by MonoDevelop."
 msgstr "このプロジェクト種別はMonoDevelopではサポートされていません"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:15
+msgid "Building: {0} ({1})"
+msgstr "ビルド中: {0} ({1})"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:15
+msgid "Cleaning: {0} ({1})"
+msgstr "クリーン中: {0} ({1})"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild.Conditions/InvalidProjectFileException.cs:9
 msgid "errorCode"
@@ -693,6 +841,12 @@ msgstr "Invariant"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core.addin.xml:15
 msgid "Xamarin.iOS projects are not supported in MonoDevelop on Windows. You need to use Visual Studio, or Xamarin Studio on Mac."
 msgstr "Xamarin.iOS プロジェクトはWindowsでのMonoDevelopではサポートされません。Visual Studioか、MacでXamarin Studioを使う必要があります。"
+
+#: ../src/core/MonoDevelop.Core/MonoDevelop.Core.addin.xml:16
+msgid ""
+"Xamarin.Mac projects are not supported in MonoDevelop on Windows. You need "
+"to use Xamarin Studio on Mac."
+msgstr "Xamarin.Mac プロジェクトはWindowsでのMonoDevelopではサポートされません。MacでXamarin Studioを使う必要があります。"
 
 #: ../src/core/MonoDevelop.Core/frameworks/framework_NET_1_1.xml:0
 msgid "Mono / .NET 1.1"
@@ -1411,9 +1565,34 @@ msgstr "選択されたコード行をコメントまたはコメント解除す
 msgid "_Toggle Line Comment(s)"
 msgstr "行コメントをトグル(_T)"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "Comment selected lines of code"
+msgstr "選択範囲のコード行をコメント"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Add Line Comment(s)"
+msgstr "行コメントを追加(_A)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "Uncomment selected lines of code"
+msgstr "選択されたコード行をコメント解除"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Remove Line Comment(s)"
+msgstr "行コメントを削除(_R)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Indent selected lines of code"
 msgstr "選択範囲のコード行をインデント"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Indent"
+msgstr "インデント(_I)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Indent Selection"
@@ -1423,29 +1602,49 @@ msgstr "選択範囲のインデント(_I)"
 msgid "Unindent selected lines of code"
 msgstr "選択範囲のコード行のインデントを解除"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Unindent"
+msgstr "インデント解除(_U)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "_Unindent Selection"
-msgstr "選択範囲のインデント解除(_U)"
+msgid "Unindent Selection"
+msgstr "選択範囲のインデント解除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Convert the selected text to uppercase"
 msgstr "選択されたテキストを大文字に変換する"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "Upper_case"
+msgstr "大文字に変換(_C)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "_Uppercase Selection"
-msgstr "選択範囲を大文字に変換(_U)"
+msgid "Uppercase Selection"
+msgstr "選択範囲を大文字に変換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Convert the selected text to lowercase"
 msgstr "選択されたテキストを小文字に変換する"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Lowercase"
+msgstr "小文字に変換(_L)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "_Lowercase Selection"
-msgstr "選択範囲を小文字に変換(_L)"
+msgid "Lowercase Selection"
+msgstr "選択範囲を小文字に変換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TextStylePolicyPanelWidget.cs:2
 msgid "_Remove trailing whitespace"
+msgstr "行末の空白文字を削除(_R)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Remove Trailing Whitespace"
 msgstr "行末の空白文字を削除(_R)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
@@ -1455,6 +1654,30 @@ msgstr "現在の行を次の行に連結します"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Join Lines"
 msgstr "行を連結(_J)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "Sort the selected lines"
+msgstr "選択した行を並べ替え"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_Sort Lines"
+msgstr "行を並べ替え(_S)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "_GUID (Globally Unique Identifier)"
+msgstr "GUID(_G)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+msgid "Insert GUID (Globally Unique Identifier)"
+msgstr "GUIDを挿入"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "Inserts a Guid at caret position"
+msgstr "キャレット位置にGUIDを挿入"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Word Count..."
@@ -1480,6 +1703,11 @@ msgstr "設定(_E)..."
 msgid "Show MonoDevelop preferences window"
 msgstr "MonoDevelopの設定ウィンドウを表示"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#, fuzzy
+msgid "Po_licies..."
+msgstr "ポリシー(_L)..."
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Custom Po_licies..."
 msgstr "カスタム ポリシー(_L)..."
@@ -1488,6 +1716,11 @@ msgstr "カスタム ポリシー(_L)..."
 msgid "Edit custom sets of policies which can be applied to solutions"
 msgstr "ソリューションに適用されるポリシーのカスタムセットを編集"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.StandardHeader/StandardHeaderPolicyPanel.cs:2
+msgid "Standard _Header"
+msgstr "標準ヘッダ (_H)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Insert Standard Header"
 msgstr "標準ヘッダを追加(_I)"
@@ -1495,6 +1728,17 @@ msgstr "標準ヘッダを追加(_I)"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Add the user defined header to the top of the file"
 msgstr "ユーザー定義されたヘッダをファイルの先頭に追加する"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/ViewCommandHandlers.cs:15
+#, fuzzy
+msgid "Enable _Folding"
+msgstr "コードの折りたたみを有効化(_F)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
+#, fuzzy
+msgid "Enable/Disable Code Folding"
+msgstr "ブレークポイントの折りたたみを有効/無効化"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Toggle Fold"
@@ -1523,10 +1767,6 @@ msgstr "すべてのメソッドおよびプロパティの本体を折りたた
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Format Document"
 msgstr "ドキュメントを整形(_F)"
-
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "_Format Selection"
-msgstr "選択範囲を整形(_F)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:6
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
@@ -1803,7 +2043,12 @@ msgstr "ファイルを編集"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:6
 msgid "Convert selected solution to another format"
-msgstr "選択されたソリューションを他のフォーマットに変換"
+msgstr "選択されたソリューションを他の形式に変換"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
+#, fuzzy
+msgid "Convert Solution Format..."
+msgstr "ソリューションの形式を変換..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:6
 msgid "_Export..."
@@ -1821,6 +2066,17 @@ msgstr "ポリシーを適用..."
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:6
 msgid "Export Policy..."
 msgstr "ポリシーをエクスポート..."
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
+#, fuzzy
+msgid "Run Code Analysis on Solution"
+msgstr "ソリューションにコード解析を実行"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ProjectCommands.cs:45
+#, fuzzy
+msgid "Run Code Analysis on Project"
+msgstr "プロジェクトにコード解析を実行"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:27
@@ -1844,10 +2100,6 @@ msgstr "開く(_O)..."
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Open file or solution"
 msgstr "ファイルまたはソリューションを開く"
-
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
-msgid "_File..."
-msgstr "ファイル(_F)..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Save the active document"
@@ -2211,13 +2463,56 @@ msgstr "通常サイズ(_N)"
 msgid "Resets zoom to default"
 msgstr "ズームをデフォルトに戻す"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "Two Columns"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+msgid "Two Editor Columns"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "One Column"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+msgid "One Editor Column"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "Move to Next Notebook"
+msgstr "次のノートへ移動"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "Move to Previous Notebook"
+msgstr "前のノートへ移動"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 msgid "_Focus Document"
-msgstr "ドキュメントの現在位置(_F)"
+msgstr "ドキュメントをフォーカス(_F)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 msgid "Focus current document"
-msgstr "現在のドキュメントの現在位置"
+msgstr "現在のドキュメントをフォーカス"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "Center and Focus Document"
+msgstr "ドキュメントをフォーカスしてセンタリング"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "_Cursor Position"
+msgstr "カーソル位置(_C)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
+#, fuzzy
+msgid "Focus and center current document"
+msgstr "現在のドキュメントをフォーカスしてセンタリング"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 msgid "Welcome Page"
@@ -2233,6 +2528,11 @@ msgstr "ツール"
 msgid "Manage add-ins"
 msgstr "アドインの管理"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:21
+#, fuzzy
+msgid "_Add-ins..."
+msgstr "アドイン(_A)..."
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 msgid "_Add-in Manager"
 msgstr "アドイン マネージャ(_A)"
@@ -2241,15 +2541,56 @@ msgstr "アドイン マネージャ(_A)"
 msgid "Tool List"
 msgstr "ツール リスト"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:21
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ToolsCommands.cs:17
+#, fuzzy
+msgid "Edit Custom Tools..."
+msgstr "カスタムツールを編集..."
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 msgid "Instrumentation Monitor"
 msgstr "使用統計モニタ"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:23
+msgid "Start Session Recorder"
+msgstr "セッションレコーダーを開始"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:24
+#, fuzzy
+msgid "Replay Session..."
+msgstr "セッションを再生..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 #: ../src/addins/MonoDevelop.GtkCore/templates/Window.xft.xml:0
 #: ../src/addins/MonoDevelop.GtkCore/templates/WindowPartial.xft.xml:0
 msgid "Window"
 msgstr "ウィンドウ"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
+#, fuzzy
+msgid "_Next Document"
+msgstr "次のドキュメント(_N)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
+#, fuzzy
+msgid "Show next document"
+msgstr "次のドキュメントを表示"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
+#, fuzzy
+msgid "_Previous Document"
+msgstr "前のドキュメント(_P)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
+#, fuzzy
+msgid "Show previous document"
+msgstr "前のドキュメントを表示"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.DockNotebook/TabStrip.cs:25
+#, fuzzy
+msgid "Document List"
+msgstr "ドキュメント リスト"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:9
 msgid "_Next Window"
@@ -2444,6 +2785,10 @@ msgstr "型に移動..."
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Jump to the declaration of type in the current workspace"
 msgstr "現在のワークスペース中で宣言された型に移動します"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
+msgid "_File..."
+msgstr "ファイル(_F)..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Go to File..."
@@ -2778,17 +3123,6 @@ msgstr "ブロック選択モードの切り替え"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Duplicate line"
 msgstr "重複した行"
-
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/DefaultPolicyPanels.addin.xml:2
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:2
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CombineConfigurationPanel.cs:6
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:3
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:3
-#: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/DebugCommands.cs:9
-msgid "Build"
-msgstr "ビルド"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/DefaultPolicyPanels.addin.xml:2
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
@@ -3992,11 +4326,6 @@ msgid "{0} is a directory"
 msgstr "{0}はディレクトリです"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:50
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:32
-msgid "File not found: {0}"
-msgstr "ファイルが見つかりません: {0}"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:50
 msgid "File '{0}' could not be opened"
 msgstr "ファイル '{0}' が開けませんでした"
 
@@ -4596,10 +4925,6 @@ msgstr "項目 '{0}' をワークスペース '{1}' から削除しますか?"
 msgid "Display Options"
 msgstr "表示オプション"
 
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.StandardHeader/StandardHeaderPolicyPanel.cs:2
-msgid "Standard _Header"
-msgstr "標準ヘッダ(_H)"
-
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.AuthorInformationPanelWidget.cs:2
 msgid "_Use custom author information for this solution"
 msgstr "このソリューションでカスタム作成者情報を使用する(_U)"
@@ -5067,6 +5392,15 @@ msgstr "結果パッドを固定"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchResultWidget.cs:48
 msgid "Search Result"
 msgstr "検索結果"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchProgressMonitor.cs:11
+#, fuzzy
+msgid "Search operation canceled"
+msgstr "検索操作をキャンセルしました"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
+msgid "_Format Selection"
+msgstr "選択範囲を整形(_F)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Execution/ExecutionModeCommandService.cs:2
 msgid "Run With: {0}"
@@ -5591,10 +5925,6 @@ msgstr "ファイル '{1}' の中のジェネレーター '{0}' を実行して�
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:2
 msgid "Cancelled because generator ran again for the same file"
 msgstr "同じファイルから生成しようとしているので中止します"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:2
-msgid "Cancelled"
-msgstr "キャンセルしました"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:2
 msgid "The '{0}' code generator crashed"
@@ -6671,42 +7001,6 @@ msgstr "本当に種別 '{0}' のフォーマットポリシーを削除しま�
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CombineConfigurationPanel.cs:6
 msgid "Solution Item"
 msgstr "ソリューション項目"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "Before Build"
-msgstr "ビルド前"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "After Build"
-msgstr "ビルド後"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "Before Execute"
-msgstr "実行前"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "Execute"
-msgstr "実行"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "After Execute"
-msgstr "実行後"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "Before Clean"
-msgstr "クリーン前"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "Clean"
-msgstr "クリーン"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "After Clean"
-msgstr "クリーン後"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
-msgid "Custom Command"
-msgstr "カスタム コマンド"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CustomCommandWidget.cs:3
 msgid "(Select a project operation)"
@@ -24425,14 +24719,8 @@ msgstr "NuGetパッケージを復元(_R)"
 msgid "Restore missing NuGet packages"
 msgstr "不足しているNuGetパッケージを復元"
 
-msgid "Run Code Analysis on Project"
-msgstr "プロジェクトにコード解析を実行"
-
 msgid "Run Code Analysis on {0}"
 msgstr "{0} にコード解析を実行"
-
-msgid "Run Code Analysis on Solution"
-msgstr "ソリューションにコード解析を実行"
 
 msgid "View Archives"
 msgstr "アーカイブを表示"
@@ -24636,9 +24924,6 @@ msgstr "アプリケーションプロジェクトを署名・公開するには
 
 msgid "Search in Solution"
 msgstr "ソリューション内で検索"
-
-msgid "_Sort Lines"
-msgstr "行を並べ替え(_S)"
 
 msgid "Choose encodings"
 msgstr "エンコーディングの選択"
@@ -25280,12 +25565,6 @@ msgstr "次の文をセット"
 msgid "Show Next Statement"
 msgstr "次の文を表示"
 
-msgid "Move to Next Notebook"
-msgstr "次のノートへ移動"
-
-msgid "Move to Previous Notebook"
-msgstr "前のノートへ移動"
-
 msgid "Archive All"
 msgstr "すべてアーカイブ"
 
@@ -25297,21 +25576,6 @@ msgstr "C#コード規則をファイルにエクスポート"
 
 msgid "Generates an HTML file that contains a list of all code rules"
 msgstr "すべてのコード規則の一覧を含むHTMLファイルを生成"
-
-msgid "_Add Line Comment(s)"
-msgstr "行コメントを追加(_A)"
-
-msgid "Comment selected lines of code"
-msgstr "選択したコードの行をコメントにする"
-
-msgid "_Remove Line Comment(s)"
-msgstr "行コメントを削除(_R)"
-
-msgid "Uncomment selected lines of code"
-msgstr "選択したコードの行のコメントを外す"
-
-msgid "Sort the selected lines"
-msgstr "選択した行を並べ替え"
 
 msgid "Add App Project"
 msgstr "アプリプロジェクトを追加"
@@ -27136,9 +27400,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Moonlight / Silverlight 2.0"
 #~ msgstr "Moonlight / Silverlight 2.0"
 
-msgid "_Remove Trailing Whitespace"
-msgstr "末尾の空白文字を削除(_R)"
-
 #~ msgid "Pr_eferences"
 #~ msgstr "設定(_E)"
 
@@ -28174,9 +28435,6 @@ msgstr "ビジュアル スタイル"
 #~ msgid "Project Trademark"
 #~ msgstr "プロジェクトの商標"
 
-msgid "Target Path"
-msgstr "ターゲットのパス"
-
 #~ msgid "_Target Directory"
 #~ msgstr "ターゲット ディレクトリ(_T)"
 
@@ -29193,17 +29451,8 @@ msgstr "プロジェクト '{0}'"
 msgid "_Publish in Version Control..."
 msgstr "バージョン管理システムに公開(_P)..."
 
-msgid "_Add-ins..."
-msgstr "アドイン(_A)..."
-
 msgid "Add-ins..."
 msgstr "アドイン..."
-
-msgid "_Next Document"
-msgstr "次のドキュメント(_N)"
-
-msgid "_Previous Document"
-msgstr "前のドキュメント(_P)"
 
 msgid "Show Version Control Overlay Icons"
 msgstr "バージョン管理システムのオーバーレイアイコンを表示"
@@ -29628,9 +29877,6 @@ msgstr "ライセンスに同意しませんでした。"
 msgid "Center and F_ocus Document"
 msgstr "ドキュメントをセンタリングしてフォーカス(_O)"
 
-msgid "Focus and center current document"
-msgstr "現在のドキュメントをフォーカスしてセンタリング"
-
 msgid "C_opy File Path"
 msgstr "ファイルのパスをコピー(_O)"
 
@@ -29676,12 +29922,6 @@ msgstr "XAPデバイスマネージャを開く..."
 msgid "Open the Xamarin Android Player Device Manager"
 msgstr "XAP (Xamarin Android Player) デバイスマネージャを開く"
 
-msgid "Replay Session..."
-msgstr "セッションを再生..."
-
-msgid "Start Session Recorder"
-msgstr "セッションレコーダーを開始"
-
 msgid "Base Symbols"
 msgstr "基底シンボル"
 
@@ -29711,12 +29951,6 @@ msgstr "企業向け試用開始..."
 
 msgid "Starts an Enterprise Trial."
 msgstr "企業向けの試用を開始します。"
-
-msgid "Show next document"
-msgstr "次のドキュメントを表示"
-
-msgid "Show previous document"
-msgstr "前のドキュメントを表示"
 
 # mac specific key binding
 
