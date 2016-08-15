@@ -1627,8 +1627,8 @@ msgstr "選択範囲を小文字に変換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TextStylePolicyPanelWidget.cs:2
-msgid "_Remove trailing whitespace"
-msgstr "行末の空白文字を削除(_R)"
+msgid "Remove trailing whitespace"
+msgstr "行末の空白文字を削除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
 #, fuzzy
@@ -5366,6 +5366,11 @@ msgstr "項目 '{0}' をワークスペース '{1}' から削除しますか?"
 msgid "Display Options"
 msgstr "表示オプション"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.StandardHeader/StandardHeaderPolicyPanel.cs:4
+#, fuzzy
+msgid "Templates"
+msgstr "テンプレート"
+
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.AuthorInformationPanelWidget.cs:2
 msgid "_Use custom author information for this solution"
 msgstr "このソリューションでカスタム作成者情報を使用する(_U)"
@@ -5399,8 +5404,17 @@ msgid "Native"
 msgstr "ネイティブ"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/TextStylePolicyPanel.cs:2
+#, fuzzy
+msgid "Mac Classic"
+msgstr "Macクラシック"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/TextStylePolicyPanel.cs:2
 msgid "Mac"
 msgstr "Mac"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/TextStylePolicyPanel.cs:2
+msgid "Unix / Mac"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/TextStylePolicyPanel.cs:2
 msgid "Unix"
@@ -5442,6 +5456,10 @@ msgstr "タブをスペースに変換(_C)"
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TextStylePolicyPanelWidget.cs:2
 msgid "_Allow tabs after non-tabs"
 msgstr "非タブ文字の後のタブを許容(_A)"
+
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TextStylePolicyPanelWidget.cs:2
+msgid "_Remove trailing whitespace"
+msgstr "行末の空白文字を削除(_R)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeTemplates/CodeTemplatePanel.cs:3
 #: ../src/addins/Deployment/MonoDevelop.Deployment.Linux/MonoDevelop.Deployment.Linux/DotDesktopViewWidget.cs:3
@@ -5596,6 +5614,11 @@ msgstr "label1"
 msgid "Searching..."
 msgstr "検索中..."
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchResultPad.cs:14
+#, fuzzy
+msgid "Search cancelled"
+msgstr "検索を中断しました"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchResultPad.cs:7
 msgid "Search completed"
 msgstr "検索が完了しました"
@@ -5604,6 +5627,7 @@ msgstr "検索が完了しました"
 msgid "{0} match."
 msgid_plural "{0} matches."
 msgstr[0] "{0}件該当"
+msgstr[1] "{0}件該当"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:4
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.FindInFiles.FindInFilesDialog.cs:2
@@ -5624,6 +5648,12 @@ msgstr "複数ファイルで置換に切り替え"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:4
 msgid "Whole solution"
 msgstr "ソリューション全体"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:8
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Execution/CustomExecutionModeManagerDialog.cs:6
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Execution.CustomExecutionModeDialog.cs:2
+msgid "All solutions"
+msgstr "すべてのソリューション"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:4
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Execution/CustomExecutionModeManagerDialog.cs:6
@@ -7144,11 +7174,6 @@ msgstr "利用対象 "
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Execution/CustomExecutionModeManagerDialog.cs:6
 msgid "Current solution"
 msgstr "現在のソリューション"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Execution/CustomExecutionModeManagerDialog.cs:6
-#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Execution.CustomExecutionModeDialog.cs:2
-msgid "All solutions"
-msgstr "すべてのソリューション"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Execution/CustomExecutionModeManagerDialog.cs:8
 msgid "Are you sure you want to delete the custom execution mode '{0}'?"
