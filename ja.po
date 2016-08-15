@@ -2922,6 +2922,11 @@ msgstr "選択範囲を置換文字列として使用します"
 msgid "Text Editor"
 msgstr "テキストエディタ"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Show Code Completion"
+msgstr "コード補完を表示"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Show Completion Window"
 msgstr "補完ウィンドウを表示"
@@ -2934,10 +2939,29 @@ msgstr "補完提示モードの切り替え"
 msgid "Inserts a template or when something is selected surrounds selection with a template"
 msgstr "テンプレートを挿入するか、選択範囲をテンプレートで囲みます"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "_Template..."
+msgstr "テンプレート(_T)..."
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Content/CompletionTextEditorExtension.cs:16
 msgid "I_nsert Template..."
 msgstr "テンプレートから挿入(_N)..."
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Surrounds selection with a template when something is selected"
+msgstr "選択範囲をテンプレートで囲みます"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Content/CompletionTextEditorExtension.cs:16
+msgid "_Surround With..."
+msgstr "囲む(_S)..."
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Surround Selection With..."
+msgstr "選択範囲を囲む..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Go to end of line"
@@ -3003,9 +3027,23 @@ msgstr "1ページ スクロールアップ"
 msgid "Scroll page down"
 msgstr "1ページ スクロールダウン"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Scroll to top"
+msgstr "先頭へスクロール"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Scroll to bottom"
+msgstr "末尾へスクロール"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Delete entire line"
 msgstr "行全体を削除"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Delete to start of line"
+msgstr "行頭まで削除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Delete to end of line"
@@ -3026,6 +3064,16 @@ msgstr "行または選択範囲を下へ"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Show Parameter List"
 msgstr "パラメータリストの表示"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Matching _Brace"
+msgstr "対応する括弧(_B)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Go to Matching Brace"
+msgstr "対応する括弧に移動"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Go to Matching _Brace"
@@ -3099,9 +3147,19 @@ msgstr "選択範囲をドキュメントの末尾まで広げる"
 msgid "Expand selection to line"
 msgstr "選択範囲を行まで広げる"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:31
+#, fuzzy
+msgid "_Expand selection"
+msgstr "選択範囲を広げる(_E)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Switch caret mode"
 msgstr "キャレットモードを切り替え"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Switch between insert and overwrite caret modes"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
 msgid "Insert tab"
@@ -4884,10 +4942,6 @@ msgstr "今すぐ更新をチェック"
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.Dialogs.AddinLoadErrorDialog.cs:2
 msgid "The following add-ins could not be started:"
 msgstr "以下のアドインが実行できませんでした:"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Content/CompletionTextEditorExtension.cs:16
-msgid "_Surround With..."
-msgstr "囲む(_S)..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.ExternalTools/ExternalToolPanel.cs:12
 msgid "Control not found!"
@@ -11958,10 +12012,6 @@ msgstr "前の用法に移動(_M)"
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:30
 msgid "_Move to next usage"
 msgstr "次の用法に移動(_M)"
-
-#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:31
-msgid "_Expand selection"
-msgstr "選択範囲を広げる(_E)"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:32
 msgid "_Shrink selection"
@@ -26904,9 +26954,6 @@ msgstr "拡張:"
 
 msgid "Create Document-Based Application"
 msgstr "ドキュメントベースのアプリを作成"
-
-msgid "Delete to start of line"
-msgstr "行頭まで削除"
 
 msgid "Android API Usage Issues"
 msgstr "Android APIの用法の問題"
