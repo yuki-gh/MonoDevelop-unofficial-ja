@@ -3843,12 +3843,6 @@ msgid "Text Editor Line Numbers"
 msgstr "テキストエディタの行番号"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:9
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Pad.cs:5
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DocumentSwitcher.cs:12
-msgid "Pads"
-msgstr "パッド"
-
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:9
 msgid "Output Pads"
 msgstr "出力パッド"
 
@@ -4517,6 +4511,21 @@ msgstr "本当にディレクトリ {0} をプロジェクト {1} から削除�
 msgid "The folder {0} could not be deleted from disk: {1}"
 msgstr "フォルダ {0} をディスク {1} から削除できませんでした"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:7
+#, fuzzy
+msgid "Unknown language '{0}'"
+msgstr "未知の言語 '{0}'"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:9
+#, fuzzy
+msgid "Invalid configuration mapping"
+msgstr "不正なコンフィグレーション マッピング"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:9
+#, fuzzy
+msgid "Project not built in active configuration"
+msgstr "アクティブなコンフィグレーションでプロジェクトがビルドされていません"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:6
 msgid "{0} <span foreground='red' size='small'>(Unknown language '{1}')</span>"
 msgstr "{0} <span foreground='red' size='small'>(未知の言語 '{1}')</span>"
@@ -4554,6 +4563,11 @@ msgstr "ソリューションに含める"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DefaultWorkbench.cs:14
 msgid "ApplicationIconId"
 msgstr "ApplicationIconId"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DefaultWorkbench.cs:38
+#, fuzzy
+msgid "View (Pads)"
+msgstr "ビュー(パッド)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DefaultWorkbench.cs:47
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DocumentSwitcher.cs:12
@@ -4607,7 +4621,7 @@ msgstr "ファイルを保存できませんでした"
 #  }
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Document.cs:26
 msgid "Save as..."
-msgstr "別名で保存"
+msgstr "名前をつけて保存..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Document.cs:26
 msgid "File name {0} is invalid"
@@ -4617,9 +4631,19 @@ msgstr "ファイル名 {0} は無効です"
 msgid "File {0} already exists. Overwrite?"
 msgstr "ファイル {0} がすでに存在します。上書きしますか?"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Pad.cs:5
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DocumentSwitcher.cs:11
+msgid "Pads"
+msgstr "パッド"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:5
 msgid "Initializing Main Window"
 msgstr "メインウィンドウを初期化中です"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:31
+#, fuzzy
+msgid "Save the changes to document '{0}' before creating a new solution?"
+msgstr "新規ソリューション作成前にドキュメント '{0}' への変更を保存しますか?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:42
 msgid "Opening {0}"
@@ -4703,6 +4727,24 @@ msgstr "保存中..."
 msgid "Search Results"
 msgstr "検索結果"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeTranslationFileDescriptionTemplate.cs:4
+msgid "Expected ModifyTags to be called before CreateContent"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeTranslationFileDescriptionTemplate.cs:4
+msgid ""
+"Invalid Code Translation template: the CodeDomProvider of the source "
+"language '{0}' has not implemented the Parse method."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeTranslationFileDescriptionTemplate.cs:6
+msgid "No LanguageBinding was found for the language '{0}'."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeTranslationFileDescriptionTemplate.cs:6
+msgid "No CodeDomProvider was found for the language '{0}'."
+msgstr ""
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/FileSelectorDialog.cs:3
 msgid "_Character Coding:"
 msgstr "文字コーディング(_C):"
@@ -4758,7 +4800,7 @@ msgid "Show Error Reference"
 msgstr "エラー参照を表示"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:20
-msgid "Copy Task"
+msgid "Copy task"
 msgstr "タスクをコピー"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:21
@@ -4850,20 +4892,33 @@ msgstr "パス"
 msgid "Toggle visibility of Path column"
 msgstr "パス の列の表示を切り替え"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:50
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:68
+msgid "Category"
+msgstr "カテゴリ"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:50
+#, fuzzy
+msgid "Toggle visibility of Category column"
+msgstr "カテゴリ の列の表示を切り換え"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:46
 msgid "{0} Error"
 msgid_plural "{0} Errors"
 msgstr[0] "エラー {0}件"
+msgstr[1] "エラー {0}件"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:47
 msgid "{0} Warning"
 msgid_plural "{0} Warnings"
 msgstr[0] "警告 {0}件"
+msgstr[1] "警告 {0}件"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:48
 msgid "{0} Message"
 msgid_plural "{0} Messages"
 msgstr[0] "メッセージ {0}件"
+msgstr[1] "メッセージ {0}件"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/CommentTasksView.cs:29
 msgid "Copy comment task"
@@ -4905,13 +4960,33 @@ msgstr "新しいタスク"
 msgid "Create New Task"
 msgstr "新しいタスクを作成"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/UserTasksView.cs:8
+#, fuzzy
+msgid "Copy Task"
+msgstr "タスクをコピー"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/UserTasksView.cs:8
+#, fuzzy
+msgid "Copy Task Description"
+msgstr "タスクの説明をコピー"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/UserTasksView.cs:4
 msgid "Delete Task"
 msgstr "タスクを削除"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:3
+#, fuzzy
+msgid "{0} <span size='small'>(Unavailable)</span>"
+msgstr "{0} <span size='small'>(利用不可)</span>"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:3
+#, fuzzy
+msgid "Load failed: "
+msgstr "ロード失敗: "
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:4
 msgid "<span foreground='grey'>{0} <span size='small'>(Unavailable)</span></span>"
-msgstr "<span foreground='grey'>{0} <span size='small'>(存在しません)</span></span>"
+msgstr "<span foreground='grey'>{0} <span size='small'>(利用不可)</span></span>"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:4
 msgid "{0} <span foreground='red' size='small'>(Load failed)</span>"
@@ -4933,9 +5008,53 @@ msgstr "キーバインディング"
 msgid "_View Conflicts"
 msgstr "競合を表示(_V)"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:25
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:65
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:56
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:52
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.addin.xml:3
+#: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.InstrumentationViewerDialog.cs:2
+msgid "Delete"
+msgstr "削除"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:25
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.KeyBindingsPanel.cs:1
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:55
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:52
+#: ../src/addins/VBNetBinding/gtk-gui/MonoDevelop.VBNetBinding.ImportsOptionsPanelWidget.cs:1
+#: ../src/addins/MonoDevelop.PackageManagement/gtk-gui/MonoDevelop.PackageManagement.PackageSourcesWidget.cs:70
+msgid "Add"
+msgstr "追加"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:40
+#, fuzzy
+msgid ""
+"This key combination is already bound to command '{0}' in the same context"
+msgstr "そのキーの組み合わせは同じ文脈ですでにコマンド '{0}' に結びつけられています"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:15
 msgid "This key combination is already bound to command '{0}'"
 msgstr "そのキーの組み合わせはすでにコマンド '{0}' に結びつけられています"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
+#, fuzzy
+msgid "Conflicts:"
+msgstr "衝突"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
+#, fuzzy
+msgid "Duplicates:"
+msgstr "複数行"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
+msgid ""
+"This shortcut is assigned to another command that is available\n"
+"in the same context. Please set a different shortcut."
+msgid_plural ""
+"This shortcut is assigned to other commands that are available\\nin the same "
+"context. Please set a different shortcut."
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.KeyBindingsPanel.cs:2
 msgid "Scheme:"
@@ -4965,6 +5084,10 @@ msgstr "実行前にソリューションをビルド"
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:2
 msgid "Run solution if build completed with warnings"
 msgstr "ビルドで警告が発生してもソリューションを実行"
+
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
+msgid "Enable parallel build of projects"
+msgstr "プロジェクトの並列ビルドを有効化"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:2
 msgid "Build solution before executing unit tests"
@@ -5055,18 +5178,6 @@ msgstr "利用可能なエンコーディング:"
 #: ../src/addins/MacPlatform/Dialogs/SelectEncodingPanel.cs:2
 msgid "Encodings shown in menu:"
 msgstr "メニューに表示されるエンコーディング:"
-
-msgid "Recently Used"
-msgstr "最近使った"
-
-msgid "Add the folder '{0}' to the bookmarks"
-msgstr "フォルダ '{0}' をブックマークに追加"
-
-msgid "Remove the selected bookmark"
-msgstr "選択したブックマークを削除"
-
-msgid "Type a file name"
-msgstr "ファイル名を入力"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TasksPanelWidget.cs:2
 msgid "_Token List:"
@@ -5210,6 +5321,17 @@ msgstr "OVR"
 #: ../src/addins/MacPlatform/Dialogs/MacAddFileDialogHandler.cs:3
 msgid "(Default)"
 msgstr "(デフォルト)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs:17
+#, fuzzy
+msgid "These preferences will take effect next time you start {0}"
+msgstr ""
+"この設定は、次回{0}を起動した時に有効になります"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs:17
+#, fuzzy
+msgid "Restart {0}"
+msgstr "'{0}'を再起動"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs:13
 msgid "The user interface language change will take effect the next time you start {0}"
@@ -8838,20 +8960,6 @@ msgstr "最終更新日"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:51
 msgid "Conflict"
 msgstr "競合"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:52
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:26
-#: ../src/addins/VBNetBinding/gtk-gui/MonoDevelop.VBNetBinding.ImportsOptionsPanelWidget.cs:1
-#: ../src/addins/CBinding/gtk-gui/CBinding.CodeGenerationPanel.cs:2
-msgid "Add"
-msgstr "追加"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:53
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:26
-#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.addin.xml:3
-#: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.InstrumentationViewerDialog.cs:2
-msgid "Delete"
-msgstr "削除"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:54
 #: ../src/addins/MonoDevelop.Gettext/gtk-gui/MonoDevelop.Gettext.POEditorWidget.cs:2
@@ -17558,10 +17666,6 @@ msgstr "除外カテゴリ: "
 #: ../src/addins/NUnit/Services/NUnitOptions.cs:3
 msgid "Include the following categories: "
 msgstr "対象カテゴリ: "
-
-#: ../src/addins/NUnit/Gui/NUnitOptionsPanel.cs:5
-msgid "Category"
-msgstr "カテゴリ"
 
 #: ../src/addins/NUnit/gtk-gui/MonoDevelop.NUnit.NUnitOptionsWidget.cs:1
 msgid "Use parent test settings"
@@ -29735,9 +29839,6 @@ msgstr "バージョン管理システムのオーバーレイアイコンを表
 
 # options
 
-msgid "Enable parallel build of projects"
-msgstr "プロジェクトの並列ビルドを有効化"
-
 msgid "Advanced options"
 msgstr "高度な オプション"
 
@@ -30549,9 +30650,6 @@ msgstr ""
 "ディレクトリ {0} は既に存在します。\n"
 "プロジェクトの作成を続けますか?"
 
-#~ msgid "Load failed: "
-#~ msgstr "ロード失敗: "
-
 #~ msgid "Unknown solution item type: "
 #~ msgstr "不明なソリューション項目タイプ: "
 
@@ -30719,3 +30817,16 @@ msgstr "新規C++プロジェクトに用いるデフォルトコンパイラ"
 
 msgid "Choose whether you want to parse system tags or not, if you do you will get completion for things like printf, but the tag parsing process will take considerably longer."
 msgstr "システムタグを解析したいかどうかを選びます。解析する場合はprintfなどに補完を受けられますが、タグ解析過程はかなり時間を要します。"
+
+msgid "Recently Used"
+msgstr "最近使った"
+
+msgid "Add the folder '{0}' to the bookmarks"
+msgstr "フォルダ '{0}' をブックマークに追加"
+
+msgid "Remove the selected bookmark"
+msgstr "選択したブックマークを削除"
+
+msgid "Type a file name"
+msgstr "ファイル名を入力"
+
