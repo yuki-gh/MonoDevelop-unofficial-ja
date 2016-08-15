@@ -2658,6 +2658,11 @@ msgstr "今日のTip(_T)"
 msgid "Show tip of the day"
 msgstr "今日のTipを表示"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:29
+#, fuzzy
+msgid "Reveal _Logs"
+msgstr "ログを開示(_L)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:10
 msgid "Open Log Directory"
 msgstr "ログディレクトリを開く"
@@ -2746,6 +2751,11 @@ msgstr "前へ (Emacs動作)(_P)"
 msgid "Search backwards for the same text with emacs behavior"
 msgstr "同一のテキストをemacs方式で後方検索します"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:34
+#, fuzzy
+msgid "Find Next Like Selection"
+msgstr "選択範囲を前方検索"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:13
 msgid "Find Next Selection"
 msgstr "次の選択項目へ"
@@ -2753,6 +2763,11 @@ msgstr "次の選択項目へ"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:13
 msgid "Search forwards for the selected text"
 msgstr "選択テキストを前方検索します"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:34
+#, fuzzy
+msgid "Find Previous Like Selection"
+msgstr "選択範囲を後方検索"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:13
 msgid "Find _Previous Selection"
@@ -2777,6 +2792,11 @@ msgstr "複数ファイルで置換(_E)..."
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Search for and replace text in all files of a directory"
 msgstr "ディレクトリ中の全ファイルからテキストを検索・置換"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:36
+#, fuzzy
+msgid "_Type..."
+msgstr "型(_T)..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Go to Type..."
@@ -2818,13 +2838,32 @@ msgstr "ブックマークの切り替え(_T)"
 msgid "Go to previous bookmark"
 msgstr "前のブックマークに移動"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "Pre_vious"
+msgstr "前(_V)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "Go to Previous Bookmark"
+msgstr "前のブックマークに移動"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+msgid "Go to next bookmark"
+msgstr "次のブックマークに移動"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+msgid "Ne_xt"
+msgstr "次(_X)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "Go to Next Bookmark"
+msgstr "次のブックマークに移動"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Pre_vious Bookmark"
 msgstr "前のブックマーク(_V)"
-
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
-msgid "Go to next bookmark"
-msgstr "次のブックマークに移動"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Ne_xt Bookmark"
@@ -2832,11 +2871,16 @@ msgstr "次のブックマーク(_X)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Clear bookmarks"
-msgstr "ブックマークのクリア"
+msgstr "ブックマークをクリア"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "_Clear Bookmarks"
-msgstr "ブックマークのクリア(_C)"
+msgstr "ブックマークをクリア(_C)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "_Line..."
+msgstr "行(_L)..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "_Go to Line..."
@@ -2846,6 +2890,11 @@ msgstr "指定行に移動(_G)..."
 msgid "Go to a specific line"
 msgstr "指定行に移動"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "Find Like Selection"
+msgstr "選択範囲を検索"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Use Selection for Find"
 msgstr "選択範囲を検索に使用"
@@ -2853,6 +2902,11 @@ msgstr "選択範囲を検索に使用"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Uses the current selection as find string"
 msgstr "現在の選択範囲を検索文字列として使用します"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "Replace Like Selection"
+msgstr "選択範囲を置換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "Use Selection for Replace"
