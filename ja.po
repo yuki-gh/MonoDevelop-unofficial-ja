@@ -906,18 +906,6 @@ msgid "Blank Solution"
 msgstr "空のソリューション"
 
 #: ../src/core/MonoDevelop.Ide/templates/BlankCombine.xpt.xml:0
-#: ../src/core/MonoDevelop.Ide/templates/GenericProject.xpt.xml:0
-#: ../src/core/MonoDevelop.Ide/templates/Workspace.xpt.xml:1
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:4
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:9
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:41
-#: ../src/addins/MonoDevelop.Gettext/templates/TranslationProject.xpt.xml:1
-#: ../src/addins/Deployment/MonoDevelop.Deployment/templates/PackagingProject.xpt.xml:0
-#: ../external/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinTreeWidget.cs:5
-msgid "Other"
-msgstr "その他"
-
-#: ../src/core/MonoDevelop.Ide/templates/BlankCombine.xpt.xml:0
 msgid "A blank solution"
 msgstr "空のソリューション"
 
@@ -3182,6 +3170,10 @@ msgid "Move caret to EOL and insert new line"
 msgstr "行末までキャレットを移動して改行を追加"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+msgid "Complete current statement"
+msgstr "現在のステートメントを補完"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
 msgid "Completes the current statement"
 msgstr "現在のステートメントを補完"
 
@@ -3236,6 +3228,59 @@ msgstr "ブロック選択モードの切り替え"
 msgid "Duplicate line"
 msgstr "重複した行"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Dynamic abbrev"
+msgstr "動的な省略入力"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid ""
+"Cycles completing the current word from matching words in all open files"
+msgstr ""
+"開いている全てのファイル中にある単語から探してマッチしたものを使用して、現在"
+"入力中の単語を補完します"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Find caret"
+msgstr "キャレットを探す"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Animates the text editor caret to help find it"
+msgstr "テキストエディタのキャレットに表示効果を適用して発見しやすくします。"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Hide Current Message"
+msgstr "現在のメッセージを隠す"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+msgid "Show/Hide current Inline Message"
+msgstr "現在のインラインメッセージを表示/隠す"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Toggles the visibility of the current Inline Message"
+msgstr "現在のインラインメッセージの表示を切り替え"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "_None"
+msgstr "なし(_N)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Show/Hide Inline Messages"
+msgstr "インラインメッセージを表示/隠す"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Toggles the visibility of Inline Messages"
+msgstr "インラインメッセージの表示を切り替え"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
+#, fuzzy
+msgid "Toggle Issues"
+msgstr "問題点を切り替え"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/DefaultPolicyPanels.addin.xml:2
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
 msgid "Run"
@@ -3281,6 +3326,10 @@ msgstr "バージョン管理"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:1
 msgid "Environment"
 msgstr "環境"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:2
+msgid "Visual Style"
+msgstr "ビジュアル スタイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:1
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
@@ -3348,6 +3397,16 @@ msgstr "フォーマット"
 msgid "Code Templates"
 msgstr "コード テンプレート"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:7
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:14
+#: ../external/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinTreeWidget.cs:6
+msgid "Other"
+msgstr "その他"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:7
+msgid "Automated Feedback"
+msgstr "自動フィードバック"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/GlobalOptionsDialog.addin.xml:4
 msgid "Log Agent"
 msgstr "ログ エージェント"
@@ -3408,6 +3467,10 @@ msgid "Configuration Mappings"
 msgstr "構成のマッピング"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
+msgid "Code Analysis"
+msgstr "コード解析"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/ItemOptionPanels.addin.xml:1
 msgid "Startup Project"
 msgstr "スタートアッププロジェクト"
 
@@ -3436,13 +3499,28 @@ msgstr "編集(_E)"
 msgid "_Format"
 msgstr "整形(_F)"
 
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:6
-msgid "F_olding"
-msgstr "折りたたみ(_O)"
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:7
+#, fuzzy
+msgid "_Insert"
+msgstr "挿入(_I)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:6
 msgid "_View"
 msgstr "表示(_V)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:7
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/FSharpFormattingPolicy.fs:2
+msgid "Layout"
+msgstr "レイアウト"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:7
+#, fuzzy
+msgid "Inline _Messages"
+msgstr "インラインメッセージ(_M)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:7
+msgid "F_olding"
+msgstr "折りたたみ(_O)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:6
 msgid "_Search"
@@ -3463,6 +3541,19 @@ msgstr "ビルド(_B)"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:9
 msgid "_Run"
 msgstr "実行(_R)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:12
+msgid "Session Recorder"
+msgstr "セッションレコーダー"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:12
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:7
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/KeyBindingService.cs:15
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/MimeTypePolicyOptionsSection.cs:6
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/PolicyOptionsPanel.cs:6
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:5
+msgid "Custom"
+msgstr "カスタム"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:11
 msgid "_Window"
@@ -3506,6 +3597,11 @@ msgstr "MSDN Code Gallery"
 msgid "Report a Bug"
 msgstr "バグを報告する"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:14
+#, fuzzy
+msgid "Report Problem..."
+msgstr "問題を報告..."
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid ".NET binary resource"
 msgstr ".NETバイナリリソース"
@@ -3523,12 +3619,27 @@ msgid "XML document"
 msgstr "XMLドキュメント"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
+#, fuzzy
+msgid "PNG resource"
+msgstr "PNGリソース"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
+#, fuzzy
+msgid "CSS document"
+msgstr "CSSドキュメント"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "Configuration File"
 msgstr "コンフィグレーション ファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "Glade File"
 msgstr "Gladeファイル"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
+#, fuzzy
+msgid "Manifest File"
+msgstr "マニフェスト ファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "ChangeLog document"
@@ -3558,11 +3669,11 @@ msgstr "Makefile"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "lua files"
-msgstr "luaファイル"
+msgstr "Luaファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "il files"
-msgstr "ilファイル"
+msgstr "ILファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "jay files"
@@ -3575,6 +3686,11 @@ msgstr "Cgシェーダファイル"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "Apple Strings"
 msgstr "アップル文字列"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
+#, fuzzy
+msgid "sql files"
+msgstr "SQLファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
 msgid "JSON files"
@@ -3638,6 +3754,11 @@ msgstr "GNU/Emacs"
 msgid "Visual Studio"
 msgstr "Visual Studio"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
+#, fuzzy
+msgid "Visual Studio (Windows)"
+msgstr "Visual Studio"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:9
 msgid "MonoDevelop 1.0"
 msgstr "MonoDevelop 1.0"
@@ -3645,6 +3766,20 @@ msgstr "MonoDevelop 1.0"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:9
 msgid "MonoDevelop 2.0"
 msgstr "MonoDevelop 2.0"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
+#, fuzzy
+msgid "Xcode"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
+#, fuzzy
+msgid "Visual Studio Code"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
+msgid "ReSharper / Rider"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:9
 msgid "Comments"
@@ -3693,6 +3828,16 @@ msgstr "引数"
 msgid "Mono Options"
 msgstr "Monoオプション"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
+#, fuzzy
+msgid "General Pad Text"
+msgstr "パッド全般のテキスト"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
+#, fuzzy
+msgid "Output Pad Contents"
+msgstr "出力パッドの内容"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:9
 msgid "Text Editor Line Numbers"
 msgstr "テキストエディタの行番号"
@@ -3738,6 +3883,16 @@ msgstr "GPL 3 ライセンス"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Policies.addin.xml:4
 msgid "LGPL 3 License"
 msgstr "LGPL 3 ライセンス"
+
+#: ../src/core/MonoDevelop.Ide/templates/AppManifest.xft.xml:0
+#, fuzzy
+msgid "App Manifest"
+msgstr "アプリ マニフェスト"
+
+#: ../src/core/MonoDevelop.Ide/templates/AppManifest.xft.xml:0
+#, fuzzy
+msgid "Creates a Windows app manifest."
+msgstr "Windowsアプリマニフェストを作成します。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/FileCommands.cs:4
 msgid "File to Open"
@@ -3869,6 +4024,11 @@ msgstr ""
 "開始中のエラー:\n"
 "'{0} {1}'"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ToolsCommands.cs:17
+#, fuzzy
+msgid "Add Custom Tool..."
+msgstr "カスタム ツールを追加..."
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:5
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:7
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DefaultWorkbench.cs:26
@@ -3878,6 +4038,11 @@ msgstr "{0} を表示"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:9
 msgid "Switch to layout '{0}'"
 msgstr "レイアウト '{0}' に切り替え"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:17
+#, fuzzy
+msgid "_Delete “{0}” Layout"
+msgstr "{0} レイアウトを削除(_D)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:11
 msgid "Are you sure you want to delete the active layout?"
@@ -3898,6 +4063,11 @@ msgstr "次の({0})を表示"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:15
 msgid "Show Previous ({0})"
 msgstr "前の({0})を表示"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/WindowCommands.cs:11
+#, fuzzy
+msgid "Activate document '{0}'"
+msgstr "ドキュメント '{0}' に切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/WindowCommands.cs:11
 msgid "Activate window '{0}'"
@@ -3937,6 +4107,21 @@ msgstr "ファイル {0} が書き込めませんでした"
 msgid "Error loading template {0} for language {1}"
 msgstr "{1} 言語のテンプレート {0} の読み込みでエラーが発生しました"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/ProjectTemplate.cs:58
+#, fuzzy
+msgid "Solution template doesn't have any project templates"
+msgstr "ソリューションテンプレートにプロジェクトテンプレートがありません"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeDomFileDescriptionTemplate.cs:4
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeTranslationFileDescriptionTemplate.cs:3
+msgid "Language not defined in CodeDom based template."
+msgstr "CodeDomベースのテンプレートで言語が定義されていません。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeDomFileDescriptionTemplate.cs:4
+#, fuzzy
+msgid "The language '{0}' does not have support for CodeDom."
+msgstr "言語 '{0}' はCodeDomのサポートがありません。"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SingleFileDescriptionTemplate.cs:3
 msgid "File already exists"
 msgstr "ファイルがすでに存在します"
@@ -3949,13 +4134,23 @@ msgstr ""
 "ファイル {0} はすでに存在します。\n"
 "既存のファイルを上書きしますか?"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SingleFileDescriptionTemplate.cs:6
+#, fuzzy
+msgid "File name not provided in template"
+msgstr "テンプレートでファイル名が指定されていません"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SingleFileDescriptionTemplate.cs:16
+#, fuzzy
+msgid "Language '{0}' not found"
+msgstr "言語 '{0}' が見つかりません"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SolutionDescriptor.cs:15
 msgid "Can't create solution with type: {0}"
-msgstr "{0} ではソリューションを作成できません"
+msgstr "種別 {0} ではソリューションを作成できません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/AbstractBaseViewContent.cs:4
 msgid "Content"
-msgstr "コンテンツ"
+msgstr "内容"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/ViewCommandHandlers.cs:6
 msgid "Revert unsaved changes to document '{0}'?"
@@ -3964,6 +4159,11 @@ msgstr "ドキュメント '{0}' への変更を破棄しますか?"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/ViewCommandHandlers.cs:6
 msgid "All changes made to the document will be permanently lost."
 msgstr "このドキュメントへの変更は永久に失われます。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/ViewCommandHandlers.cs:15
+#, fuzzy
+msgid "Disable _Folding"
+msgstr "折りたたみを無効化(_F)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/CommonAboutDialog.cs:3
 #: ../src/addins/MacPlatform/MacPlatform.cs:27
@@ -4005,6 +4205,11 @@ msgstr "プロジェクト: {0}"
 msgid "_Save and Quit"
 msgstr "保存して終了(_S)"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/DirtyFilesDialog.cs:10
+#, fuzzy
+msgid "_Save and Close"
+msgstr "保存して閉じる(_S)"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/NewLayoutDialog.cs:5
 msgid "Enter a name for the new layout"
 msgstr "新しいレイアウトの名前を入力してください"
@@ -4034,6 +4239,11 @@ msgstr "バージョン"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/AboutMonoDevelopTabPage.cs:9
 msgid "License"
 msgstr "ライセンス"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/AboutMonoDevelopTabPage.cs:10
+#, fuzzy
+msgid "License is available at "
+msgstr "ライセンスが利用可能です"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/AboutMonoDevelopTabPage.cs:9
 msgid "Released under the GNU Lesser General Public License."
@@ -4189,6 +4399,15 @@ msgstr "ファイルを追加"
 msgid "Import From Folder"
 msgstr "フォルダからインポート"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/FolderNodeBuilder.cs:37
+#, fuzzy
+msgid "Empty directory."
+msgstr "空のディレクトリです。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/FolderNodeBuilder.cs:37
+msgid "Directory {0} is empty, no files have been added."
+msgstr "ディレクトリ {0} は空です。ファイルは追加されていません。"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/FolderNodeBuilder.cs:35
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/FolderNodeBuilder.cs:43
 msgid "Select files to add from {0}"
@@ -4222,7 +4441,7 @@ msgstr "その名前のファイルまたはディレクトリはすでに使用
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectFileNodeBuilder.cs:10
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SystemFileNodeBuilder.cs:4
 msgid "There was an error renaming the file."
-msgstr "ファイル名の変更でエラーが発生しました。た"
+msgstr "ファイル名の変更でエラーが発生しました。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectFileNodeBuilder.cs:18
 msgid "Moving file..."
@@ -4240,8 +4459,7 @@ msgstr "プロジェクトから削除(_R)"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectFileNodeBuilder.cs:24
 msgid "The Delete option permanently removes the file from your hard disk. Click Remove from Project if you only want to remove it from your current solution."
 msgstr ""
-"「削除」はハードディスクからファイルを永久的に削除します。ファイルに対しソリューションからの除外のみ適用したい場合は「プロジェクトから削除」をクリックしてくださ"
-"い。"
+"「削除」はハードディスクからファイルを永久的に削除します。ファイルに対しソリューションからの除外のみ適用したい場合は「プロジェクトから削除」をクリックしてください。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectFileNodeBuilder.cs:24
 msgid "Are you sure you want to remove the file {0} and its code-behind children from project {1}?"
@@ -4569,7 +4787,7 @@ msgstr "型"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:23
 msgid "Toggle visibility of Type column"
-msgstr "型 の列の表示を切り換え"
+msgstr "型 の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:24
 msgid "Validity"
@@ -4577,7 +4795,7 @@ msgstr "有効性"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:24
 msgid "Toggle visibility of Validity column"
-msgstr "有効性 の列の表示を切り換え"
+msgstr "有効性 の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:25
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:40
@@ -4589,7 +4807,7 @@ msgstr "行"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:25
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/CommentTasksView.cs:33
 msgid "Toggle visibility of Line column"
-msgstr "行 の列の表示を切り換え"
+msgstr "行 の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:26
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:40
@@ -4604,16 +4822,16 @@ msgstr "説明"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:26
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/CommentTasksView.cs:34
 msgid "Toggle visibility of Description column"
-msgstr "説明 の列の表示を切り換え"
+msgstr "説明 の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:27
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/CommentTasksView.cs:35
 msgid "Toggle visibility of File column"
-msgstr "ファイル の列の表示を切り換え"
+msgstr "ファイル の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:28
 msgid "Toggle visibility of Project column"
-msgstr "プロジェクト の列の表示を切り換え"
+msgstr "プロジェクト の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:29
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:40
@@ -4630,7 +4848,7 @@ msgstr "パス"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:29
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/CommentTasksView.cs:36
 msgid "Toggle visibility of Path column"
-msgstr "パス の列の表示を切り換え"
+msgstr "パス の列の表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:46
 msgid "{0} Error"
@@ -4710,13 +4928,6 @@ msgstr "コマンド"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:3
 msgid "Key Binding"
 msgstr "キーバインディング"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:5
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/MimeTypePolicyOptionsSection.cs:6
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/PolicyOptionsPanel.cs:6
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:3
-msgid "Custom"
-msgstr "カスタム"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:6
 msgid "_View Conflicts"
@@ -15443,22 +15654,6 @@ msgid "Previous Error"
 msgstr "前のエラー"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:13
-msgid "Dynamic abbrev"
-msgstr "動的な省略入力"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:13
-msgid "Cycles completing the current word from matching words in all open files"
-msgstr "開いているすべてのファイル中にある単語から探してマッチしたものを使用して、現在入力中の単語を補完します"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:13
-msgid "Find caret"
-msgstr "キャレットを探す"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:13
-msgid "Animates the text editor caret to help find it"
-msgstr "テキストエディタのキャレットに表示効果を適用して発見しやすくします。"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:13
 msgid "Toggle message bubble"
 msgstr "メッセージ吹き出しをトグル"
 
@@ -15469,10 +15664,6 @@ msgstr "メッセージ吹き出しのon/offをトグル"
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:13
 msgid "_Hide Issues"
 msgstr "問題点を隠す(_H)"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:14
-msgid "Toggle Issues"
-msgstr "問題点をトグル"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:15
 msgid "_Top"
@@ -18107,10 +18298,6 @@ msgstr "ASP.NET マスターページ"
 #: ../src/addins/AspNet/MonoDevelop.AspNet/MonoDevelop.AspNet.addin.xml:209
 msgid "Javascript source code"
 msgstr "JavaScriptソースコード"
-
-#: ../src/addins/AspNet/MonoDevelop.AspNet/MonoDevelop.AspNet.addin.xml:212
-msgid "CSS document"
-msgstr "CSSドキュメント"
 
 #: ../src/addins/AspNet/MonoDevelop.AspNet/MonoDevelop.AspNet.addin.xml:215
 msgid "LESS, CSS document"
@@ -24874,12 +25061,6 @@ msgstr "すべて実行"
 msgid "Android Log"
 msgstr "Androidログ"
 
-msgid "General Pad Text"
-msgstr "パッド全般のテキスト"
-
-msgid "Output Pad Contents"
-msgstr "出力パッドの内容"
-
 msgid "Set To Default"
 msgstr "デフォルトにする"
 
@@ -24974,9 +25155,6 @@ msgstr "ソリューションを開く際にパッケージの更新を確認(_U
 
 msgid "Sources"
 msgstr "ソース"
-
-msgid "Automated Feedback"
-msgstr "自動フィードバック"
 
 msgid "Report errors and usage information to help {0} improve my experience."
 msgstr "{0}がユーザー体験を改善するためにエラーと利用情報を報告する"
@@ -26745,9 +26923,6 @@ msgstr "さらに表示"
 msgid "Show Values"
 msgstr "値を表示"
 
-msgid "_Save and Close"
-msgstr "保存して閉じる(_S)"
-
 msgid "To private"
 msgstr "privateに"
 
@@ -27510,17 +27685,11 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Message Log"
 #~ msgstr "メッセージログ"
 
-msgid "Visual Style"
-msgstr "ビジュアル スタイル"
-
 #~ msgid "MonoDevelop Project Files"
 #~ msgstr "MonoDevelopプロジェクトファイル"
 
 #~ msgid "Standard"
 #~ msgstr "標準"
-
-#~ msgid "Layout"
-#~ msgstr "レイアウト"
 
 #~ msgid "Navigation"
 #~ msgstr "ナビゲーション"
