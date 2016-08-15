@@ -5808,17 +5808,17 @@ msgid "Replacing '{0}' in current selection"
 msgstr "現在の選択範囲で '{0}' を置換しています"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:14
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:15
-msgid "Looking in project '{0}'"
-msgstr "プロジェクト '{0}' を検索しています"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:14
 msgid "Looking for '{0}' in all projects"
 msgstr "全プロジェクトから '{0}' を検索しています"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:14
 msgid "Replacing '{0}' in all projects"
 msgstr "全プロジェクトの '{0}' を置換しています"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:14
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:15
+msgid "Looking in project '{0}'"
+msgstr "プロジェクト '{0}' を検索しています"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/Scope.cs:16
 msgid "Looking for '{0}' in project '{1}'"
@@ -6379,6 +6379,22 @@ msgstr "メッセージ吹き出しを表示:"
 msgid "Jump to first error or warning:"
 msgstr "最初のエラーまたは警告にジャンプ:"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/LogView.cs:31
+msgid "Search:"
+msgstr "検索:"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/LogView.cs:32
+#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:7
+#, fuzzy
+msgid "Find next {0}"
+msgstr "次の{0}を検索"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/LogView.cs:33
+#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:7
+#, fuzzy
+msgid "Find previous {0}"
+msgstr "前の{0}を検索"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/LogView.cs:26
 msgid "Console input not supported"
 msgstr "コンソール入力はサポートされていません"
@@ -6389,9 +6405,47 @@ msgid ""
 "Console' option in the project options."
 msgstr ""
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:9
+#, fuzzy
+msgid "Generate templates"
+msgstr "テンプレートを生成"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:10
+#, fuzzy
+msgid "No templates found"
+msgstr "テンプレートが見つかりません"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:2
 msgid "Running generator '{0}' on file '{1}'..."
 msgstr "ファイル '{1}' の中のジェネレーター '{0}' を実行しています..."
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:22
+#, fuzzy
+msgid "File '{0}' was generated successfully."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:22
+#, fuzzy
+msgid "File '{0}' was generated with warnings."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:22
+#, fuzzy
+msgid "Errors in file '{0}' generation."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:27
+msgid "Errors in file generation."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:27
+msgid "Warnings in file generation."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:27
+#, fuzzy
+msgid "Generated files successfully."
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:2
 msgid "Cancelled because generator ran again for the same file"
@@ -6404,6 +6458,16 @@ msgstr "コードジェネレーター {0} がクラッシュしました"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:2
 msgid "The '{0}' code generator output invalid filename '{1}'"
 msgstr "コードジェネレーター '{0}' が無効な出力ファイル名 '{1}' を出力しました"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:26
+msgid ""
+"{0} file processed total. {1} generated successfully, {2} with warnings, {3} "
+"with errors"
+msgid_plural ""
+"{0} files processed total. {1} generated successfully, {2} with warnings, "
+"{3} with errors"
+msgstr[0] ""
+msgstr[1] ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/FileSelector.cs:4
 msgid "Open file..."
@@ -15389,14 +15453,6 @@ msgstr "メールを書く(_W)"
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/MarkerOperationsHandler.cs:2
 msgid "_Open URL..."
 msgstr "URLを開く(_O)..."
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:5
-msgid "Find next {0}"
-msgstr "次の {0} を検索"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:5
-msgid "Find previous {0}"
-msgstr "前の {0} を検索"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:5
 msgid "Toggle between search and replace mode"
@@ -28336,9 +28392,6 @@ msgstr "エンティティ デプロイメント"
 
 #~ msgid "Rating"
 #~ msgstr "レーティング"
-
-#~ msgid "Search:"
-#~ msgstr "検索:"
 
 #  FIXME: make this a resource in the resource file
 #~ msgid "Source:"
