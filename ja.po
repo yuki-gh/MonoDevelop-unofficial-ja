@@ -6726,24 +6726,24 @@ msgstr "{0} で新しいファイルを発見しました"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:46
 msgid "WARNING: Some documents may need to be closed, and unsaved data will be lost. You will be asked to save the unsaved documents."
-msgstr "いくつかのドキュメントを閉じる必要がありますが、保存されていない変更は失われます。それらを保存するか、これから質問されます。"
+msgstr "警告: いくつかのドキュメントを閉じる必要がありますが、保存されていない変更は失われます。それらを保存するか、これから質問されます。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:46
 msgid "WARNING: Some documents may need to be reloaded or closed, and unsaved data will be lost. You will be asked to save the unsaved documents."
-msgstr "いくつかのドキュメントを再び読み込むか閉じる必要がありますが、保存されていない変更は失われます。それらを保存するか、これから質問されます。"
+msgstr "警告: いくつかのドキュメントを再び読み込むか閉じる必要がありますが、保存されていない変更は失われます。それらを保存するか、これから質問されます。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:46
 msgid "WARNING: Some files may need to be reloaded, and unsaved data will be lost. You will be asked to save the unsaved files."
-msgstr "いくつかのファイルを再び読み込むか閉じる必要がありますが、保存されていない変更は失われます。それらを保存するか、これから質問されます。"
+msgstr "警告: いくつかのファイルを再び読み込む必要がありますが、保存されていない変更は失われます。それらを保存するか、これから質問されます。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:46
 msgid "Some files may need to be reloaded, and editing status for those files (such as the undo queue) will be lost."
-msgstr "いくつかのドキュメントを再読み込みする必要がありますが、編集状態（履歴など）は失われます。"
+msgstr "いくつかのファイルを再び読み込む必要がありますが、編集状態(アンドゥ履歴など)は失われます。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:46
 #: ../src/addins/MonoDevelop.GtkCore/MonoDevelop.GtkCore.GuiBuilder/GuiBuilderProject.cs:7
 msgid "The project '{0}' has been modified by an external application. Do you want to reload it?"
-msgstr "プロジェクト '{0}' は外部アプリケーションによって更新されました。リロードしますか?"
+msgstr "プロジェクト '{0}' は外部アプリケーションによって更新されました。再読み込みしますか?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Desktop/PlatformService.cs:8
 msgid "Text file"
@@ -6786,6 +6786,11 @@ msgstr "置換(_R)"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/MessageService.cs:2
 msgid "_Overwrite file"
 msgstr "ファイルを上書き(_O)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/MessageService.cs:8
+#, fuzzy
+msgid "Add existing file"
+msgstr "既存のファイルを追加"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/MessageService.cs:7
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/LogReportingStartup.cs:4
@@ -6830,6 +6835,10 @@ msgstr "プラットフォーム:"
 msgid "All Configurations"
 msgstr "すべてのコンフィグレーション"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/MultiConfigItemOptionsPanel.cs:8
+msgid "(Active)"
+msgstr "(アクティブ)"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/MultiConfigItemOptionsPanel.cs:14
 #: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Project.CodeGenerationPanelWidget.cs:2
 msgid "Any CPU"
@@ -6864,6 +6873,11 @@ msgstr "有効なコンフィグレーション名を入力してください。
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewConfigurationDialog.cs:2
 msgid "A configuration with the name '{0}' already exists."
 msgstr "'{0}'の名前をもつコンフィグレーションがすでに存在します"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewFileDialog.cs:69
+#, fuzzy
+msgid "Error creating file"
+msgstr "ファイル作成エラー"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:4
 msgid "New Solution"
@@ -6915,7 +6929,7 @@ msgstr "最近利用したソリューション"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AddFileDialog.cs:11
 msgid "Override default build action"
-msgstr "デフォルトビルドアクションをオーバーライドします"
+msgstr "デフォルトビルドアクションをオーバーライド"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AddMimeTypeDialog.cs:3
 msgid "Unknown type"
@@ -6924,6 +6938,29 @@ msgstr "未知の種別"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AddMimeTypeDialog.cs:3
 msgid "Type '{0}' already registered"
 msgstr "種別 '{0}' はすでに登録されています"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AssemblyReferencePanel.cs:11
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/SelectReferenceDialog.cs:23
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/PackageReferencePanel.cs:6
+#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:5
+#: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:52
+#: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:54
+#: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:57
+msgid "Assembly"
+msgstr "アセンブリ"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AssemblyReferencePanel.cs:18
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CustomCommandWidget.cs:2
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.GtkProjectConfigurationWidget.cs:99
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/gtk-gui/MonoDevelop.VersionControl.Dialogs.SelectRepositoryDialog.cs:1
+#: ../external/mono-addins/Mono.Addins.Gui/gtk-gui/Mono.Addins.Gui.NewSiteDialog.cs:2
+msgid "Browse..."
+msgstr "ブラウズ..."
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AssemblyReferencePanel.cs:25
+#, fuzzy
+msgid "Select Assembly"
+msgstr "アセンブリを選択"
 
 #  FIXME: il8n this
 #  FIXME: il8n this
@@ -6946,6 +6983,11 @@ msgstr "ソリューション オプション"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/ConfirmProjectDeleteDialog.cs:5
 msgid "Project directory can't be deleted since it contains files from other projects or solutions"
 msgstr "プロジェクトディレクトリは他のプロジェクトやソリューションのファイルを含んでいるため、削除できません"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/DefaultPolicyOptionsDialog.cs:2
+#, fuzzy
+msgid "Policies"
+msgstr "ポリシー"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/DefaultPolicyOptionsDialog.cs:2
 msgid "Custom Policies"
@@ -6978,7 +7020,7 @@ msgstr "ポリシーを追加"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/DefaultPolicyOptionsDialog.cs:2
 msgid "New policy..."
-msgstr "新規カスタムポリシー..."
+msgstr "新規ポリシー..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/DefaultPolicyOptionsDialog.cs:2
 msgid "From file..."
@@ -7062,10 +7104,24 @@ msgstr "プロジェクトのファイルが{0}の外部で変更されていま
 msgid "Changes done in those files will be overwritten by {0}."
 msgstr "これらのファイルへの変更は{0}によって上書きされます"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:20
+msgid "The workspace already contains '{0}'."
+msgstr "ワークスペースにすでに'{0}'があります。"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:15
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:17
 msgid "The file '{0}' could not be loaded."
 msgstr "ファイル '{0}' が読み込めませんでした。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:26
+#, fuzzy
+msgid "The file '{0}' is not a known project file format."
+msgstr "ファイル '{0}' は既知のプロジェクトファイル形式ではありません。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:27
+#, fuzzy
+msgid "The project '{0}' has already been added."
+msgstr "プロジェクト '{0}' はすでに追加されています。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:26
 msgid "Do you really want to remove project '{0}' from '{1}'?"
@@ -7073,7 +7129,7 @@ msgstr "本当にプロジェクト '{0}' をソリューション '{1}' から�
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:26
 msgid "The Remove option remove the project from the solution, but it will not physically delete any file from disk."
-msgstr "「削除」操作はソリューションからプロジェクトを除外しますが、この操作は物理的にすべてのファイルをディスクから消去します。"
+msgstr "「削除」操作はソリューションからプロジェクトを除外しますが、ファイルをディスクから物理的に消去しません。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:26
 msgid "Delete from Disk"
@@ -7095,6 +7151,10 @@ msgstr "アプリケーションが実行中です。終了して続行します
 msgid "Execution failed."
 msgstr "実行に失敗しました。"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:54
+msgid "No runnable executable found."
+msgstr "実行可能ファイルが見つかりませんでした。"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:29
 msgid "Clean failed."
 msgstr "クリーンに失敗しました。"
@@ -7113,10 +7173,6 @@ msgstr "クリーン成功"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:29
 msgid "The file {0} can't be compiled."
 msgstr "ファイル {0} がコンパイルできません"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:29
-msgid "No runnable executable found."
-msgstr "実行可能ファイルが見つかりませんでした。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:32
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:36
@@ -7342,13 +7398,6 @@ msgstr ".NET アセンブリ(_S)"
 msgid "Package"
 msgstr "パッケージ"
 
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/SelectReferenceDialog.cs:19
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/PackageReferencePanel.cs:6
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectReferenceDescriptor.cs:3
-#: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:41
-msgid "Assembly"
-msgstr "アセンブリ"
-
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/SelectReferenceDialog.cs:27
 msgid "Search ({0})"
 msgstr "検索 ({0})"
@@ -7396,12 +7445,6 @@ msgid ""
 msgstr ""
 "MonoDevelopは共通のプロジェクト操作の前後で、あるいは代替として、特定のコマンドあるいはスクリプトを実行することが出来ます。プロジェクトあるいはソリューションメ"
 "ニューから利用可能なカスタムコマンドを入力することも可能です。"
-
-#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CustomCommandWidget.cs:2
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/gtk-gui/MonoDevelop.VersionControl.Dialogs.SelectRepositoryDialog.cs:2
-#: ../src/addins/CBinding/gtk-gui/CBinding.CodeGenerationPanel.cs:2 ../external/mono-addins/Mono.Addins.Gui/gtk-gui/Mono.Addins.Gui.NewSiteDialog.cs:2
-msgid "Browse..."
-msgstr "ブラウズ..."
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CustomCommandWidget.cs:2
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Execution.CustomExecutionModeWidget.cs:2
@@ -8856,12 +8899,6 @@ msgstr "すべて展開"
 #: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.TimeLineViewWindow.cs:2
 msgid "Collapse All"
 msgstr "すべてたたむ"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:25
-#: ../src/addins/MonoDevelop.Refactoring/gtk-gui/MonoDevelop.Refactoring.OverridesImplementsDialog.cs:2
-#: ../src/addins/MonoDevelop.Refactoring/gtk-gui/MonoDevelop.Refactoring.EncapsulateFieldDialog.cs:2
-msgid "Select All"
-msgstr "すべて選択"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:25
 msgid "Select None"
@@ -24944,10 +24981,6 @@ msgstr "メモリをフラッシュ"
 msgid "Save"
 msgstr "保存"
 
-#: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.InstrumentationViewerDialog.cs:2
-msgid "Copy"
-msgstr "コピー"
-
 #: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.InstrumenationChartView.cs:2
 msgid "Time View"
 msgstr "タイムビュー"
@@ -25766,9 +25799,6 @@ msgstr "引数の前に空白"
 
 msgid "Space before colon"
 msgstr "コロンの前に空白"
-
-msgid "{0} is already opened"
-msgstr "{0} はすでに開かれています"
 
 msgid "Xamarin Update"
 msgstr ""
@@ -29656,9 +29686,6 @@ msgstr "復元(_R)"
 #~ msgstr ""
 #~ "循環依存はこのバージョンでは解決できません。\n"
 #~ "これは現在開発中です。"
-
-#~ msgid "(Active)"
-#~ msgstr "(アクティブ)"
 
 #~ msgid "Entry"
 #~ msgstr "エントリ"
