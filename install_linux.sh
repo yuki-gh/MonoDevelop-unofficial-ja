@@ -1,7 +1,7 @@
 #! /bin/sh
 
 dir=locale/ja/LC_MESSAGES
-for prefix in /usr/share /opt/monodevelop/share /opt/monodevelop/lib/monodevelop
+for prefix in /usr/share /usr/lib/monodevelop /opt/monodevelop/share /opt/monodevelop/lib/monodevelop
 do
 	target="$prefix/$dir"
 	if [ -d "$target" ]
