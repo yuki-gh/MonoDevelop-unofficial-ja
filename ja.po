@@ -5039,7 +5039,7 @@ msgstr "そのキーの組み合わせはすでにコマンド '{0}' に結び�
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
 #, fuzzy
 msgid "Conflicts:"
-msgstr "衝突"
+msgstr "競合:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
 #, fuzzy
@@ -6506,6 +6506,31 @@ msgstr "アドレスの読み込み"
 msgid "Clear"
 msgstr "クリア"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:61
+#, fuzzy
+msgid "Cut"
+msgstr "切り取り"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:62
+#: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/StackTracePad.cs:57
+#: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.InstrumentationViewerDialog.cs:2
+#, fuzzy
+msgid "Copy"
+msgstr "コピー"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:63
+#, fuzzy
+msgid "Paste"
+msgstr "貼り付け"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:67
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:63
+#: ../src/addins/MonoDevelop.Refactoring/gtk-gui/MonoDevelop.Refactoring.OverridesImplementsDialog.cs:2
+#: ../src/addins/MonoDevelop.Refactoring/gtk-gui/MonoDevelop.Refactoring.EncapsulateFieldDialog.cs:2
+#: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/StackTracePad.cs:57
+msgid "Select All"
+msgstr "すべて選択"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/CommandFrame.cs:2
 msgid "Show toolbar '{0}'"
 msgstr "ツールバー '{0}' を表示"
@@ -6513,6 +6538,11 @@ msgstr "ツールバー '{0}' を表示"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/CommandManager.cs:12
 msgid "The key combination ({0}, {1}) is not a command."
 msgstr "キーの組み合わせ({0}, {1})はコマンドではありません。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/CommandManager.cs:32
+#, fuzzy
+msgid "The key combination ({0}) has conflicts."
+msgstr "キーの組み合わせ ({0}) は競合があります。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/LinkCommandEntry.cs:2
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/MarkerOperationsHandler.cs:2
@@ -6642,9 +6672,14 @@ msgstr "GtkButton"
 msgid "Loading Workbench"
 msgstr "ワークベンチをロードしています"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/Ide.cs:34
+#, fuzzy
+msgid "Could not open file: {0}"
+msgstr "ファイル {0} を開けませんでした"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:14
 msgid "Workspace saved."
-msgstr "ワークスペースを保存しました"
+msgstr "ワークスペースを保存しました。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:14
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:14
@@ -6670,6 +6705,11 @@ msgstr "ソリューションが選択されていません。"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:26
 msgid "Could not close solution '{0}'."
 msgstr "ソリューション '{0}' を閉じることができませんでした"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:35
+#, fuzzy
+msgid "{0} is already opened"
+msgstr "{0} はすでに開かれています"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:33
 msgid "File is not a project or solution: {0}"
