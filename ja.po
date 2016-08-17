@@ -7687,6 +7687,16 @@ msgstr ""
 "ファイルのプロパティパッド上で明示的に指定した識別子は、変更されません。\n"
 "\n"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/NamespaceSynchronisationPanel.cs:2
+#, fuzzy
+msgid "Update Identifiers"
+msgstr "識別子を更新"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/NamespaceSynchronisationPanel.cs:2
+#, fuzzy
+msgid "Keep Current Identifiers"
+msgstr "現在の識別子を維持"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/NamespaceSynchronisationPanel.cs:3
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Resolver/TextEditorResolverProvider.cs:5
 #: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:41
@@ -7807,23 +7817,8 @@ msgid "Path:"
 msgstr "パス:"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
-msgid "_Create directory for solution"
-msgstr "ソリューションのディレクトリを作成(_C)"
-
-#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
 msgid "_Location:"
 msgstr "場所(_L):"
-
-#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
-msgid "N_ame:"
-msgstr "名前(_A):"
-
-#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
-msgid "_Solution name:"
-msgstr "ソリューション名(_S):"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
 msgid "<b>Project Features</b>"
@@ -7941,6 +7936,11 @@ msgstr "ここをクリックして新しい変数を追加"
 msgid "You need a newer monodoc to use it externally from MonoDevelop. Using the integrated help viewer now."
 msgstr "Monodevelop外部で使用するには新しいmonodocが必要となります。今回は統合ヘルプビューアを使用します。"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/HelpOperations.cs:24
+#, fuzzy
+msgid "Help Viewer could not be opened"
+msgstr "ヘルプビューアを開けません"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:19
 msgid "Starting {0}"
 msgstr "{0}を開始しています"
@@ -7948,6 +7948,35 @@ msgstr "{0}を開始しています"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:24
 msgid "MonoDevelop failed to start. The following error has been reported: {0}"
 msgstr "MonoDevelopの起動に失敗しました。以下のエラーが報告されました: {0}"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:29
+#, fuzzy
+msgid "MonoDevelop failed to start"
+msgstr "MonoDevelopの起動に失敗しました"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:47
+#, fuzzy
+msgid "Close MonoDevelop"
+msgstr "MonoDevelopを閉じる"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:47
+#, fuzzy
+msgid "More Information"
+msgstr "追加情報"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:47
+#, fuzzy
+msgid "Continue Anyway"
+msgstr "強制続行"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:55
+msgid "CustomizerAssemblyPath"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:56
+#, fuzzy
+msgid "CustomizerType"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/StringTagSelectorButton.cs:2
 msgid "More"
@@ -8040,8 +8069,22 @@ msgid "<b>Project Options</b>"
 msgstr "<b>プロジェクト オプション</b>"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
+msgid "N_ame:"
+msgstr "名前(_A):"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
 msgid "L_ocation:"
 msgstr "場所(_O):"
+
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
+msgid "_Solution name:"
+msgstr "ソリューション名(_S):"
+
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:2
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:2
+msgid "_Create directory for solution"
+msgstr "ソリューションのディレクトリを作成(_C)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectOptionsWidget.cs:3
 msgid "Project will be saved at {0}"
