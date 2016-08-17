@@ -7192,6 +7192,29 @@ msgstr "---------------------- 完了 ----------------------"
 msgid "Clean successful."
 msgstr "クリーン成功"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:66
+#, fuzzy
+msgid "Rebuilding... (Clean)"
+msgstr "リビルド中... (クリーン)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:67
+#, fuzzy
+msgid "Rebuilding... (Build)"
+msgstr "リビルド中... (ビルド)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:75
+#, fuzzy
+msgid "Outdated Build"
+msgstr "古いビルド"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:75
+#, fuzzy
+msgid ""
+"The project you are executing has changes done after the last time it was "
+"compiled. Do you want to continue?"
+msgstr ""
+"実行中のプロジェクトは最後にコンパイルされた後に変更があります。続行しますか?"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:29
 msgid "The file {0} can't be compiled."
 msgstr "ファイル {0} がコンパイルできません"
