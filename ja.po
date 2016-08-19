@@ -21088,12 +21088,12 @@ msgstr "バッキングストアを作成"
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/CreateChangedEventAction.cs:1
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/CreateChangedEventAction.cs:37
 msgid "Create changed event for property"
-msgstr ""
+msgstr "プロパティ用の変更されたイベントを作成"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/CreateChangedEventAction.cs:3
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/CreateChangedEventAction.cs:54
 msgid "Create changed event"
-msgstr ""
+msgstr "変更されたイベントを作成"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/CreateChangedEventAction.cs:3
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/CreateEventInvocatorAction.cs:1
