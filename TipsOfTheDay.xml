@@ -5,22 +5,23 @@
         <TIP>パッドを自動で隠れるよう設定して、編集スペースを最大にしましょう。</TIP>
         <TIP>検索パッドをピン留めして、検索を続けても検索結果が失われないようにできます。</TIP>
         <TIP>「ファイル」→「ソリューション内のファイルを開く」で、ソリューション内のどのファイルにもすぐに飛ぶことができます。</TIP>
-        <TIP>The 'override' keyword in C# activates code completion that can stub out overrides for virtual and abstract members from base classes and implementations of members in the interfaces that the class implements.</TIP>
+        <TIP>C#のoverrideキーワードはコード補完を有効化し、基底クラスのvirtual/abstractメンバと、クラスが実装するインターフェイス内のメンバの実装をスタブ化できます。</TIP>
         <TIP>コード補完ウィンドウが利用可能であれば、コードエディタ内のどこでも、Ctrl+Spaceで呼び出せます。</TIP>
         <TIP>コードナビゲーションとリファクタリングの操作は、コードエディタで変数・型・メンバを右クリックでアクセスできます。</TIP>
         <TIP>ASP.NETプロジェクトをビルドするとき、MonoDevelopはaspxページ内のコントロールを表現するフィールドを、それに対応するコードビハインドクラスに自動的に追加できます。</TIP>
         <TIP>エディタのタブをダブルクリックすると、すべてのパッドを隠して、編集スペースを最大にできます。元の状態に戻すには再度ダブルクリックします。</TIP>
         <TIP>プロジェクトで外部アセンブリを使う必要がある場合は、ソリューションパッドの参照フォルダで右クリックし、システムに登録されているアセンブリの一覧、現在のソリューション内のプロジェクトの一覧、ファイルシステムに存在するアセンブリから選んで参照を追加できます。</TIP>
         <TIP>gettextを用いた翻訳には、翻訳プロジェクトをソリューションに加えます。</TIP>
-        <TIP>You can control how a file is treated in your project, whether it is included in the build, embedded as a resource, included in deployment, or ignored yet still included in the file list. To change these options for each file, open the Properties Pad by going to 'View -> Properties', and select the file you want from your project file list. You can then select how the file is treated by changing the 'Build -> Build Action' option the the Properties tab.</TIP>
-        <TIP>Designing a form with GTK# involves packing widgets into nested containers. Widget sizes and positions are calculated automatically, depending on the size of the form and the widget.</TIP>
+        <TIP>プロジェクトでファイルがどう扱われるか(ビルドに含まれるか、リソースとして埋め込まれるか、デプロイに含まれるか、無視されるがファイルリストには含まれるか)制御できます。
+各ファイルについてこれらのオプションを変更するには、「表示」→「パッド」→「プロパティ」に行ってプロパティパッドを開き、プロジェクトファイルリストから欲しいファイルを選びます。そしてプロパティタブの「ビルド」→「ビルドアクション」を変更してファイルの扱いを選びます。</TIP>
+        <TIP>GTK#でフォームをデザインするのは、ウィジェットをネストしたコンテナへ圧縮することを含みます。ウィジェットのサイズと位置は、フォームとウィジェットのサイズによって自動で計算されます。</TIP>
         <TIP>シンプルなコードテンプレートを呼び出すには、'scwl'などのテンプレートのコードを入力し、Tabキーを押します。テンプレートの追加・編集はテキストエディタの設定で可能です。</TIP>
         <TIP>対象のランタイム(1.1、2.0、Silverlight 1.1など)を変更するには、ソリューションタブ内のプロジェクト名で右クリックし、「オプション」を選び、「ビルド」→「全般」に行きます。</TIP>
         <TIP>プロジェクトのファイル一覧を更新するには、プロジェクト名で右クリックし、「最新の状態に更新」を選びます。バージョン管理アドインを使っていて、外部でファイルを更新・コミットし、その更新された状態をMonoDevelopの中に反映する必要がある場合に非常に有用です。</TIP>
-        <TIP>If your project is under version control, the Status/Commit view can be used to enter messages for each file. These will be used to create a commit message and a ChangeLog entry that you can editr before committing.</TIP>
+        <TIP>プロジェクトがバージョン管理下なら、各ファイルへのメッセージの入力にStatus/Commitビューを使えます。これはコミットメッセージやコミット前に編集可能なChangeLogエントリを作成するのに使えます。</TIP>
         <TIP>ASP.NETプロジェクトの参照を編集すると、自動的にweb.configファイルを更新します。</TIP>
         <TIP>sshfs FUSEファイルシステムをインストールしていれば、Webデプロイダイアログを使って、ASP.NETプロジェクトをSSH越しにリモートサーバにデプロイできます。</TIP>
-        <TIP>The Properties Pad provides contextual properties for many things. As well as editing widgets in the GUI designer, it can be used to set the deploy/build mode of files in the Solution Pad, the resource ID of resources, and whether a file is to be built or deployed.</TIP>
+        <TIP>プロパティパッドは多くのものにコンテキストプロパティを提供します。GUIデザイナーでウィジェットを編集するだけでなく、ソリューションパッド内のファイルのデプロイ/ビルドモードや、リソースのリソースID、ファイルがビルドされるかデプロイされるかを設定するのに使えます。</TIP>
         <TIP>MonoDevelopはVisual Studio 2005/2008のほとんどのソリューション/プロジェクトファイルを直接開いて保存できますが、MonoDevelopやVisual Studioのすべての機能はサポートされません。</TIP>
         <TIP>コマンドラインプログラムmdtoolで、MonoDevelopソリューションのビルド、Makefileの生成、その他が可能です。</TIP>
         <TIP>Makefile統合によって、ファイルの一覧やMakefile内の変数の参照を同期し、Makefileターゲットを呼び出してビルドを行うことが可能です。</TIP>
@@ -29,7 +30,7 @@
         <TIP>プロパティパッドのシグナルタブを使ってGTK# GUIデザイナーにイベントハンドラを追加する際、MonoDevelopはメソッドのスタブを追加します。</TIP>
         <TIP>C#のコンパイラオプションで、#defineマクロはコンマで区切ります。例 VERBOSE,MONO,ETC</TIP>
         <TIP>コードに //TODO: やその他のタスクコメントがあると、タスクリストに現れます。//THINK: や //RESEARCH: など自由にカスタマイズ可能です。</TIP>
-        <TIP>In Gtk#, create widgets that inherit Gtk.Bin and they will show up in the designer's toolbox for easy reuse.</TIP>
+        <TIP>Gtk#では、Gtk.Binを継承するウィジェットを作ると、デザイナーのツールボックスに現れ、再利用が容易です。</TIP>
         <TIP>Subversion統合はソース管理をとても簡単にします。嘘だと思ったら、ChangeLog統合を調べてみましょう。</TIP>
         <TIP>Type not foundというコンパイルエラーが出る場合は、SystemやSystem.Xmlのような一般的なアセンブリの参照が欠けていることがあります。
 ソリューションパッドの参照フォルダで右クリックし、「参照アセンブリを編集」を選んで、プロジェクトが参照しているアセンブリを編集します。</TIP>
