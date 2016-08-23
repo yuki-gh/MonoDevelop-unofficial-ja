@@ -9610,6 +9610,11 @@ msgstr "ファイル '{0}' はロックできませんでした"
 msgid "Project publishing failed. There is a stale .svn folder in the path '{0}'"
 msgstr "プロジェクトの公開に失敗しました。 '{0}' に古い.svnフォルダがあります。"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion/SubversionRepository.cs:561
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:212
+msgid "<uncommitted>"
+msgstr "<未コミット>"
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion/SubversionRepository.cs:543
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:151
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git.Tests/BaseRepositoryTests.cs:61
