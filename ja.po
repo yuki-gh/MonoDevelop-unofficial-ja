@@ -20706,7 +20706,7 @@ msgstr "無効"
 
 #: ../external/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInfoView.cs:2
 msgid "Available in repository:"
-msgstr "リポジトリ内で利用可能:"
+msgstr "利用可能なリポジトリ:"
 
 #: ../external/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/AddinInfoView.cs:2
 msgid "Update available"
