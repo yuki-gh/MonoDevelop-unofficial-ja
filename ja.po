@@ -6988,25 +6988,9 @@ msgstr "ファイル作成エラー"
 msgid "New Solution"
 msgstr "新しいソリューション"
 
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:4
-msgid "New Project"
-msgstr "新しいプロジェクト"
-
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:9
 msgid "Project will be saved at"
 msgstr "プロジェクトの保存場所:"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:12
-msgid ""
-"Illegal project name.\n"
-"Only use letters, digits, '.' or '_'."
-msgstr ""
-"不正なプロジェクト名です。\n"
-"文字, 数字, 空白, '.' および '_'だけを使って下さい。"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:13
-msgid "A Project with that name is already in your Project Space"
-msgstr "その名前のプロジェクトがすでにプロジェクトスペースに存在します"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:14
 msgid ""
@@ -7015,18 +6999,6 @@ msgid ""
 msgstr ""
 "ディレクトリ {0} はすでに存在します。\n"
 "プロジェクト作成を実行しますか?"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
-msgid "Could not create directory {0}. File already exists."
-msgstr "ディレクトリ {0} は作成できませんでした。ファイルがすでに存在します。"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
-msgid "You do not have permission to create to {0}"
-msgstr "{0}を作成する許可がありません"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
-msgid "The project could not be created"
-msgstr "プロジェクトが作成できませんでした"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:22
 msgid "Recent"
@@ -8909,6 +8881,122 @@ msgstr "MSBuildのエンジンを利用する (推奨)"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CombineMSBuildOptions.cs:56
 msgid "Use MSBuild build engine (unsupported for this project type)"
 msgstr "MSBuildのエンジンを利用する (サポートされていません)"
+
+#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SourceEditorDisplayBinding.cs:5
+msgid "Source Code Editor"
+msgstr "ソースコードエディタ"
+
+msgid "Choose a template for your new project"
+msgstr "新規プロジェクトのテンプレートを選択"
+
+msgid "Configure your new project"
+msgstr "新規プロジェクトの設定"
+
+msgid "Configure your new workspace"
+msgstr "新規ワークスペースの設定"
+
+msgid "Configure your new solution"
+msgstr "新規ソリューションの設定"
+
+#: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/DeployDialog.cs:6
+msgid "Create"
+msgstr "作成"
+
+msgid "Next"
+msgstr "次へ"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:13
+msgid "A Project with that name is already in your Project Space"
+msgstr "その名前のプロジェクトがすでにプロジェクトスペースに存在します"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
+msgid "Could not create directory {0}. File already exists."
+msgstr "ディレクトリ {0} は作成できませんでした。ファイルがすでに存在します。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
+msgid "You do not have permission to create to {0}"
+msgstr "{0}を作成する許可がありません"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
+msgid "The project could not be created"
+msgstr "プロジェクトが作成できませんでした"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:4
+msgid "New Project"
+msgstr "新しいプロジェクト"
+
+msgid "Previous"
+msgstr "前へ"
+
+msgid "PREVIEW"
+msgstr "プレビュー"
+
+msgid "Workspace Name:"
+msgstr "ワークスペース名:"
+
+msgid "Solution Name:"
+msgstr "ソリューション名:"
+
+msgid "Create a .gitignore file to ignore inessential files."
+msgstr "本質的でないファイルを無視するため.gitignoreファイルを作成"
+
+msgid "Create a project directory within the solution directory."
+msgstr "ソリューション ディレクトリ内にプロジェクト ディレクトリを作成"
+
+msgid "Create a project within the solution directory."
+msgstr "ソリューション ディレクトリ内にプロジェクトを作成"
+
+#: ../src/addins/MonoDevelop.Autotools/ImportMakefileDialog.cs:2
+msgid "Project Name:"
+msgstr "プロジェクト名:"
+
+msgid "Use git for version control."
+msgstr "Gitをバージョン管理に使います。"
+
+msgid "Version Control:"
+msgstr "バージョン管理:"
+
+#: ../src/addins/MacPlatform/MacMenu/MDServicesMenuItem.cs:2
+#: ../src/addins/MacPlatform/MacPlatform.addin.xml:1
+msgid "Services"
+msgstr "サービス"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor/MessageBubbles/MessageBubbleCommands.cs:0
+#, fuzzy
+msgid "E_rrors"
+msgstr "エラー(_R)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor/MessageBubbles/MessageBubbleCommands.cs:1
+#, fuzzy
+msgid "_Errors and Warnings"
+msgstr "エラーと警告(_E)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:145
+#, fuzzy
+msgid "Illegal characters used in location."
+msgstr "不正な文字が場所に使われている"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:150
+#, fuzzy
+msgid ""
+"Illegal solution name.\n"
+"Only use letters, digits, '.' or '_'."
+msgstr ""
+"不正なソリューション名です。\n"
+"letter, 数字, 空白, '.' および '_'だけを使って下さい。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:157
+#, fuzzy
+msgid ""
+"Illegal project name.\n"
+"Only use letters, digits, '.' or '_'."
+msgstr ""
+"不正なプロジェクト名です。\n"
+"letter, 数字, 空白, '.' および '_'だけを使って下さい。"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:162
+msgid "Illegal characters used in project location."
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
 msgid "Search Files"
@@ -12355,10 +12443,6 @@ msgid "{0} is going to create a project bound to a Makefile. Please enter the na
 msgstr "{0}はMakefileに関連付けられたプロジェクトを作成しようとしています。この新しいプロジェクトの名前を入力してください。"
 
 #: ../src/addins/MonoDevelop.Autotools/ImportMakefileDialog.cs:2
-msgid "Project Name:"
-msgstr "プロジェクト名:"
-
-#: ../src/addins/MonoDevelop.Autotools/ImportMakefileDialog.cs:2
 msgid "Please enter a valid project name"
 msgstr "有効なプロジェクト名を入力してください。"
 
@@ -15701,10 +15785,6 @@ msgstr "<b>パーサエラー</b>: {0}"
 msgid "_Input Methods"
 msgstr "入力メソッド(_I)"
 
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SourceEditorDisplayBinding.cs:5
-msgid "Source Code Editor"
-msgstr "ソースコードエディタ"
-
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SourceEditorView.cs:50
 msgid "This file {0} has been changed outside of {1}. Are you sure you want to overwrite the file?"
 msgstr "ファイル {0} は {1} の外部で変更されています。上書きしますか?"
@@ -16445,10 +16525,6 @@ msgstr "プロジェクトを作成するソリューションが選択されて
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/DeployDialog.cs:3
 msgid "Packaging project not selected."
 msgstr "パッケージプロジェクトが選択されていません。"
-
-#: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/DeployDialog.cs:6
-msgid "Create"
-msgstr "作成"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/PropertyProvider.cs:3
 msgid "Target directory"
@@ -18241,11 +18317,6 @@ msgstr "詳細を表示"
 #: ../src/addins/MacPlatform/Dialogs/MacExceptionDialogHandler.cs:9
 msgid "Hide details"
 msgstr "詳細を隠す"
-
-#: ../src/addins/MacPlatform/MacMenu/MDServicesMenuItem.cs:2
-#: ../src/addins/MacPlatform/MacPlatform.addin.xml:1
-msgid "Services"
-msgstr "サービス"
 
 #: ../src/addins/MacPlatform/MacPlatform.addin.xml:1
 msgid "_Minimize"
@@ -25775,9 +25846,6 @@ msgstr "利用可能なエンコーディング"
 msgid "Encodings shown in menu"
 msgstr "メニューに表示されるエンコーディング"
 
-msgid "Choose a template for your new project"
-msgstr "新規プロジェクトのテンプレートを選択"
-
 msgid "Cross-platform"
 msgstr "クロスプラットフォーム"
 
@@ -26044,44 +26112,8 @@ msgstr "新規ASP.NET Web Formsプロジェクトを作成します。"
 msgid "ASP.NET Project"
 msgstr "ASP.NETプロジェクト"
 
-msgid "Configure your new solution"
-msgstr "新規ソリューションの設定"
-
-msgid "Configure your new project"
-msgstr "新規プロジェクトの設定"
-
-msgid "Configure your new workspace"
-msgstr "新規ワークスペースの設定"
-
-msgid "Solution Name:"
-msgstr "ソリューション名:"
-
-msgid "Workspace Name:"
-msgstr "ワークスペース名:"
-
 msgid "Indent on try/with"
 msgstr "try/withでインデント"
-
-msgid "Create a project within the solution directory."
-msgstr "ソリューション ディレクトリ内にプロジェクトを作成"
-
-msgid "Version Control:"
-msgstr "バージョン管理:"
-
-msgid "Use git for version control."
-msgstr "Gitをバージョン管理に使う"
-
-msgid "Create a .gitignore file to ignore inessential files."
-msgstr "本質的でないファイルを無視するため.gitignoreファイルを作成"
-
-msgid "PREVIEW"
-msgstr "プレビュー"
-
-msgid "Next"
-msgstr "次へ"
-
-msgid "Previous"
-msgstr "前へ"
 
 msgid "Reorder open declaration"
 msgstr "open宣言を並べ替え"
@@ -31012,9 +31044,6 @@ msgstr "{0}をダウンロード中 ({1}%)"
 
 msgid "Updates are ready to install"
 msgstr "更新がインストール可能になりました"
-
-msgid "Create a project directory within the solution directory."
-msgstr "ソリューションディレクトリ内にプロジェクトディレクトリを作成"
 
 msgid "Configure your Web project"
 msgstr "Webプロジェクトの設定"
