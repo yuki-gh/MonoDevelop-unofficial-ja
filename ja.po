@@ -976,6 +976,16 @@ msgstr "空のリソースファイル"
 msgid "Creates an empty resource file."
 msgstr "空のリソースファイルを作成します。"
 
+#: ../src/core/MonoDevelop.Ide/templates/EmptyResourceFile.xft.xml:0
+#, fuzzy
+msgid "Resource File"
+msgstr "リソースファイル"
+
+#: ../src/core/MonoDevelop.Ide/templates/EmptyResourceFile.xft.xml:0
+#, fuzzy
+msgid "Creates a resx resource file."
+msgstr "resxリソースファイルを作成します。"
+
 #: ../src/core/MonoDevelop.Ide/templates/EmptyStruct.xft.xml:0
 msgid "Empty Struct"
 msgstr "空の構造体"
@@ -2137,9 +2147,6 @@ msgstr "すべて閉じる(_A)"
 msgid "Close All Files"
 msgstr "すべてのファイルを閉じる"
 
-msgid "Closes all opened files in a tab"
-msgstr "タブ内のすべての開かれたファイルを閉じる"
-
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/FileCommands.cs:13
 msgid "C_lose Workspace"
@@ -2152,6 +2159,11 @@ msgstr "現在のワークスペースで開いているソリューションを
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "C_lose"
 msgstr "閉じる(_L)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "Close Workspace Item"
+msgstr "ワークスペース項目を閉じる"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Close the active solution or workspace item"
@@ -2207,6 +2219,16 @@ msgstr "最近のファイル(_F)"
 msgid "_Clear"
 msgstr "クリア(_C)"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "Clear Recent Files"
+msgstr "ファイルの履歴をクリア"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "Clear recent files list"
+msgstr "ファイルの履歴リストをクリア"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/FileCommands.cs:18
 msgid "Clear recent files"
@@ -2215,6 +2237,16 @@ msgstr "ファイルの履歴をクリア"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Recent Pro_jects"
 msgstr "最近開いたプロジェクト(_J)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "Clear Recent Solutions"
+msgstr "ソリューションの履歴をクリア"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "Clear recent solutions list"
+msgstr "ソリューションの履歴リストをクリア"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Clear recent solutions"
@@ -2252,6 +2284,12 @@ msgstr "親フォルダを開く(_P)"
 msgid "Opens the folder that contains this file."
 msgstr "このファイルを含むフォルダを開きます。"
 
+msgid "Reveal in Finder"
+msgstr "Finderで表示"
+
+msgid "Reveals the file in Finder."
+msgstr "ファイルをFinderで表示します。"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:3
 msgid "Build action"
@@ -2269,6 +2307,16 @@ msgstr "出力ディレクトリにコピーする(_C)"
 msgid "Require Specific Version"
 msgstr "特定のバージョンを要求"
 
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "Closes all opened files in a tab"
+msgstr "タブ内の開かれたファイルをすべて閉じる"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "C_lose Others"
+msgstr "他を閉じる(_L)"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "C_lose all but this"
 msgstr "これ以外を閉じる(_L)"
@@ -2281,13 +2329,14 @@ msgstr "現在のファイル以外をすべて閉じる"
 msgid "Copy the file path to the clipboard"
 msgstr "このファイルのパスをクリップボードにコピーします"
 
-#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
-msgid "C_opy file path/name"
-msgstr "ファイルのパス名をコピー(_O)"
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
+#, fuzzy
+msgid "C_opy File Path"
+msgstr "ファイルのパスをコピー(_O)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
-msgid "S_witch maximize/normal view"
-msgstr "最大表示/通常表示を切替(_W)"
+msgid "C_opy file path/name"
+msgstr "パス名/ファイル名をコピー(_O)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Reopen Closed Tab"
@@ -2309,6 +2358,11 @@ msgstr "ビューのリスト"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Layout List"
 msgstr "レイアウトのリスト"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:17
+#, fuzzy
+msgid "Save Curre_nt Layout..."
+msgstr "現在のレイアウトを保存(_N)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "_New Layout..."
@@ -2341,6 +2395,15 @@ msgstr "フルスクリーン(_F)"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Set full screen mode"
 msgstr "フルスクリーンモードに設定します"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:17
+#, fuzzy
+msgid "S_witch Maximized/Normal View"
+msgstr "最大表示/通常表示を切り替え(_W)"
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
+msgid "S_witch maximize/normal view"
+msgstr "最大表示/通常表示を切り替え(_W)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 msgid "Open selected document"
@@ -2869,6 +2932,11 @@ msgstr "ブックマークをクリア(_C)"
 #, fuzzy
 msgid "_Line..."
 msgstr "行(_L)..."
+
+#: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
+#, fuzzy
+msgid "Go to Line..."
+msgstr "指定行に移動..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:14
 msgid "_Go to Line..."
@@ -5099,6 +5167,11 @@ msgstr "適用"
 msgid "Build project before running"
 msgstr "実行前にプロジェクトをビルド"
 
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
+#, fuzzy
+msgid "Run project if build completed with warnings"
+msgstr "警告が発生してもプロジェクトを実行"
+
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:2
 msgid "Build solution before running"
 msgstr "実行前にソリューションをビルド"
@@ -5110,6 +5183,11 @@ msgstr "ビルドで警告が発生してもソリューションを実行"
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
 msgid "Enable parallel build of projects"
 msgstr "プロジェクトの並列ビルドを有効化"
+
+#: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
+#, fuzzy
+msgid "Build project before executing unit tests"
+msgstr "ユニットテスト実行前にプロジェクトをビルド"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:2
 msgid "Build solution before executing unit tests"
@@ -6662,6 +6740,11 @@ msgstr "クラス情報を収集中..."
 msgid "Summary"
 msgstr "要約"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeCompletion/ListWidget.cs:31
+#, fuzzy
+msgid "No completions found"
+msgstr "補完が見つかりません"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeCompletion/ListWidget.cs:20
 msgid "No Completions Found"
 msgstr "補完が見つかりません"
@@ -8004,6 +8087,11 @@ msgstr "本当にファイル {0} をソリューション {1} から削除し�
 msgid "Select Font"
 msgstr "フォントを選択"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Fonts/FontChooserPanelWidget.cs:8
+#, fuzzy
+msgid "Set To Default"
+msgstr "デフォルトにする"
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Fonts/FontChooserPanelWidget.cs:2
 msgid "Edit..."
 msgstr "編集..."
@@ -8105,6 +8193,11 @@ msgstr "ファイル名が指定されていません"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/ExportProjectPolicyDialog.cs:3
 msgid "The file {0} already exists. Do you want to replace it?"
 msgstr "ファイル {0} はすでに存在します。置き換えますか?"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/ExportProjectPolicyDialog.cs:4
+#, fuzzy
+msgid "The policy file could not be saved"
+msgstr "ポリシーファイルを保存できませんでした"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.ExportProjectPolicyDialog.cs:2
 msgid "Export Policies"
@@ -8233,6 +8326,21 @@ msgstr "ファイルを選択..."
 msgid "Select Folder..."
 msgstr "フォルダを選択..."
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:2
+#, fuzzy
+msgid "Property '{0}' not found in type '{1}'."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:4
+#, fuzzy
+msgid "Add method not found in {0}"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:4
+#, fuzzy
+msgid "Type not found for element: {0}"
+msgstr ""
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:4
 msgid "Solution {0}"
 msgstr "ソリューション {0}"
@@ -8338,12 +8446,12 @@ msgid "No news found."
 msgstr "ニュースはありません。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:83
-#msgid "New..."
-#msgstr "新規..."
+msgid "New..."
+msgstr "新規..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:89
-#msgid "Open..."
-#msgstr "開く..."
+msgid "Open..."
+msgstr "開く..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:138
 msgid "Last opened less than a minute ago"
@@ -8386,6 +8494,10 @@ msgid ""
 "\n"
 "If you choose to back up the project before migration, a copy of the project file will be saved in a 'backup' directory in the project directory."
 msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/LogAgentOptionsPanel.cs:5
+msgid "Report errors and usage information to help {0} improve my experience."
+msgstr "{0}がユーザー体験を改善するためにエラーと利用情報を報告する"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/LogAgentOptionsPanel.cs:4
 msgid "Automatically submit error diagnostic information"
@@ -8466,6 +8578,58 @@ msgstr "値:"
 msgid "See also:"
 msgstr "参照:"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:27
+#, fuzzy
+msgid "PCL {0} - {1} - not installed"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:27
+#, fuzzy
+msgid "PCL {0} - {1}"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:29
+#, fuzzy
+msgid "Current Profile:"
+msgstr "現在のプロファイル:"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:31
+#, fuzzy
+msgid "Target Frameworks:"
+msgstr "ターゲットフレームワーク:"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:68
+#, fuzzy
+msgid "Test Error"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:85
+msgid "Need to select at least two frameworks."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:88
+msgid "No applicable frameworks for this selection!"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:90
+msgid "Multiple frameworks match the current selection:"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:90
+msgid "You must manually pick a profile in the drop-down selector."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:94
+msgid ""
+"Found multiple applicable frameworks, you need to select additional check "
+"boxes."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:95
+#, fuzzy
+msgid "The following frameworks have been implicitly selected:"
+msgstr ""
+
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/CodeGenerationService.cs:2
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/CodeGenerationService.cs:3
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/CodeGenerationService.cs:11
@@ -8481,18 +8645,6 @@ msgstr "ファイル '{0}' の出力に失敗しました"
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeActions/MDRefactoringScript.cs:11
 msgid "No valid insertion point can be found in type '{0}'."
 msgstr "有効な挿入ポイントが型 ’{0}’ に見つかりませんでした。"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
-msgid "Search Files"
-msgstr "ファイルを検索"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
-msgid "Search Types"
-msgstr "型名の検索"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
-msgid "Search Members"
-msgstr "メンバの検索"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/SearchPopupWindow.cs:21
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/SearchPopupWindow.cs:86
@@ -8757,6 +8909,83 @@ msgstr "MSBuildのエンジンを利用する (推奨)"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CombineMSBuildOptions.cs:56
 msgid "Use MSBuild build engine (unsupported for this project type)"
 msgstr "MSBuildのエンジンを利用する (サポートされていません)"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
+msgid "Search Files"
+msgstr "ファイルを検索"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
+msgid "Search Types"
+msgstr "型名の検索"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
+msgid "Search Members"
+msgstr "メンバの検索"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs
+msgid "Catalan"
+msgstr "カタルーニャ語"
+
+msgid "Chinese - China"
+msgstr "中国語(本土)"
+
+msgid "Chinese - Taiwan"
+msgstr "中国語(台湾)"
+
+msgid "Czech"
+msgstr "チェコ語"
+
+msgid "Danish"
+msgstr "デンマーク語"
+
+msgid "Dutch"
+msgstr "オランダ語"
+
+msgid "French"
+msgstr "フランス語"
+
+msgid "Galician"
+msgstr "ガリシア語"
+
+msgid "German"
+msgstr "ドイツ語"
+
+msgid "English"
+msgstr "英語"
+
+msgid "Hungarian"
+msgstr "ハンガリー語"
+
+msgid "Indonesian"
+msgstr "インドネシア語"
+
+msgid "Italian"
+msgstr "イタリア語"
+
+# msgid "Japanese"
+# msgstr ""
+# msgid "Korean"
+# msgstr ""
+msgid "Polish"
+msgstr "ポーランド語"
+
+msgid "Portuguese"
+msgstr "ポルトガル語"
+
+msgid "Portuguese - Brazil"
+msgstr "ポルトガル語(ブラジル)"
+
+msgid "Russian"
+msgstr "ロシア語"
+
+msgid "Slovenian"
+msgstr "スロベニア語"
+
+msgid "Spanish"
+msgstr "スペイン語"
+
+msgid "Swedish"
+msgstr "スウェーデン語"
 
 #: ../src/addins/ILAsmBinding/ILAsmConsoleProject.xpt.xml:0
 #: ../src/addins/VBNetBinding/templates/VBConsoleApplicationProject.xpt.xml:0
@@ -25409,15 +25638,6 @@ msgstr "すべて実行"
 msgid "Android Log"
 msgstr "Androidログ"
 
-msgid "Set To Default"
-msgstr "デフォルトにする"
-
-msgid "Run project if build completed with warnings"
-msgstr "ビルドで警告が発生してもプロジェクトを実行"
-
-msgid "Build project before executing unit tests"
-msgstr "ユニットテスト実行前にプロジェクトをビルド"
-
 msgid "SDK not found. Please specify location."
 msgstr "SDKが見つかりません。場所を指定してください。"
 
@@ -25497,9 +25717,6 @@ msgstr "ソリューションを開く際にパッケージの更新を確認(_U
 
 msgid "Sources"
 msgstr "ソース"
-
-msgid "Report errors and usage information to help {0} improve my experience."
-msgstr "{0}がユーザー体験を改善するためにエラーと利用情報を報告する"
 
 msgid "F# Settings"
 msgstr "F#設定"
@@ -26067,71 +26284,6 @@ msgstr "F#ソースファイル"
 msgid "Creates an empty F# source file"
 msgstr "空のF#ソースファイルを作成します。"
 
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs
-msgid "Catalan"
-msgstr "カタルーニャ語"
-
-msgid "Chinese - China"
-msgstr "中国語(本土)"
-
-msgid "Chinese - Taiwan"
-msgstr "中国語(台湾)"
-
-msgid "Czech"
-msgstr "チェコ語"
-
-msgid "Danish"
-msgstr "デンマーク語"
-
-msgid "Dutch"
-msgstr "オランダ語"
-
-msgid "French"
-msgstr "フランス語"
-
-msgid "Galician"
-msgstr "ガリシア語"
-
-msgid "German"
-msgstr "ドイツ語"
-
-msgid "English"
-msgstr "英語"
-
-msgid "Hungarian"
-msgstr "ハンガリー語"
-
-msgid "Indonesian"
-msgstr "インドネシア語"
-
-msgid "Italian"
-msgstr "イタリア語"
-
-# msgid "Japanese"
-# msgstr ""
-# msgid "Korean"
-# msgstr ""
-msgid "Polish"
-msgstr "ポーランド語"
-
-msgid "Portuguese"
-msgstr "ポルトガル語"
-
-msgid "Portuguese - Brazil"
-msgstr "ポルトガル語(ブラジル)"
-
-msgid "Russian"
-msgstr "ロシア語"
-
-msgid "Slovenian"
-msgstr "スロベニア語"
-
-msgid "Spanish"
-msgstr "スペイン語"
-
-msgid "Swedish"
-msgstr "スウェーデン語"
-
 msgid "Add Packages..."
 msgstr "パッケージを追加..."
 
@@ -26206,9 +26358,6 @@ msgstr "Test Cloudで実行"
 
 msgid "Runs the tests using Xamarin Test Cloud."
 msgstr "Xamarin Test Cloudを用いてテストを実行"
-
-msgid "C_lose Others"
-msgstr "他を閉じる(L)"
 
 msgid "Xml Editor"
 msgstr "XMLエディタ"
@@ -30086,12 +30235,6 @@ msgstr "mutable変数を強調"
 #~ msgid "<b>Build Engine</b>"
 #~ msgstr "<b>ビルドエンジン</b>"
 
-msgid "Current Profile:"
-msgstr "現在のプロファイル:"
-
-msgid "Target Frameworks:"
-msgstr "ターゲットフレームワーク:"
-
 # C# syntax
 
 msgid "Info"
@@ -30477,12 +30620,6 @@ msgstr "ライセンスに同意しませんでした。"
 msgid "Center and F_ocus Document"
 msgstr "ドキュメントをセンタリングしてフォーカス(_O)"
 
-msgid "C_opy File Path"
-msgstr "ファイルのパスをコピー(_O)"
-
-msgid "S_witch Maximized/Normal View"
-msgstr "最大表示/通常表示を切り替え(_W)"
-
 msgid "Add Google Play Service NuGet..."
 msgstr "Google Play開発者サービスのNuGetを追加..."
 
@@ -30574,12 +30711,6 @@ msgstr "Xcodeと同期"
 
 msgid "F# Interactive"
 msgstr "F#インタラクティブ"
-
-msgid "Reveal in Finder"
-msgstr "Finderで表示"
-
-msgid "Reveals the file in Finder."
-msgstr "ファイルをFinderで表示します。"
 
 msgid "Migrate to Xamarin.Mac"
 msgstr "Xamarin.Macへ移行"
@@ -30820,12 +30951,6 @@ msgstr "空のプロパティリストを作成します。"
 
 msgid "F#/Mac/Open source"
 msgstr "F#/Mac/オープンソース"
-
-msgid "Resource File"
-msgstr "リソースファイル"
-
-msgid "Creates a resx resource file."
-msgstr "resxリソースファイルを作成します。"
 
 # assembly browser
 
