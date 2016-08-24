@@ -17649,146 +17649,45 @@ msgstr "メニューカテゴリの選択"
 msgid "Select the categories you want to assign to the desktop entry:"
 msgstr "デスクトップエントリで割り当てたいカテゴリを選択してください:"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:131
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:150
-msgid "Validating XML..."
-msgstr "XMLの妥当性を検証中..."
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:47
+msgid "XmlEditor"
+msgstr "XMLエディタ"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:141
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:197
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:237
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:269
-msgid "Validation failed."
-msgstr "妥当性検証に失敗しました。"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:49
+msgid "Create _Schema"
+msgstr "スキーマを作成(_S)"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:142
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:197
-msgid "XML is valid."
-msgstr "XMLは妥当です"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:52
+msgid "_Validate"
+msgstr "妥当性検証(_V)"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:206
-msgid "Validating schema..."
-msgstr "スキーマを検証しています..."
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:63
+msgid "_Assign XSLT..."
+msgstr "XSLTの割り当て(_A)..."
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:237
-msgid "Schema is valid."
-msgstr "スキーマは妥当です"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:66
+msgid "_Open XSLT"
+msgstr "XSLTを開く(_O)"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:246
-msgid "Validating stylesheet..."
-msgstr "スタイルシートを妥当性検証しています..."
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:69
+msgid "Run XSL_T"
+msgstr "XSLTの実行(_T)"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:269
-msgid "Stylesheet is valid."
-msgstr "スタイルシートは妥当です"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:73
+msgid "_Go to Schema Definition"
+msgstr "スキーマ定義に移動(_G)"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:282
-msgid "Select XSLT Stylesheet"
-msgstr "XSLTスタイルシートを選択"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:80
+msgid "_XML"
+msgstr "XML(_X)"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:291
-msgid "XSL Files"
-msgstr "XSLファイル"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:99
+msgid "XML Schemas"
+msgstr "XMLスキーマ"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:306
-msgid "Select XML Schema"
-msgstr "XMLスキーマを選択"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:187
-msgid "Creating schema..."
-msgstr "スキーマを作成中..."
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:188
-msgid "Schema created."
-msgstr "スキーマを作成しました"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:188
-msgid "Error creating XML schema."
-msgstr "XMLスキーマの作成中にエラーが発生しました"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:213
-msgid "Error reading file '{0}'."
-msgstr "ファイル '{0}' の読み込みでエラーです "
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:213
-msgid "Executing transform..."
-msgstr "変換中..."
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:213
-msgid "Transform completed."
-msgstr "変換が完了しました"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlTextEditorExtension.cs:213
-msgid "Could not run transform."
-msgstr "変換を実行できませんでした。"
-
-#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlEditorOptionsPanelWidget.cs:1
-msgid "Automatically insert closing tags"
-msgstr "XML閉じタグを自動補完する"
-
-#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlEditorOptionsPanelWidget.cs:1
-msgid "Automatically insert punctuation (=\"\", />, etc.)"
-msgstr "自動で句読点を挿入 (=\"\", />, など)"
-
-#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlEditorOptionsPanelWidget.cs:1
-msgid "Show schema annotation"
-msgstr "スキーマの注釈を表示"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
-msgid "Built in"
-msgstr "ビルトイン"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
-msgid "User schema"
-msgstr "ユーザースキーマ"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
-msgid "File Extension"
-msgstr "ファイル拡張子"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
-msgid "Prefix"
-msgstr "プレフィックス"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:10
-msgid "Error loading schema '{0}'."
-msgstr "スキーマ '{0}' の読み込みでエラーが発生しました"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:12
-msgid "Schema '{0}' has no target namespace."
-msgstr "スキーマ '{0}' にターゲット名前空間がありません"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:15
-msgid "A schema is already registered with the namespace '{0}'. Would you like to replace it?"
-msgstr "名前空間 '{0}'のスキーマがすでに登録されています。置き換えますか?"
-
-#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlSchemasPanelWidget.cs:1
-msgid "<b>Registered Schemas</b>"
-msgstr "<b>登録済みスキーマ</b>"
-
-#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlSchemasPanelWidget.cs:1
-msgid "<b>Default File Associations</b>"
-msgstr "<b>デフォルトのファイル関連付け</b>"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanel.cs:51
-msgid "Unhandled error saving schema changes."
-msgstr "スキーマの変更の保存時に想定外のエラーが発生しました"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/BaseXmlEditorExtension.cs:47
-msgid "Closing tag for '{0}'"
-msgstr "タグ '{0}' を閉じる"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/BaseXmlEditorExtension.cs:47
-msgid "Character data"
-msgstr "文字データ"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/BaseXmlEditorExtension.cs:50
-msgid "Select"
-msgstr "選択"
-
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/BaseXmlEditorExtension.cs:50
-msgid "Select contents"
-msgstr "内容を選択"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:132
+msgid "XML Format"
+msgstr "XMLフォーマット"
 
 #: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Completion/XmlMultipleClosingTagCompletionData.cs:3
 msgid "Closing tag for '{0}', also closing all intermediate tags"
@@ -17876,6 +17775,50 @@ msgstr "フォーマット #{0}"
 msgid "XPath scope:"
 msgstr "XPathスコープ:"
 
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:185
+msgid "Creating schema..."
+msgstr "スキーマを作成中..."
+
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:186
+msgid "Schema created."
+msgstr "スキーマを作成しました"
+
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:186
+msgid "Error creating XML schema."
+msgstr "XMLスキーマの作成中にエラーが発生しました"
+
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:205
+msgid "Error reading file '{0}'."
+msgstr "ファイル '{0}' の読み込みでエラーです "
+
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:205
+msgid "Executing transform..."
+msgstr "変換中..."
+
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:205
+msgid "Transform completed."
+msgstr "変換が完了しました"
+
+#: ../src/addins/Xml/Editor/XmlTextEditorExtension.cs:205
+msgid "Could not run transform."
+msgstr "変換を実行できませんでした。"
+
+#: ../src/addins/Xml/Editor/BaseXmlEditorExtension.cs:73
+msgid "Closing tag for '{0}'"
+msgstr "タグ '{0}' を閉じる"
+
+#: ../src/addins/Xml/Editor/BaseXmlEditorExtension.cs:76
+msgid "Character data"
+msgstr "文字データ"
+
+#: ../src/addins/Xml/Editor/BaseXmlEditorExtension.cs:82
+msgid "Select"
+msgstr "選択"
+
+#: ../src/addins/Xml/Editor/BaseXmlEditorExtension.cs:82
+msgid "Select contents"
+msgstr "内容を選択"
+
 #: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.Xml.Formatting.XmlFormattingPolicyPanelWidget.cs:1
 msgid "Enter one or several xpath expressions to which this format applies:"
 msgstr "このフォーマットを適用するXPath式を1つ以上入力してください:"
@@ -17884,45 +17827,102 @@ msgstr "このフォーマットを適用するXPath式を1つ以上入力して
 msgid "Advanced Settings"
 msgstr "詳細設定"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:47
-msgid "XmlEditor"
-msgstr "XmlEditor"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:131
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:150
+msgid "Validating XML..."
+msgstr "XMLの妥当性を検証中..."
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:49
-msgid "Create _Schema"
-msgstr "スキーマを作成(_S)"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:141
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:197
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:237
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:269
+msgid "Validation failed."
+msgstr "妥当性検証に失敗しました。"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:52
-msgid "_Validate"
-msgstr "妥当性検証(_V)"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:142
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:197
+msgid "XML is valid."
+msgstr "XMLは妥当です"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:63
-msgid "_Assign XSLT..."
-msgstr "XSLTの割り当て(_A)..."
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:206
+msgid "Validating schema..."
+msgstr "スキーマを検証しています..."
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:66
-msgid "_Open XSLT"
-msgstr "XSLTを開く(_O)"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:237
+msgid "Schema is valid."
+msgstr "スキーマは妥当です"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:69
-msgid "Run XSL_T"
-msgstr "XSLTの実行(_T)"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:246
+msgid "Validating stylesheet..."
+msgstr "スタイルシートを妥当性検証しています..."
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:73
-msgid "_Go to Schema Definition"
-msgstr "スキーマ定義に移動(_G)"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:269
+msgid "Stylesheet is valid."
+msgstr "スタイルシートは妥当です"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:80
-msgid "_XML"
-msgstr "XML(_X)"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:282
+msgid "Select XSLT Stylesheet"
+msgstr "XSLTスタイルシートを選択"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:99
-msgid "XML Schemas"
-msgstr "XMLスキーマ"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:291
+msgid "XSL Files"
+msgstr "XSLファイル"
 
-#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.addin.xml:132
-msgid "XML Format"
-msgstr "XMLフォーマット"
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor/XmlEditorService.cs:306
+msgid "Select XML Schema"
+msgstr "XMLスキーマを選択"
+
+#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlEditorOptionsPanelWidget.cs:1
+msgid "Automatically insert closing tags"
+msgstr "XML閉じタグを自動補完する"
+
+#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlEditorOptionsPanelWidget.cs:1
+msgid "Automatically insert punctuation (=\"\", />, etc.)"
+msgstr "自動で句読点を挿入 (=\"\", />, など)"
+
+#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlEditorOptionsPanelWidget.cs:1
+msgid "Show schema annotation"
+msgstr "スキーマの注釈を表示"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
+msgid "Built in"
+msgstr "ビルトイン"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
+msgid "User schema"
+msgstr "ユーザースキーマ"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
+msgid "File Extension"
+msgstr "ファイル拡張子"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:3
+msgid "Prefix"
+msgstr "プレフィックス"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:10
+msgid "Error loading schema '{0}'."
+msgstr "スキーマ '{0}' の読み込みでエラーが発生しました"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:12
+msgid "Schema '{0}' has no target namespace."
+msgstr "スキーマ '{0}' にターゲット名前空間がありません"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanelWidget.cs:15
+msgid "A schema is already registered with the namespace '{0}'. Would you like to replace it?"
+msgstr "名前空間 '{0}'のスキーマがすでに登録されています。置き換えますか?"
+
+#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlSchemasPanelWidget.cs:1
+msgid "<b>Registered Schemas</b>"
+msgstr "<b>登録済みスキーマ</b>"
+
+#: ../src/addins/MonoDevelop.XmlEditor/gtk-gui/MonoDevelop.XmlEditor.Gui.XmlSchemasPanelWidget.cs:1
+msgid "<b>Default File Associations</b>"
+msgstr "<b>デフォルトのファイル関連付け</b>"
+
+#: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.XmlEditor.Gui/XmlSchemasPanel.cs:51
+msgid "Unhandled error saving schema changes."
+msgstr "スキーマの変更の保存時に想定外のエラーが発生しました"
 
 #: ../src/addins/NUnit/templates/NUnitAssemblyGroup.xpt.xml:0
 msgid "NUnit assembly test collection"
