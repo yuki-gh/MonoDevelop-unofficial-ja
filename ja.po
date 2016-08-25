@@ -26208,7 +26208,7 @@ msgid "Runs the tests using Xamarin Test Cloud."
 msgstr "Xamarin Test Cloudを用いてテストを実行"
 
 msgid "C_lose Others"
-msgstr "他を閉じる(L)"
+msgstr "他を閉じる(_L)"
 
 msgid "Xml Editor"
 msgstr "XMLエディタ"
