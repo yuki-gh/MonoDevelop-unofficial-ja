@@ -24,6 +24,7 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 	- MonoDevelop 5.9.6(Unity 5.3以降にバンドル)
 	- MonoDevelop 5.10.0(Linux用安定版)
 - Xamarin Studio
+	- Xamarin Studio 5.10.1(Windows)
 	- Xamarin Studio 6.0.2(安定版/ベータ版)
 	- Xamarin Studio 6.1.0(アルファ版)
 - OS
@@ -111,6 +112,9 @@ UIは日本語になりません。単体で起動してください。
 
 C#関連の訳語はMSDNに準拠しています。
 
+Xamarin Studio 5.10ではメニューやオプションで一部翻訳が反映されない箇所があります。
+また、ウェルカムページの右上に文字化けがあります。
+
 ## 免責
 
 翻訳の正確さについては保証しません。
@@ -118,12 +122,6 @@ C#関連の訳語はMSDNに準拠しています。
 本パッケージの使用に伴う損害・不利益・逸失利益などについて作者は一切責任を負いません。
 
 本パッケージについてUnity TechonlogiesやXamarinその他への問い合わせはご遠慮ください。
-
-## ビルド
-
-```
-$ msgfmt -f -o monodevelop.mo ja.po
-```
 
 ## ライセンス
 
