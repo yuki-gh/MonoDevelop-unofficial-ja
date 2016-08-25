@@ -15816,7 +15816,7 @@ msgstr "viモードを使用(_V)"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/gtk-gui/MonoDevelop.SourceEditor.OptionPanels.BehaviorPanel.cs:2
 msgid "Word _break mode:"
-msgstr "折り返しモード(_W): "
+msgstr "折り返しモード(_B):"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/gtk-gui/MonoDevelop.SourceEditor.OptionPanels.HighlightingPanel.cs:1
 msgid "<b>Syntax highlighting</b>"
@@ -18078,27 +18078,27 @@ msgstr "ファイル {0} に適用"
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:12
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:13
 msgid "_Suppress with attribute"
-msgstr ""
+msgstr "属性で抑制(_S)"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:13
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:14
 msgid "_Suppress with #pragma"
-msgstr ""
+msgstr "#pragmaで抑制(_S)"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:14
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:15
 msgid "_Disable once with comment"
-msgstr ""
+msgstr "コメントで一度無効化(_D)"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:15
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:16
 msgid "Disable _and restore with comments"
-msgstr ""
+msgstr "コメントで無効化と復元(_A)"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:16
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:17
 msgid "_Configure inspection"
-msgstr ""
+msgstr "検査を構成(_C)"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:12
 msgid "Refactor"
