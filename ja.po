@@ -7477,7 +7477,7 @@ msgstr "このアセンブリに署名する(_S)"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CommonAssemblySigningPreferences.cs:2
 msgid "S_trong Name File:"
-msgstr "厳密名のファイル(_S):"
+msgstr "厳密名のファイル(_T):"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CommonAssemblySigningPreferences.cs:2
 msgid "_Delay sign assembly"
@@ -30672,13 +30672,13 @@ msgstr "プロジェクトに取り込む(_I)"
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:85
 #, fuzzy
 msgid "Add _Packages..."
-msgstr "パッケージを追加(_A)..."
+msgstr "パッケージを追加(_P)..."
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:30
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:52
 #, fuzzy
 msgid "Re_target"
-msgstr "再ターゲット(_E)"
+msgstr "再ターゲット(_T)"
 
 msgid "Extract Method"
 msgstr "メソッドを抽出"
