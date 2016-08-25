@@ -14149,11 +14149,11 @@ msgstr "翻訳(msgstr)(_T):"
 
 #: ../src/addins/MonoDevelop.Gettext/gtk-gui/MonoDevelop.Gettext.POEditorWidget.cs:2
 msgid "Original (msgid):"
-msgstr "オリジナル(msgid):"
+msgstr "原文(msgid):"
 
 #: ../src/addins/MonoDevelop.Gettext/gtk-gui/MonoDevelop.Gettext.POEditorWidget.cs:2
 msgid "Original plural (msgid_plural):"
-msgstr "翻訳(msgstr):"
+msgstr "原文複数形(msgid_plural):"
 
 #: ../src/addins/MonoDevelop.Gettext/gtk-gui/MonoDevelop.Gettext.POEditorWidget.cs:2
 msgid "F_ound in:"
@@ -14173,7 +14173,7 @@ msgstr "フォーム {0}"
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/Catalog.cs:14
 msgid "Form {0} (e.g. \"{1}\")"
-msgstr "フォーム {0} (e.g.\"{1}\")"
+msgstr "フォーム {0} (例 \"{1}\")"
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/PropertyProvider.cs:4
 msgid "Scan for translations"
@@ -21700,7 +21700,7 @@ msgstr "&=で置き換え"
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Custom/LockThisIssue.cs:2
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Custom/LockThisIssue.cs:39
 msgid "Use of lock (this) or MethodImplOptions.Synchronized is discouraged"
-msgstr ""
+msgstr "lock(this)またはMethodImplOptions.Synchronizedの使用は勧められません"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Custom/LockThisIssue.cs:5
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Custom/LockThisIssue.cs:12
@@ -21969,23 +21969,23 @@ msgstr "等しい式の比較"
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EqualExpressionComparisonIssue.cs:2
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EqualExpressionComparisonIssue.cs:59
 msgid "Replace with 'true'"
-msgstr ""
+msgstr "trueで置き換え"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EqualExpressionComparisonIssue.cs:2
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EqualExpressionComparisonIssue.cs:59
 msgid "Replace with 'false'"
-msgstr ""
+msgstr "falseで置き換え"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EventUnsubscriptionViaAnonymousDelegateIssue.cs:1
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EventUnsubscriptionViaAnonymousDelegateIssue.cs:35
 msgid "Event unsubscription via anonymous delegate"
-msgstr ""
+msgstr "匿名デリゲート経由のイベント登録解除"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EventUnsubscriptionViaAnonymousDelegateIssue.cs:3
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EventUnsubscriptionViaAnonymousDelegateIssue.cs:36
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/EventUnsubscriptionViaAnonymousDelegateIssue.cs:65
 msgid "Event unsubscription via anonymous delegate is useless"
-msgstr ""
+msgstr "匿名デリゲート経由のイベント登録解除は無意味です"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/ForControlVariableIsNeverModifiedIssue.cs:2
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/ForControlVariableIsNeverModifiedIssue.cs:13
@@ -24966,7 +24966,7 @@ msgstr "CS0183: 式は常にその型です"
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerWarnings/CS0183ExpressionIsAlwaysOfProvidedTypeIssue.cs:8
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerWarnings/CS0183ExpressionIsAlwaysOfProvidedTypeIssue.cs:73
 msgid "Compare with 'null'"
-msgstr ""
+msgstr "nullと比較"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerWarnings/CS0183ExpressionIsAlwaysOfProvidedTypeIssue.cs:8
 msgid "Given expression is always of the provided type. Consider comparing with 'null' instead"
@@ -24975,7 +24975,7 @@ msgstr "式は常にその型です。代わりにnullとの比較を検討し�
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/PolymorphicFieldLikeEventInvocationIssue.cs:1
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/PolymorphicFieldLikeEventInvocationIssue.cs:36
 msgid "Invocation of polymorphic field event"
-msgstr ""
+msgstr "ポリモルフィックフィールドイベントの呼び出し"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/PolymorphicFieldLikeEventInvocationIssue.cs:3
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/PolymorphicFieldLikeEventInvocationIssue.cs:66
@@ -24986,7 +24986,7 @@ msgstr ""
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/PolymorphicFieldLikeEventInvocationIssue.cs:3
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CodeQuality/PolymorphicFieldLikeEventInvocationIssue.cs:72
 msgid "Invocation of polymorphic field like event"
-msgstr ""
+msgstr "イベントのようなポリモルフィックフィールドの呼び出し"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/PracticesAndImprovements/PossibleMistakenCallToGetTypeIssue.cs:1
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/PracticesAndImprovements/PossibleMistakenCallToGetTypeIssue.cs:4

@@ -90,6 +90,10 @@ UIは日本語になりません。単体で起動してください。
 		- `main/src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeTemplates/MonoDevelop-templates.xml`
 	- エラーウィンドウに出るコード分析
 	- コードテンプレートの説明
+- F#関連
+	- コードテンプレートの説明
+- Razor関連
+	- コードテンプレートの説明
 - ハイライティングスキームの説明
 	- `main/src/core/Mono.Texteditor/Styles/NightshadeStyle.json`
 - 各種サンプルテキスト 
