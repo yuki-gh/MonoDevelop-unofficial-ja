@@ -6897,11 +6897,6 @@ msgstr "ファイルを上書き(_O)"
 msgid "Add existing file"
 msgstr "既存のファイルを追加"
 
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/MessageService.cs:7
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/LogReportingStartup.cs:4
-msgid "An error has occurred"
-msgstr "エラーが発生しました"
-
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/MimeTypePolicyOptionsPanel.cs:10
 msgid "Use default settings from '{0}'"
 msgstr "'{0}' のデフォルト設定を使用"
@@ -8301,17 +8296,17 @@ msgstr "フォルダを選択..."
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:2
 #, fuzzy
 msgid "Property '{0}' not found in type '{1}'."
-msgstr ""
+msgstr "型 '{1}' にプロパティ '{0}' がありません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:4
 #, fuzzy
 msgid "Add method not found in {0}"
-msgstr ""
+msgstr "{0} にはAddメソッドがありません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:4
 #, fuzzy
 msgid "Type not found for element: {0}"
-msgstr ""
+msgstr "要素 {0} の型がありません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:4
 msgid "Solution {0}"
@@ -8493,11 +8488,15 @@ msgstr "常に送信する(_A)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/LogReportingStartup.cs:4
 msgid "A fatal error has occurred"
-msgstr "致命的なエラーが発生しました。"
+msgstr "致命的なエラーが発生しました"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/LogReportingStartup.cs:4
+msgid "An error has occurred"
+msgstr "エラーが発生しました"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/LogReportingStartup.cs:5
 msgid "Details of this error have been automatically sent to Xamarin for analysis."
-msgstr ""
+msgstr "このエラーの詳細は解析のため自動的にXamarinに送られました。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/LogReportingStartup.cs:5
 msgid " {0} will now close."
@@ -8553,12 +8552,12 @@ msgstr "参照:"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:27
 #, fuzzy
 msgid "PCL {0} - {1} - not installed"
-msgstr ""
+msgstr "PCL {0} - {1} - インストールされていません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:27
 #, fuzzy
 msgid "PCL {0} - {1}"
-msgstr ""
+msgstr "PCL {0} - {1}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:29
 #, fuzzy
@@ -8573,19 +8572,19 @@ msgstr "ターゲットフレームワーク:"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:68
 #, fuzzy
 msgid "Test Error"
-msgstr ""
+msgstr "テストエラー"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:85
 msgid "Need to select at least two frameworks."
-msgstr ""
+msgstr "少なくとも2つのフレームワークを選択する必要があります"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:88
 msgid "No applicable frameworks for this selection!"
-msgstr ""
+msgstr "このセクションに適用できるフレームワークがありません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:90
 msgid "Multiple frameworks match the current selection:"
-msgstr ""
+msgstr "複数のフレームワークが現在の選択にマッチしました:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:90
 msgid "You must manually pick a profile in the drop-down selector."
@@ -8631,6 +8630,16 @@ msgstr "上位の結果"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/CommandSearchCategory.cs:2
 msgid "Commands"
 msgstr "コマンド"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageSection.cs:20
+#, fuzzy
+msgid "{0} could not be opened"
+msgstr "ファイル '{0}' が開けませんでした"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageSection.cs:20
+#, fuzzy
+msgid "Do you want to remove the reference to it from the Recent list?"
+msgstr "選択されたファイルをこのプロジェクトから削除しますか?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageFeedItem.cs:191
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:25
@@ -8882,6 +8891,26 @@ msgstr "MSBuildのエンジンを利用する (推奨)"
 msgid "Use MSBuild build engine (unsupported for this project type)"
 msgstr "MSBuildのエンジンを利用する (サポートされていません)"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
+#, fuzzy
+msgid "Insert Field"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
+#, fuzzy
+msgid "Insert Method"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
+#, fuzzy
+msgid "Insert Property"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
+#, fuzzy
+msgid "Insert Code"
+msgstr ""
+
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SourceEditorDisplayBinding.cs:5
 msgid "Source Code Editor"
 msgstr "ソースコードエディタ"
@@ -8898,6 +8927,10 @@ msgstr "新規ワークスペースの設定"
 msgid "Configure your new solution"
 msgstr "新規ソリューションの設定"
 
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:429
+msgid "No template found matching condition '{0}'."
+msgstr ""
+
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/DeployDialog.cs:6
 msgid "Create"
 msgstr "作成"
@@ -8908,6 +8941,26 @@ msgstr "次へ"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:13
 msgid "A Project with that name is already in your Project Space"
 msgstr "その名前のプロジェクトがすでにプロジェクトスペースに存在します"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:641
+#, fuzzy
+msgid "A solution with that filename is already in your workspace"
+msgstr "その名前のプロジェクトが既にプロジェクトスペースに存在します"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:647
+msgid ""
+"Illegal project name.\n"
+"Name cannot contain a language keyword."
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:655
+#, fuzzy
+msgid ""
+"Directory {0} already exists.\n"
+"Do you want to continue creating the project?"
+msgstr ""
+"ディレクトリ {0} は既に存在します。\n"
+"プロジェクトの作成を続けますか?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:15
 msgid "Could not create directory {0}. File already exists."
@@ -9004,11 +9057,34 @@ msgstr "ファイルを検索"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
 msgid "Search Types"
-msgstr "型名の検索"
+msgstr "型名を検索"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbar.cs:45
 msgid "Search Members"
-msgstr "メンバの検索"
+msgstr "メンバを検索"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbarController.cs:79
+msgid "Press ‘{0}’ to search"
+msgstr "'{0}'を押して検索"
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbarController.cs:79
+#, fuzzy
+msgid "Search solution"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CodeAnalysisPanel.cs:12
+msgid "Enable Code Analysis on Build"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor.Extension/DefaultCommandTextEditorExtension.cs:26
+#, fuzzy
+msgid "_Hide Current Message"
+msgstr ""
+
+#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor.Extension/DefaultCommandTextEditorExtension.cs:26
+#, fuzzy
+msgid "_Show Hidden Message"
+msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs
 msgid "Catalan"
@@ -9074,6 +9150,18 @@ msgstr "スペイン語"
 
 msgid "Swedish"
 msgstr "スウェーデン語"
+
+#: ../src/core/Mono.Texteditor/Mono.TextEditor.PopupWindow/ModeHelpWindow.cs:44
+msgid "Use [%UP%] [%DOWN%] to move to another location."
+msgstr ""
+
+#: ../src/core/Mono.Texteditor/Mono.TextEditor.PopupWindow/ModeHelpWindow.cs:44
+msgid "Press [ENTER] to select the location."
+msgstr ""
+
+#: ../src/core/Mono.Texteditor/Mono.TextEditor.PopupWindow/ModeHelpWindow.cs:44
+msgid "Press [ESC] to cancel this operation."
+msgstr ""
 
 #: ../src/addins/ILAsmBinding/ILAsmConsoleProject.xpt.xml:0
 #: ../src/addins/VBNetBinding/templates/VBConsoleApplicationProject.xpt.xml:0
@@ -9168,6 +9256,17 @@ msgstr "更新(_U)"
 msgid "_Update Solution"
 msgstr "ソリューションを更新(_U)"
 
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
+#, fuzzy
+msgid "_Publish in Version Control..."
+msgstr "バージョン管理システムへ公開(_P)..."
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
 msgid "_Publish..."
 msgstr "公開(_P)..."
@@ -9185,6 +9284,11 @@ msgid "Release Lock"
 msgstr "ロックを解放する"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/BlameView.cs:1
+msgid "Blame"
+msgstr "注釈を表示"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
 msgid "Show Annotations"
 msgstr "注釈を表示"
 
@@ -9193,13 +9297,13 @@ msgid "Create _Patch"
 msgstr "パッチの作成(_P)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/Commands.cs:13
-msgid "Add to ignore list"
+#, fuzzy
+msgid "Add to Ignore List"
 msgstr "無視リストに追加"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/Commands.cs:15
-msgid "Remove from ignore list"
+#, fuzzy
+msgid "Remove from Ignore List"
 msgstr "無視リストから削除"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
@@ -9207,16 +9311,38 @@ msgid "Resolve Conflicts"
 msgstr "競合を解決"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
+#, fuzzy
+msgid "_Copy Revision"
+msgstr "リビジョンをコピー(_C)"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
 msgid "_Copy revision"
 msgstr "リビジョンをコピー(_C)"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
+#, fuzzy
+msgid "_Show Diff"
+msgstr "差分を表示(_S)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
 msgid "_Show diff"
 msgstr "差分を表示(_S)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
+#, fuzzy
+msgid "S_how Log"
+msgstr "ログを表示(_H)"
+
 msgid "S_how log"
 msgstr "ログを表示(_H)"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
+#, fuzzy
+msgid "Show _Blame Before"
+msgstr "以前のblameを表示(_B)"
+
+msgid "Show _blame before"
+msgstr "以前のblameを表示(_B)"
 
 #  nb.AppendPage (aatp, new Label ("Authors"));
 #  nb.AppendPage (changelog, new Label ("ChangeLog"));
@@ -9230,6 +9356,17 @@ msgstr "ログを表示(_H)"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:22
 msgid "_Version Control"
 msgstr "バージョン管理(_V)"
+
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:20
+#, fuzzy
+msgid "Versio_n Control"
+msgstr "バージョン管理(_N)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:24
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:25
@@ -9286,6 +9423,11 @@ msgstr "リモート ステータス"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:15
 msgid "Commit message:"
 msgstr "コミットメッセージ:"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:46
+#, fuzzy
+msgid "{0} Status"
+msgstr "{0} 状態"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:25
 msgid "Create Patch"
@@ -9391,6 +9533,11 @@ msgstr "対象ディレクトリの選択"
 msgid "Adding..."
 msgstr "追加しています"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/AddRemoveMoveCommand.cs:2
+#, fuzzy
+msgid "Add operation completed."
+msgstr "追加操作を完了しました。"
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/AddRemoveMoveCommand.cs:1
 msgid "Are you sure you want to remove the selected items from the version control system?"
 msgstr "本当に選択された項目をこのバージョン管理システムから削除しますか?"
@@ -9402,6 +9549,11 @@ msgstr "ファイルはディスク上に残ります。"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/AddRemoveMoveCommand.cs:1
 msgid "Removing..."
 msgstr "削除しています"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/AddRemoveMoveCommand.cs:2
+#, fuzzy
+msgid "Remove operation completed."
+msgstr "削除操作を完了しました。"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/CheckoutCommand.cs:2
 msgid "Checking out {0}..."
@@ -9443,6 +9595,16 @@ msgstr "ファイルをロック"
 msgid "Unlock File"
 msgstr "ファイルをロック解除"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/Commands.cs:13
+msgid "Add to ignore list"
+msgstr "無視リストに追加"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/Commands.cs:15
+msgid "Remove from ignore list"
+msgstr "無視リストから削除"
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/CommitCommand.cs:4
 msgid "Committing {0}..."
 msgstr "{0} をコミット中..."
@@ -9454,6 +9616,11 @@ msgstr "コミット操作は完了しました。"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/PublishCommand.cs:6
 msgid "Initial check-in of module {0}"
 msgstr "モジュール {0} の初期チェックイン"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/PublishCommand.cs:6
+#, fuzzy
+msgid "_Publish"
+msgstr "公開(_P)..."
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/PublishCommand.cs:6
 msgid "Are you sure you want to publish the project?"
@@ -9506,6 +9673,11 @@ msgstr "更新しています"
 msgid "Update operation completed."
 msgstr "更新操作が完了しました。"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/UrlBasedRepositoryEditor.cs:6
+#, fuzzy
+msgid "Invalid URL"
+msgstr "無効な行 (_I)"
+
 #  nb.AppendPage (aatp, new Label ("Authors"));
 #  nb.AppendPage (changelog, new Label ("ChangeLog"));
 #  nb.AppendPage (aatp, new Label ("Authors"));
@@ -9522,11 +9694,16 @@ msgstr "このプロジェクトあるいはフォルダはバージョン管理
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:47
 msgid "Unversioned"
-msgstr "バージョン指定なし"
+msgstr "バージョン管理外"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:50
 msgid "Modified"
-msgstr "最終更新日"
+msgstr "変更"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:53
+#, fuzzy
+msgid "Renamed"
+msgstr "リネーム"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:51
 msgid "Conflict"
@@ -9621,6 +9798,10 @@ msgstr "以下のファイルがコミットされます:"
 msgid "Commit _message:"
 msgstr "コミットメッセージ(_M):"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/gtk-gui/MonoDevelop.VersionControl.Dialogs.CommitDialog.cs:1
+msgid "1/1"
+msgstr ""
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/gtk-gui/MonoDevelop.VersionControl.Dialogs.CommitDialog.cs:2
 msgid "?/?"
 msgstr "?/?"
@@ -9664,6 +9845,27 @@ msgstr "ロックを解除しています"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/UnlockCommand.cs:3
 msgid "Unlock operation completed."
 msgstr "ロック解除操作を完了しました"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitMessageStylePanelWidget.cs:3
+msgid "My changes made additional changes. This is sample documentation."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitMessageStylePanelWidget.cs:3
+msgid "./somedir/myfile.ext"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitMessageStylePanelWidget.cs:3
+msgid "./yourfile.ext"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitMessageStylePanelWidget.cs:3
+#, fuzzy
+msgid "Some additional changes on another file of the project."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitMessageStylePanelWidget.cs:3
+msgid "./otherfile.ext"
+msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/gtk-gui/MonoDevelop.VersionControl.CommitMessageStylePanelWidget.cs:1
 msgid "Message Header:"
@@ -9711,9 +9913,23 @@ msgstr "折り返す"
 msgid "Version Control _Policy"
 msgstr "バージョン管理ポリシー(_P)"
 
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/BlameView.cs:0
-msgid "Blame"
-msgstr "注釈を表示"
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:7
+#, fuzzy
+msgid "Loading…"
+msgstr "読み込み中..."
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:9
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:12
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:14
+#, fuzzy
+msgid "Local"
+msgstr "ローカル"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:9
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:12
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:14
+msgid "Base"
+msgstr "基底"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:7
 msgid ""
@@ -9740,6 +9956,11 @@ msgstr ""
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/BlameWidget.cs:13
 msgid "Retrieving history"
 msgstr "履歴を取得中"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/BlameWidget.cs:22
+#, fuzzy
+msgid "Email: {0}{1}{2}"
+msgstr "メール: {0}{1}{2}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/MergeView.cs:3
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.MergeDialog.cs:1
@@ -9852,6 +10073,42 @@ msgstr "リビジョン"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:11
 msgid "Operation"
 msgstr "処理"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:23
+#, fuzzy
+msgid "(Revert to revision {0})"
+msgstr "(リビジョン {0} に戻す)"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:23
+#, fuzzy
+msgid "(Revert revision {0})"
+msgstr "(リビジョン {0} を破棄)"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:32
+#, fuzzy
+msgid "Error while getting revision text."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:33
+msgid "The file may not be part of the working copy."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
+#, fuzzy
+msgid "Error while getting previous revision."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
+#, fuzzy
+msgid " Binary files differ"
+msgstr "バイナリファイルが異なります"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:36
+#, fuzzy
+msgid "Revision {0}"
+msgstr "リビジョン: {0}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:25
 msgid "(No message)"
@@ -10128,10 +10385,6 @@ msgstr "以下のファイルはマージ競合がありました"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:92
 msgid "Successfully reverted {0} to revision {1}"
 msgstr "リビジョン {1} まで {0} を元に戻すことに成功しました"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:109
-msgid " Binary files differ"
-msgstr "バイナリファイルが異なります"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:118
 msgid "Remote branch is up to date."
@@ -25464,9 +25717,6 @@ msgstr "すべてのメソッドとプロパティの内容を折りたたむ"
 msgid "Press '{0}' to search"
 msgstr "'{0}'を押して検索"
 
-msgid "Press ‘{0}’ to search"
-msgstr "'{0}'を押して検索"
-
 msgid "Brace forcement"
 msgstr "{}の強制"
 
@@ -25631,9 +25881,6 @@ msgid "Process Name"
 msgstr "プロセス名"
 
 # below are added for Xamarin Studio
-msgid "Versio_n Control"
-msgstr "バージョン管理(_N)"
-
 msgid "New Solution..."
 msgstr "新規ソリューション..."
 
@@ -30232,9 +30479,6 @@ msgstr "現在のプロジェクト"
 msgid "Project '{0}'"
 msgstr "プロジェクト '{0}'"
 
-msgid "_Publish in Version Control..."
-msgstr "バージョン管理システムに公開(_P)..."
-
 msgid "Add-ins..."
 msgstr "アドイン..."
 
@@ -30846,9 +31090,6 @@ msgstr "再ターゲット(_T)"
 msgid "Extract Method"
 msgstr "メソッドを抽出"
 
-msgid "Show _blame before"
-msgstr "以前のblameを表示"
-
 # mac specific solutions
 
 msgid "Creates a F# PCL library that can be used in Windows, Mac, Silverlight, Windows Phone, Xamarin.iOS and Xamarin.Android."
@@ -31026,15 +31267,6 @@ msgstr "企業向け試用開始"
 
 msgid "Server Status"
 msgstr "サーバステータス"
-
-#: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:655
-#, fuzzy
-msgid ""
-"Directory {0} already exists.\n"
-"Do you want to continue creating the project?"
-msgstr ""
-"ディレクトリ {0} は既に存在します。\n"
-"プロジェクトの作成を続けますか?"
 
 #~ msgid "Unknown solution item type: "
 #~ msgstr "不明なソリューション項目タイプ: "
