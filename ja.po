@@ -18587,6 +18587,9 @@ msgid "Rename Variable"
 msgstr "変数名の変更"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.Rename/RenameItemDialog.cs:6
+msgid "Rename Namespace"
+msgstr "名前空間名の変更"
+
 msgid "Rename namespace"
 msgstr "名前空間名の変更"
 
