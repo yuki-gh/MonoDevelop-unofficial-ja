@@ -162,7 +162,6 @@ msgstr "ターゲットの拡張子"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:77
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:87
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:90
-#, fuzzy
 msgid "Custom command execution failed"
 msgstr "実行に失敗しました。"
 
@@ -333,7 +332,6 @@ msgid "Custom command working directory does not exist"
 msgstr "カスタムコマンドの作業ディレクトリが存在しません"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CustomCommand.cs:10
-#, fuzzy
 msgid "Custom command failed (exit code: {0})"
 msgstr ""
 
@@ -627,7 +625,6 @@ msgid "Could not load {0} project '{1}'. {2}"
 msgstr "{0}プロジェクト'{1}' をロードできませんでした。{2}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MSBuild/MSBuildProjectService.cs:43
-#, fuzzy
 msgid "Unknown project type: {0}"
 msgstr "未知のプロジェクト種別 {0}"
 
@@ -637,7 +634,6 @@ msgstr "項目タイプ '{1}' が不明のためプロジェクト '{0}' をロ�
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.MSBuild/MSBuildProjectService.cs:43
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:57
-#, fuzzy
 msgid "Unknown project type"
 msgstr "未知のプロジェクト種別"
 
@@ -765,7 +761,6 @@ msgid "ApplicationName"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Core/BrandingService.cs:8
-#, fuzzy
 msgid "ApplicationLongName"
 msgstr ""
 
@@ -977,12 +972,10 @@ msgid "Creates an empty resource file."
 msgstr "空のリソースファイルを作成します。"
 
 #: ../src/core/MonoDevelop.Ide/templates/EmptyResourceFile.xft.xml:0
-#, fuzzy
 msgid "Resource File"
 msgstr "リソースファイル"
 
 #: ../src/core/MonoDevelop.Ide/templates/EmptyResourceFile.xft.xml:0
-#, fuzzy
 msgid "Creates a resx resource file."
 msgstr "resxリソースファイルを作成します。"
 
@@ -1564,22 +1557,18 @@ msgid "_Toggle Line Comment(s)"
 msgstr "行コメントをトグル(_T)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "Comment selected lines of code"
 msgstr "選択範囲のコード行をコメント"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Add Line Comment(s)"
 msgstr "行コメントを追加(_A)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "Uncomment selected lines of code"
 msgstr "選択されたコード行をコメント解除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Remove Line Comment(s)"
 msgstr "行コメントを削除(_R)"
 
@@ -1588,7 +1577,6 @@ msgid "Indent selected lines of code"
 msgstr "選択範囲のコード行をインデント"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Indent"
 msgstr "インデント(_I)"
 
@@ -1601,7 +1589,6 @@ msgid "Unindent selected lines of code"
 msgstr "選択範囲のコード行のインデントを解除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Unindent"
 msgstr "インデント解除(_U)"
 
@@ -1614,7 +1601,6 @@ msgid "Convert the selected text to uppercase"
 msgstr "選択されたテキストを大文字に変換する"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "Upper_case"
 msgstr "大文字に変換(_C)"
 
@@ -1627,7 +1613,6 @@ msgid "Convert the selected text to lowercase"
 msgstr "選択されたテキストを小文字に変換する"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Lowercase"
 msgstr "小文字に変換(_L)"
 
@@ -1641,7 +1626,6 @@ msgid "Remove trailing whitespace"
 msgstr "行末の空白文字を削除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Remove Trailing Whitespace"
 msgstr "行末の空白文字を削除(_R)"
 
@@ -1654,17 +1638,14 @@ msgid "_Join Lines"
 msgstr "行を連結(_J)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "Sort the selected lines"
 msgstr "選択した行を並べ替え"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_Sort Lines"
 msgstr "行を並べ替え(_S)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "_GUID (Globally Unique Identifier)"
 msgstr "GUID(_G)"
 
@@ -1673,7 +1654,6 @@ msgid "Insert GUID (Globally Unique Identifier)"
 msgstr "GUIDを挿入"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "Inserts a Guid at caret position"
 msgstr "キャレット位置にGUIDを挿入"
 
@@ -1702,7 +1682,6 @@ msgid "Show MonoDevelop preferences window"
 msgstr "MonoDevelopの設定ウィンドウを表示"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:7
-#, fuzzy
 msgid "Po_licies..."
 msgstr "ポリシー(_L)..."
 
@@ -1729,12 +1708,10 @@ msgstr "ユーザー定義されたヘッダをファイルの先頭に追加す
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/ViewCommandHandlers.cs:15
-#, fuzzy
 msgid "Enable _Folding"
 msgstr "コードの折りたたみを有効化(_F)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:8
-#, fuzzy
 msgid "Enable/Disable Code Folding"
 msgstr "ブレークポイントの折りたたみを有効/無効化"
 
@@ -2044,7 +2021,6 @@ msgid "Convert selected solution to another format"
 msgstr "選択されたソリューションを他の形式に変換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
-#, fuzzy
 msgid "Convert Solution Format..."
 msgstr "ソリューションの形式を変換..."
 
@@ -2066,13 +2042,11 @@ msgid "Export Policy..."
 msgstr "ポリシーをエクスポート..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
-#, fuzzy
 msgid "Run Code Analysis on Solution"
 msgstr "ソリューションにコード解析を実行"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ProjectCommands.cs:45
-#, fuzzy
 msgid "Run Code Analysis on Project"
 msgstr "プロジェクトにコード解析を実行"
 
@@ -2161,7 +2135,6 @@ msgid "C_lose"
 msgstr "閉じる(_L)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "Close Workspace Item"
 msgstr "ワークスペース項目を閉じる"
 
@@ -2220,12 +2193,10 @@ msgid "_Clear"
 msgstr "クリア(_C)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "Clear Recent Files"
 msgstr "ファイルの履歴をクリア"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "Clear recent files list"
 msgstr "ファイルの履歴リストをクリア"
 
@@ -2239,12 +2210,10 @@ msgid "Recent Pro_jects"
 msgstr "最近開いたプロジェクト(_J)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "Clear Recent Solutions"
 msgstr "ソリューションの履歴をクリア"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "Clear recent solutions list"
 msgstr "ソリューションの履歴リストをクリア"
 
@@ -2308,12 +2277,10 @@ msgid "Require Specific Version"
 msgstr "特定のバージョンを要求"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "Closes all opened files in a tab"
 msgstr "タブ内の開かれたファイルをすべて閉じる"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "C_lose Others"
 msgstr "他を閉じる(_L)"
 
@@ -2330,7 +2297,6 @@ msgid "Copy the file path to the clipboard"
 msgstr "このファイルのパスをクリップボードにコピーします"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:15
-#, fuzzy
 msgid "C_opy File Path"
 msgstr "ファイルのパスをコピー(_O)"
 
@@ -2360,7 +2326,6 @@ msgid "Layout List"
 msgstr "レイアウトのリスト"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:17
-#, fuzzy
 msgid "Save Curre_nt Layout..."
 msgstr "現在のレイアウトを保存(_N)"
 
@@ -2397,7 +2362,6 @@ msgid "Set full screen mode"
 msgstr "フルスクリーンモードに設定します"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:17
-#, fuzzy
 msgid "S_witch Maximized/Normal View"
 msgstr "最大表示/通常表示を切り替え(_W)"
 
@@ -2515,7 +2479,6 @@ msgid "Resets zoom to default"
 msgstr "ズームをデフォルトに戻す"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "Two Columns"
 msgstr ""
 
@@ -2524,7 +2487,6 @@ msgid "Two Editor Columns"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "One Column"
 msgstr ""
 
@@ -2533,12 +2495,10 @@ msgid "One Editor Column"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "Move to Next Notebook"
 msgstr "次のノートへ移動"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "Move to Previous Notebook"
 msgstr "前のノートへ移動"
 
@@ -2551,17 +2511,14 @@ msgid "Focus current document"
 msgstr "現在のドキュメントをフォーカス"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "Center and Focus Document"
 msgstr "ドキュメントをフォーカスしてセンタリング"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "_Cursor Position"
 msgstr "カーソル位置(_C)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:19
-#, fuzzy
 msgid "Focus and center current document"
 msgstr "現在のドキュメントをフォーカスしてセンタリング"
 
@@ -2580,7 +2537,6 @@ msgid "Manage add-ins"
 msgstr "アドインの管理"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:21
-#, fuzzy
 msgid "_Add-ins..."
 msgstr "アドイン(_A)..."
 
@@ -2594,7 +2550,6 @@ msgstr "ツール リスト"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:21
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ToolsCommands.cs:17
-#, fuzzy
 msgid "Edit Custom Tools..."
 msgstr "カスタムツールを編集..."
 
@@ -2607,7 +2562,6 @@ msgid "Start Session Recorder"
 msgstr "セッションレコーダーを開始"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:24
-#, fuzzy
 msgid "Replay Session..."
 msgstr "セッションを再生..."
 
@@ -2618,28 +2572,23 @@ msgid "Window"
 msgstr "ウィンドウ"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
-#, fuzzy
 msgid "_Next Document"
 msgstr "次のドキュメント(_N)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
-#, fuzzy
 msgid "Show next document"
 msgstr "次のドキュメントを表示"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
-#, fuzzy
 msgid "_Previous Document"
 msgstr "前のドキュメント(_P)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
-#, fuzzy
 msgid "Show previous document"
 msgstr "前のドキュメントを表示"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:27
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.DockNotebook/TabStrip.cs:25
-#, fuzzy
 msgid "Document List"
 msgstr "ドキュメント リスト"
 
@@ -2710,7 +2659,6 @@ msgid "Show tip of the day"
 msgstr "今日のTipを表示"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:29
-#, fuzzy
 msgid "Reveal _Logs"
 msgstr "ログを開示(_L)"
 
@@ -2803,7 +2751,6 @@ msgid "Search backwards for the same text with emacs behavior"
 msgstr "同一のテキストをemacs方式で後方検索します"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:34
-#, fuzzy
 msgid "Find Next Like Selection"
 msgstr "選択範囲を前方検索"
 
@@ -2816,7 +2763,6 @@ msgid "Search forwards for the selected text"
 msgstr "選択テキストを前方検索します"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:34
-#, fuzzy
 msgid "Find Previous Like Selection"
 msgstr "選択範囲を後方検索"
 
@@ -2845,7 +2791,6 @@ msgid "Search for and replace text in all files of a directory"
 msgstr "ディレクトリ中の全ファイルからテキストを検索・置換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:36
-#, fuzzy
 msgid "_Type..."
 msgstr "型(_T)..."
 
@@ -2890,12 +2835,10 @@ msgid "Go to previous bookmark"
 msgstr "前のブックマークに移動"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "Pre_vious"
 msgstr "前(_V)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "Go to Previous Bookmark"
 msgstr "前のブックマークに移動"
 
@@ -2908,7 +2851,6 @@ msgid "Ne_xt"
 msgstr "次(_X)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "Go to Next Bookmark"
 msgstr "次のブックマークに移動"
 
@@ -2929,12 +2871,10 @@ msgid "_Clear Bookmarks"
 msgstr "ブックマークをクリア(_C)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "_Line..."
 msgstr "行(_L)..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "Go to Line..."
 msgstr "指定行に移動..."
 
@@ -2947,7 +2887,6 @@ msgid "Go to a specific line"
 msgstr "指定行に移動"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "Find Like Selection"
 msgstr "選択範囲を検索"
 
@@ -2960,7 +2899,6 @@ msgid "Uses the current selection as find string"
 msgstr "現在の選択範囲を検索文字列として使用します"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:37
-#, fuzzy
 msgid "Replace Like Selection"
 msgstr "選択範囲を置換"
 
@@ -2979,7 +2917,6 @@ msgid "Text Editor"
 msgstr "テキストエディタ"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Show Code Completion"
 msgstr "コード補完を表示"
 
@@ -2996,7 +2933,6 @@ msgid "Inserts a template or when something is selected surrounds selection with
 msgstr "テンプレートを挿入するか、選択範囲をテンプレートで囲みます"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "_Template..."
 msgstr "テンプレート(_T)..."
 
@@ -3015,7 +2951,6 @@ msgid "_Surround With..."
 msgstr "囲む(_S)..."
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Surround Selection With..."
 msgstr "選択範囲を囲む..."
 
@@ -3084,7 +3019,6 @@ msgid "Scroll page down"
 msgstr "1ページ スクロールダウン"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Scroll to top"
 msgstr "先頭へスクロール"
 
@@ -3097,7 +3031,6 @@ msgid "Delete entire line"
 msgstr "行全体を削除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Delete to start of line"
 msgstr "行頭まで削除"
 
@@ -3122,12 +3055,10 @@ msgid "Show Parameter List"
 msgstr "パラメータリストの表示"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Matching _Brace"
 msgstr "対応する括弧(_B)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Go to Matching Brace"
 msgstr "対応する括弧に移動"
 
@@ -3205,7 +3136,6 @@ msgstr "選択範囲を行まで広げる"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:31
-#, fuzzy
 msgid "_Expand selection"
 msgstr "選択範囲を広げる(_E)"
 
@@ -3316,7 +3246,6 @@ msgid "Animates the text editor caret to help find it"
 msgstr "テキストエディタのキャレットに表示効果を適用して発見しやすくします。"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Hide Current Message"
 msgstr "現在のメッセージを隠す"
 
@@ -3325,27 +3254,22 @@ msgid "Show/Hide current Inline Message"
 msgstr "現在のインラインメッセージを表示/隠す"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Toggles the visibility of the current Inline Message"
 msgstr "現在のインラインメッセージの表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "_None"
 msgstr "なし(_N)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Show/Hide Inline Messages"
 msgstr "インラインメッセージを表示/隠す"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Toggles the visibility of Inline Messages"
 msgstr "インラインメッセージの表示を切り替え"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:41
-#, fuzzy
 msgid "Toggle Issues"
 msgstr "問題点を切り替え"
 
@@ -3568,7 +3492,6 @@ msgid "_Format"
 msgstr "整形(_F)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:7
-#, fuzzy
 msgid "_Insert"
 msgstr "挿入(_I)"
 
@@ -3582,7 +3505,6 @@ msgid "Layout"
 msgstr "レイアウト"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:7
-#, fuzzy
 msgid "Inline _Messages"
 msgstr "インラインメッセージ(_M)"
 
@@ -3666,7 +3588,6 @@ msgid "Report a Bug"
 msgstr "バグを報告する"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MainMenu.addin.xml:14
-#, fuzzy
 msgid "Report Problem..."
 msgstr "問題を報告..."
 
@@ -3687,12 +3608,10 @@ msgid "XML document"
 msgstr "XMLドキュメント"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
-#, fuzzy
 msgid "PNG resource"
 msgstr "PNGリソース"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
-#, fuzzy
 msgid "CSS document"
 msgstr "CSSドキュメント"
 
@@ -3705,7 +3624,6 @@ msgid "Glade File"
 msgstr "Gladeファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
-#, fuzzy
 msgid "Manifest File"
 msgstr "マニフェスト ファイル"
 
@@ -3756,7 +3674,6 @@ msgid "Apple Strings"
 msgstr "アップル文字列"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
-#, fuzzy
 msgid "sql files"
 msgstr "SQLファイル"
 
@@ -3777,7 +3694,6 @@ msgid "f# files"
 msgstr "F#ファイル"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MimeTypes.addin.xml:2
-#, fuzzy
 msgid "MSBuild targets file"
 msgstr "MSBuildのターゲットファイル"
 
@@ -3832,7 +3748,6 @@ msgid "Visual Studio"
 msgstr "Visual Studio"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
-#, fuzzy
 msgid "Visual Studio (Windows)"
 msgstr "Visual Studio"
 
@@ -3845,12 +3760,10 @@ msgid "MonoDevelop 2.0"
 msgstr "MonoDevelop 2.0"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
-#, fuzzy
 msgid "Xcode"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
-#, fuzzy
 msgid "Visual Studio Code"
 msgstr ""
 
@@ -3906,12 +3819,10 @@ msgid "Mono Options"
 msgstr "Monoオプション"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
-#, fuzzy
 msgid "General Pad Text"
 msgstr "パッド全般のテキスト"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/MonoDevelop.Ide.addin.xml:16
-#, fuzzy
 msgid "Output Pad Contents"
 msgstr "出力パッドの内容"
 
@@ -3956,12 +3867,10 @@ msgid "LGPL 3 License"
 msgstr "LGPL 3 ライセンス"
 
 #: ../src/core/MonoDevelop.Ide/templates/AppManifest.xft.xml:0
-#, fuzzy
 msgid "App Manifest"
 msgstr "アプリ マニフェスト"
 
 #: ../src/core/MonoDevelop.Ide/templates/AppManifest.xft.xml:0
-#, fuzzy
 msgid "Creates a Windows app manifest."
 msgstr "Windowsアプリマニフェストを作成します。"
 
@@ -4099,7 +4008,6 @@ msgstr ""
 "'{0} {1}'"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ToolsCommands.cs:17
-#, fuzzy
 msgid "Add Custom Tool..."
 msgstr "カスタム ツールを追加..."
 
@@ -4114,12 +4022,10 @@ msgid "Switch to layout '{0}'"
 msgstr "レイアウト '{0}' に切り替え"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:17
-#, fuzzy
 msgid "_Delete “{0}” Layout"
 msgstr "{0} レイアウトを削除(_D)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ViewCommands.cs:17
-#, fuzzy
 msgid "Are you sure you want to delete the “{0}” layout?"
 msgstr "本当に {0} レイアウトを削除しますか?"
 
@@ -4144,7 +4050,6 @@ msgid "Show Previous ({0})"
 msgstr "前の({0})を表示"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/WindowCommands.cs:11
-#, fuzzy
 msgid "Activate document '{0}'"
 msgstr "ドキュメント '{0}' に切り替え"
 
@@ -4187,7 +4092,6 @@ msgid "Error loading template {0} for language {1}"
 msgstr "{1} 言語のテンプレート {0} の読み込みでエラーが発生しました"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/ProjectTemplate.cs:58
-#, fuzzy
 msgid "Solution template doesn't have any project templates"
 msgstr "ソリューションテンプレートにプロジェクトテンプレートがありません"
 
@@ -4197,7 +4101,6 @@ msgid "Language not defined in CodeDom based template."
 msgstr "CodeDomベースのテンプレートで言語が定義されていません。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/CodeDomFileDescriptionTemplate.cs:4
-#, fuzzy
 msgid "The language '{0}' does not have support for CodeDom."
 msgstr "言語 '{0}' はCodeDomのサポートがありません。"
 
@@ -4214,12 +4117,10 @@ msgstr ""
 "既存のファイルを上書きしますか?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SingleFileDescriptionTemplate.cs:6
-#, fuzzy
 msgid "File name not provided in template"
 msgstr "テンプレートでファイル名が指定されていません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SingleFileDescriptionTemplate.cs:16
-#, fuzzy
 msgid "Language '{0}' not found"
 msgstr "言語 '{0}' が見つかりません"
 
@@ -4240,7 +4141,6 @@ msgid "All changes made to the document will be permanently lost."
 msgstr "このドキュメントへの変更は永久に失われます。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/ViewCommandHandlers.cs:15
-#, fuzzy
 msgid "Disable _Folding"
 msgstr "折りたたみを無効化(_F)"
 
@@ -4285,7 +4185,6 @@ msgid "_Save and Quit"
 msgstr "保存して終了(_S)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/DirtyFilesDialog.cs:10
-#, fuzzy
 msgid "_Save and Close"
 msgstr "保存して閉じる(_S)"
 
@@ -4320,7 +4219,6 @@ msgid "License"
 msgstr "ライセンス"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/AboutMonoDevelopTabPage.cs:10
-#, fuzzy
 msgid "License is available at "
 msgstr "ライセンスが利用可能です"
 
@@ -4479,7 +4377,6 @@ msgid "Import From Folder"
 msgstr "フォルダからインポート"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/FolderNodeBuilder.cs:37
-#, fuzzy
 msgid "Empty directory."
 msgstr "空のディレクトリです。"
 
@@ -4597,17 +4494,14 @@ msgid "The folder {0} could not be deleted from disk: {1}"
 msgstr "フォルダ {0} をディスク {1} から削除できませんでした"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:7
-#, fuzzy
 msgid "Unknown language '{0}'"
 msgstr "未知の言語 '{0}'"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:9
-#, fuzzy
 msgid "Invalid configuration mapping"
 msgstr "不正なコンフィグレーション マッピング"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectNodeBuilder.cs:9
-#, fuzzy
 msgid "Project not built in active configuration"
 msgstr "アクティブなコンフィグレーションでプロジェクトがビルドされていません"
 
@@ -4650,7 +4544,6 @@ msgid "ApplicationIconId"
 msgstr "ApplicationIconId"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/DefaultWorkbench.cs:38
-#, fuzzy
 msgid "View (Pads)"
 msgstr "ビュー(パッド)"
 
@@ -4726,7 +4619,6 @@ msgid "Initializing Main Window"
 msgstr "メインウィンドウを初期化中です"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui/Workbench.cs:31
-#, fuzzy
 msgid "Save the changes to document '{0}' before creating a new solution?"
 msgstr "新規ソリューション作成前にドキュメント '{0}' への変更を保存しますか?"
 
@@ -4983,7 +4875,6 @@ msgid "Category"
 msgstr "カテゴリ"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads/ErrorListPad.cs:50
-#, fuzzy
 msgid "Toggle visibility of Category column"
 msgstr "カテゴリ の列の表示を切り換え"
 
@@ -5046,12 +4937,10 @@ msgid "Create New Task"
 msgstr "新しいタスクを作成"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/UserTasksView.cs:8
-#, fuzzy
 msgid "Copy Task"
 msgstr "タスクをコピー"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Tasks/UserTasksView.cs:8
-#, fuzzy
 msgid "Copy Task Description"
 msgstr "タスクの説明をコピー"
 
@@ -5060,12 +4949,10 @@ msgid "Delete Task"
 msgstr "タスクを削除"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:3
-#, fuzzy
 msgid "{0} <span size='small'>(Unavailable)</span>"
 msgstr "{0} <span size='small'>(利用不可)</span>"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:3
-#, fuzzy
 msgid "Load failed: "
 msgstr "ロード失敗: "
 
@@ -5112,7 +4999,6 @@ msgid "Add"
 msgstr "追加"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:40
-#, fuzzy
 msgid ""
 "This key combination is already bound to command '{0}' in the same context"
 msgstr "そのキーの組み合わせは同じ文脈ですでにコマンド '{0}' に結びつけられています"
@@ -5122,12 +5008,10 @@ msgid "This key combination is already bound to command '{0}'"
 msgstr "そのキーの組み合わせはすでにコマンド '{0}' に結びつけられています"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
-#, fuzzy
 msgid "Conflicts:"
 msgstr "競合:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/KeyBindingsPanel.cs:64
-#, fuzzy
 msgid "Duplicates:"
 msgstr "複数行"
 
@@ -5163,12 +5047,10 @@ msgid "Apply"
 msgstr "適用"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
-#, fuzzy
 msgid "Build project before running"
 msgstr "実行前にプロジェクトをビルド"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
-#, fuzzy
 msgid "Run project if build completed with warnings"
 msgstr "警告が発生してもプロジェクトを実行"
 
@@ -5185,7 +5067,6 @@ msgid "Enable parallel build of projects"
 msgstr "プロジェクトの並列ビルドを有効化"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:17
-#, fuzzy
 msgid "Build project before executing unit tests"
 msgstr "ユニットテスト実行前にプロジェクトをビルド"
 
@@ -5206,7 +5087,6 @@ msgid "Minimal"
 msgstr "最小"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:2
-#, fuzzy
 msgid "Detailed"
 msgstr "詳細"
 
@@ -5423,13 +5303,11 @@ msgid "(Default)"
 msgstr "(デフォルト)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs:17
-#, fuzzy
 msgid "These preferences will take effect next time you start {0}"
 msgstr ""
 "この設定は、次回{0}を起動した時に有効になります"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/IDEStyleOptionsPanel.cs:17
-#, fuzzy
 msgid "Restart {0}"
 msgstr "'{0}'を再起動"
 
@@ -5467,7 +5345,6 @@ msgid "Display Options"
 msgstr "表示オプション"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.StandardHeader/StandardHeaderPolicyPanel.cs:4
-#, fuzzy
 msgid "Templates"
 msgstr "テンプレート"
 
@@ -5504,7 +5381,6 @@ msgid "Native"
 msgstr "ネイティブ"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.OptionPanels/TextStylePolicyPanel.cs:2
-#, fuzzy
 msgid "Mac Classic"
 msgstr "Macクラシック"
 
@@ -5715,7 +5591,6 @@ msgid "Searching..."
 msgstr "検索中..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchResultPad.cs:14
-#, fuzzy
 msgid "Search cancelled"
 msgstr "検索を中断しました"
 
@@ -5965,7 +5840,6 @@ msgid "Search Result"
 msgstr "検索結果"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/SearchProgressMonitor.cs:11
-#, fuzzy
 msgid "Search operation canceled"
 msgstr "検索操作をキャンセルしました"
 
@@ -6485,13 +6359,11 @@ msgstr "検索:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/LogView.cs:32
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:7
-#, fuzzy
 msgid "Find next {0}"
 msgstr "次の{0}を検索"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Components/LogView.cs:33
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/SearchAndReplaceWidget.cs:7
-#, fuzzy
 msgid "Find previous {0}"
 msgstr "前の{0}を検索"
 
@@ -6506,12 +6378,10 @@ msgid ""
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:9
-#, fuzzy
 msgid "Generate templates"
 msgstr "テンプレートを生成"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:10
-#, fuzzy
 msgid "No templates found"
 msgstr "テンプレートが見つかりません"
 
@@ -6520,17 +6390,14 @@ msgid "Running generator '{0}' on file '{1}'..."
 msgstr "ファイル '{1}' の中のジェネレーター '{0}' を実行しています..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:22
-#, fuzzy
 msgid "File '{0}' was generated successfully."
 msgstr "ファイル '{0}' は正常に生成されました。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:22
-#, fuzzy
 msgid "File '{0}' was generated with warnings."
 msgstr "ファイル '{0}' は生成されましたが、警告があります。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:22
-#, fuzzy
 msgid "Errors in file '{0}' generation."
 msgstr "ファイル '{0}' 生成時のエラー"
 
@@ -6543,7 +6410,6 @@ msgid "Warnings in file generation."
 msgstr "ファイル生成時の警告"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CustomTools/CustomToolService.cs:27
-#, fuzzy
 msgid "Generated files successfully."
 msgstr "ファイルを正常に生成しました。"
 
@@ -6607,19 +6473,16 @@ msgid "Clear"
 msgstr "クリア"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:61
-#, fuzzy
 msgid "Cut"
 msgstr "切り取り"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:62
 #: ../src/addins/MonoDevelop.Debugger/MonoDevelop.Debugger/StackTracePad.cs:57
 #: ../src/tools/mdmonitor/gtk-gui/Mono.Instrumentation.Monitor.InstrumentationViewerDialog.cs:2
-#, fuzzy
 msgid "Copy"
 msgstr "コピー"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components/GtkUtil.cs:63
-#, fuzzy
 msgid "Paste"
 msgstr "貼り付け"
 
@@ -6640,7 +6503,6 @@ msgid "The key combination ({0}, {1}) is not a command."
 msgstr "キーの組み合わせ({0}, {1})はコマンドではありません。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/CommandManager.cs:32
-#, fuzzy
 msgid "The key combination ({0}) has conflicts."
 msgstr "キーの組み合わせ ({0}) は競合があります。"
 
@@ -6741,7 +6603,6 @@ msgid "Summary"
 msgstr "要約"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.CodeCompletion/ListWidget.cs:31
-#, fuzzy
 msgid "No completions found"
 msgstr "補完が見つかりません"
 
@@ -6778,7 +6639,6 @@ msgid "Loading Workbench"
 msgstr "ワークベンチをロードしています"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/Ide.cs:34
-#, fuzzy
 msgid "Could not open file: {0}"
 msgstr "ファイル {0} を開けませんでした"
 
@@ -6812,7 +6672,6 @@ msgid "Could not close solution '{0}'."
 msgstr "ソリューション '{0}' を閉じることができませんでした"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:35
-#, fuzzy
 msgid "{0} is already opened"
 msgstr "{0} はすでに開かれています"
 
@@ -6893,7 +6752,6 @@ msgid "_Overwrite file"
 msgstr "ファイルを上書き(_O)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/MessageService.cs:8
-#, fuzzy
 msgid "Add existing file"
 msgstr "既存のファイルを追加"
 
@@ -6975,7 +6833,6 @@ msgid "A configuration with the name '{0}' already exists."
 msgstr "'{0}'の名前をもつコンフィグレーションがすでに存在します"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewFileDialog.cs:69
-#, fuzzy
 msgid "Error creating file"
 msgstr "ファイル作成エラー"
 
@@ -7030,7 +6887,6 @@ msgid "Browse..."
 msgstr "ブラウズ..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/AssemblyReferencePanel.cs:25
-#, fuzzy
 msgid "Select Assembly"
 msgstr "アセンブリを選択"
 
@@ -7057,7 +6913,6 @@ msgid "Project directory can't be deleted since it contains files from other pro
 msgstr "プロジェクトディレクトリは他のプロジェクトやソリューションのファイルを含んでいるため、削除できません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/DefaultPolicyOptionsDialog.cs:2
-#, fuzzy
 msgid "Policies"
 msgstr "ポリシー"
 
@@ -7186,12 +7041,10 @@ msgid "The file '{0}' could not be loaded."
 msgstr "ファイル '{0}' が読み込めませんでした。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:26
-#, fuzzy
 msgid "The file '{0}' is not a known project file format."
 msgstr "ファイル '{0}' は既知のプロジェクトファイル形式ではありません。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:27
-#, fuzzy
 msgid "The project '{0}' has already been added."
 msgstr "プロジェクト '{0}' はすでに追加されています。"
 
@@ -7243,22 +7096,18 @@ msgid "Clean successful."
 msgstr "クリーン成功"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:66
-#, fuzzy
 msgid "Rebuilding... (Clean)"
 msgstr "リビルド中... (クリーン)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:67
-#, fuzzy
 msgid "Rebuilding... (Build)"
 msgstr "リビルド中... (ビルド)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:75
-#, fuzzy
 msgid "Outdated Build"
 msgstr "古いビルド"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:75
-#, fuzzy
 msgid ""
 "The project you are executing has changes done after the last time it was "
 "compiled. Do you want to continue?"
@@ -7738,12 +7587,10 @@ msgstr ""
 "\n"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/NamespaceSynchronisationPanel.cs:2
-#, fuzzy
 msgid "Update Identifiers"
 msgstr "識別子を更新"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/NamespaceSynchronisationPanel.cs:2
-#, fuzzy
 msgid "Keep Current Identifiers"
 msgstr "現在の識別子を維持"
 
@@ -7987,7 +7834,6 @@ msgid "You need a newer monodoc to use it externally from MonoDevelop. Using the
 msgstr "Monodevelop外部で使用するには新しいmonodocが必要となります。今回は統合ヘルプビューアを使用します。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/HelpOperations.cs:24
-#, fuzzy
 msgid "Help Viewer could not be opened"
 msgstr "ヘルプビューアを開けません"
 
@@ -8000,22 +7846,18 @@ msgid "MonoDevelop failed to start. The following error has been reported: {0}"
 msgstr "MonoDevelopの起動に失敗しました。以下のエラーが報告されました: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:29
-#, fuzzy
 msgid "MonoDevelop failed to start"
 msgstr "MonoDevelopの起動に失敗しました"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:47
-#, fuzzy
 msgid "Close MonoDevelop"
 msgstr "MonoDevelopを閉じる"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:47
-#, fuzzy
 msgid "More Information"
 msgstr "追加情報"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:47
-#, fuzzy
 msgid "Continue Anyway"
 msgstr "強制続行"
 
@@ -8024,7 +7866,6 @@ msgid "CustomizerAssemblyPath"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/IdeStartup.cs:56
-#, fuzzy
 msgid "CustomizerType"
 msgstr ""
 
@@ -8055,7 +7896,6 @@ msgid "Select Font"
 msgstr "フォントを選択"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Fonts/FontChooserPanelWidget.cs:8
-#, fuzzy
 msgid "Set To Default"
 msgstr "デフォルトにする"
 
@@ -8162,7 +8002,6 @@ msgid "The file {0} already exists. Do you want to replace it?"
 msgstr "ファイル {0} はすでに存在します。置き換えますか?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/ExportProjectPolicyDialog.cs:4
-#, fuzzy
 msgid "The policy file could not be saved"
 msgstr "ポリシーファイルを保存できませんでした"
 
@@ -8294,17 +8133,14 @@ msgid "Select Folder..."
 msgstr "フォルダを選択..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:2
-#, fuzzy
 msgid "Property '{0}' not found in type '{1}'."
 msgstr "型 '{1}' にプロパティ '{0}' がありません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:4
-#, fuzzy
 msgid "Add method not found in {0}"
 msgstr "{0} にはAddメソッドがありません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/XmlCodeDomReader.cs:4
-#, fuzzy
 msgid "Type not found for element: {0}"
 msgstr "要素 {0} の型がありません"
 
@@ -8413,12 +8249,12 @@ msgid "No news found."
 msgstr "ニュースはありません。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:83
-msgid "New..."
-msgstr "新規..."
+#~ msgid "New..."
+#~ msgstr "新規..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:89
-msgid "Open..."
-msgstr "開く..."
+#~ msgid "Open..."
+#~ msgstr "開く..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageRecentProjectsList.cs:138
 msgid "Last opened less than a minute ago"
@@ -8550,27 +8386,22 @@ msgid "See also:"
 msgstr "参照:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:27
-#, fuzzy
 msgid "PCL {0} - {1} - not installed"
 msgstr "PCL {0} - {1} - インストールされていません"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:27
-#, fuzzy
 msgid "PCL {0} - {1}"
 msgstr "PCL {0} - {1}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:29
-#, fuzzy
 msgid "Current Profile:"
 msgstr "現在のプロファイル:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:31
-#, fuzzy
 msgid "Target Frameworks:"
 msgstr "ターゲットフレームワーク:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:68
-#, fuzzy
 msgid "Test Error"
 msgstr "テストエラー"
 
@@ -8597,7 +8428,6 @@ msgid ""
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/PortableRuntimeOptionsPanel.cs:95
-#, fuzzy
 msgid "The following frameworks have been implicitly selected:"
 msgstr ""
 
@@ -8632,12 +8462,10 @@ msgid "Commands"
 msgstr "コマンド"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageSection.cs:20
-#, fuzzy
 msgid "{0} could not be opened"
 msgstr "ファイル '{0}' が開けませんでした"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.WelcomePage/WelcomePageSection.cs:20
-#, fuzzy
 msgid "Do you want to remove the reference to it from the Recent list?"
 msgstr "選択されたファイルをこのプロジェクトから削除しますか?"
 
@@ -8892,22 +8720,18 @@ msgid "Use MSBuild build engine (unsupported for this project type)"
 msgstr "MSBuildのエンジンを利用する (サポートされていません)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
-#, fuzzy
 msgid "Insert Field"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
-#, fuzzy
 msgid "Insert Method"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
-#, fuzzy
 msgid "Insert Property"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.TypeSystem/MonoDevelopWorkspace.cs:95
-#, fuzzy
 msgid "Insert Code"
 msgstr ""
 
@@ -8943,7 +8767,6 @@ msgid "A Project with that name is already in your Project Space"
 msgstr "その名前のプロジェクトがすでにプロジェクトスペースに存在します"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:641
-#, fuzzy
 msgid "A solution with that filename is already in your workspace"
 msgstr "その名前のプロジェクトが既にプロジェクトスペースに存在します"
 
@@ -8954,7 +8777,6 @@ msgid ""
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectController.cs:655
-#, fuzzy
 msgid ""
 "Directory {0} already exists.\n"
 "Do you want to continue creating the project?"
@@ -9015,22 +8837,18 @@ msgid "Services"
 msgstr "サービス"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor/MessageBubbles/MessageBubbleCommands.cs:0
-#, fuzzy
 msgid "E_rrors"
 msgstr "エラー(_R)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor/MessageBubbles/MessageBubbleCommands.cs:1
-#, fuzzy
 msgid "_Errors and Warnings"
 msgstr "エラーと警告(_E)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:145
-#, fuzzy
 msgid "Illegal characters used in location."
 msgstr "不正な文字が場所に使われている"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:150
-#, fuzzy
 msgid ""
 "Illegal solution name.\n"
 "Only use letters, digits, '.' or '_'."
@@ -9039,7 +8857,6 @@ msgstr ""
 "letter, 数字, 空白, '.' および '_'だけを使って下さい。"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectConfiguration.cs:157
-#, fuzzy
 msgid ""
 "Illegal project name.\n"
 "Only use letters, digits, '.' or '_'."
@@ -9068,7 +8885,6 @@ msgid "Press ‘{0}’ to search"
 msgstr "'{0}'を押して検索"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.MainToolbar/MainToolbarController.cs:79
-#, fuzzy
 msgid "Search solution"
 msgstr ""
 
@@ -9077,12 +8893,10 @@ msgid "Enable Code Analysis on Build"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor.Extension/DefaultCommandTextEditorExtension.cs:26
-#, fuzzy
 msgid "_Hide Current Message"
 msgstr ""
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Editor.Extension/DefaultCommandTextEditorExtension.cs:26
-#, fuzzy
 msgid "_Show Hidden Message"
 msgstr ""
 
@@ -9263,7 +9077,6 @@ msgstr "ソリューションを更新(_U)"
 #  nb.AppendPage (aatp, new Label ("Authors"));
 #  nb.AppendPage (changelog, new Label ("ChangeLog"));
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
-#, fuzzy
 msgid "_Publish in Version Control..."
 msgstr "バージョン管理システムへ公開(_P)..."
 
@@ -9297,12 +9110,10 @@ msgid "Create _Patch"
 msgstr "パッチの作成(_P)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
-#, fuzzy
 msgid "Add to Ignore List"
 msgstr "無視リストに追加"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:17
-#, fuzzy
 msgid "Remove from Ignore List"
 msgstr "無視リストから削除"
 
@@ -9311,7 +9122,6 @@ msgid "Resolve Conflicts"
 msgstr "競合を解決"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
-#, fuzzy
 msgid "_Copy Revision"
 msgstr "リビジョンをコピー(_C)"
 
@@ -9320,7 +9130,6 @@ msgid "_Copy revision"
 msgstr "リビジョンをコピー(_C)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
-#, fuzzy
 msgid "_Show Diff"
 msgstr "差分を表示(_S)"
 
@@ -9329,7 +9138,6 @@ msgid "_Show diff"
 msgstr "差分を表示(_S)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
-#, fuzzy
 msgid "S_how Log"
 msgstr "ログを表示(_H)"
 
@@ -9337,7 +9145,6 @@ msgid "S_how log"
 msgstr "ログを表示(_H)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:18
-#, fuzzy
 msgid "Show _Blame Before"
 msgstr "以前のblameを表示(_B)"
 
@@ -9364,7 +9171,6 @@ msgstr "バージョン管理(_V)"
 #  nb.AppendPage (aatp, new Label ("Authors"));
 #  nb.AppendPage (changelog, new Label ("ChangeLog"));
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/VersionControl.addin.xml:20
-#, fuzzy
 msgid "Versio_n Control"
 msgstr "バージョン管理(_N)"
 
@@ -9425,7 +9231,6 @@ msgid "Commit message:"
 msgstr "コミットメッセージ:"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/StatusView.cs:46
-#, fuzzy
 msgid "{0} Status"
 msgstr "{0} 状態"
 
@@ -9534,7 +9339,6 @@ msgid "Adding..."
 msgstr "追加しています"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/AddRemoveMoveCommand.cs:2
-#, fuzzy
 msgid "Add operation completed."
 msgstr "追加操作を完了しました。"
 
@@ -9551,7 +9355,6 @@ msgid "Removing..."
 msgstr "削除しています"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/AddRemoveMoveCommand.cs:2
-#, fuzzy
 msgid "Remove operation completed."
 msgstr "削除操作を完了しました。"
 
@@ -9618,7 +9421,6 @@ msgid "Initial check-in of module {0}"
 msgstr "モジュール {0} の初期チェックイン"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/PublishCommand.cs:6
-#, fuzzy
 msgid "_Publish"
 msgstr "公開(_P)..."
 
@@ -9674,7 +9476,6 @@ msgid "Update operation completed."
 msgstr "更新操作が完了しました。"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/UrlBasedRepositoryEditor.cs:6
-#, fuzzy
 msgid "Invalid URL"
 msgstr "無効な行 (_I)"
 
@@ -9701,7 +9502,6 @@ msgid "Modified"
 msgstr "変更"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl/VersionControlService.cs:53
-#, fuzzy
 msgid "Renamed"
 msgstr "リネーム"
 
@@ -9859,7 +9659,6 @@ msgid "./yourfile.ext"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Dialogs/CommitMessageStylePanelWidget.cs:3
-#, fuzzy
 msgid "Some additional changes on another file of the project."
 msgstr ""
 
@@ -9914,14 +9713,12 @@ msgid "Version Control _Policy"
 msgstr "バージョン管理ポリシー(_P)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:7
-#, fuzzy
 msgid "Loading…"
 msgstr "読み込み中..."
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:9
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:12
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/ComparisonWidget.cs:14
-#, fuzzy
 msgid "Local"
 msgstr "ローカル"
 
@@ -9958,7 +9755,6 @@ msgid "Retrieving history"
 msgstr "履歴を取得中"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/BlameWidget.cs:22
-#, fuzzy
 msgid "Email: {0}{1}{2}"
 msgstr "メール: {0}{1}{2}"
 
@@ -10013,7 +9809,6 @@ msgid "(working copy)"
 msgstr "(作業コピー)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/DiffWidget.cs:3
-#, fuzzy
 msgid "(base)"
 msgstr "(base)"
 
@@ -10075,18 +9870,15 @@ msgid "Operation"
 msgstr "処理"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:23
-#, fuzzy
 msgid "(Revert to revision {0})"
 msgstr "(リビジョン {0} に戻す)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:23
-#, fuzzy
 msgid "(Revert revision {0})"
 msgstr "(リビジョン {0} を破棄)"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:32
-#, fuzzy
 msgid "Error while getting revision text."
 msgstr ""
 
@@ -10096,17 +9888,14 @@ msgid "The file may not be part of the working copy."
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
-#, fuzzy
 msgid "Error while getting previous revision."
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:29
-#, fuzzy
 msgid " Binary files differ"
 msgstr "バイナリファイルが異なります"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl/MonoDevelop.VersionControl.Views/LogWidget.cs:36
-#, fuzzy
 msgid "Revision {0}"
 msgstr "リビジョン: {0}"
 
@@ -15974,7 +15763,6 @@ msgid "Parameters:"
 msgstr "パラメータ:"
 
 #: ../src/addins/CBinding/Gui/GeneralOptionsPanel.cs:8
-#, fuzzy
 msgid "Choose ctags executable"
 msgstr "CTags実行ファイルを選択"
 
@@ -16352,7 +16140,6 @@ msgid "_Automatically set search pattern case sensitivity"
 msgstr "検索パターンの大文字小文字同一視を自動でセット(_A)"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/gtk-gui/MonoDevelop.SourceEditor.OptionPanels.BehaviorPanel.cs:2
-#, fuzzy
 msgid "_Generate additional undo steps for formatting"
 msgstr "フォーマット用に追加のアンドゥステップを生成(_G)"
 
@@ -16465,7 +16252,6 @@ msgid "_Based on:"
 msgstr "作成元(_B):"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.QuickTasks/QuickTaskOverviewMode.cs:9
-#, fuzzy
 msgid "No errors or warnings"
 msgstr "これ以上エラーや警告はありません"
 
@@ -17959,7 +17745,6 @@ msgid "Indent content"
 msgstr "内容をインデント"
 
 #: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.Xml.Formatting/XmlFormattingPolicy.cs:2
-#, fuzzy
 msgid "Indent string"
 msgstr "文字列をインデント"
 
@@ -17972,7 +17757,6 @@ msgid "Max attributes per line"
 msgstr "行あたりの最大属性数"
 
 #: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.Xml.Formatting/XmlFormattingPolicy.cs:2
-#, fuzzy
 msgid "Attributes indent string"
 msgstr "属性インデント文字列"
 
@@ -18923,7 +18707,6 @@ msgid "Redundancies"
 msgstr "冗長性"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeIssues/DefaultCodeIssueCategories.cs:1
-#, fuzzy
 msgid "Language Usage Opportunities"
 msgstr "言語の用法の機会"
 
@@ -19056,7 +18839,6 @@ msgid "One or more property names conflict with existing members of the class"
 msgstr "クラスの他のメンバと名前が競合しているプロパティがあります"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/EncapsulateFieldDialog.cs:56
-#, fuzzy
 msgid "<b>Encapsulate Field -- Targeting</b>"
 msgstr "<b>フィールドをカプセル化 -- Targeting</b>"
 
@@ -20514,7 +20296,6 @@ msgid "Hex Editor"
 msgstr "16進エディタ"
 
 #: ../src/addins/MonoDevelop.HexEditor/MonoDevelop.HexEditor/HexEditorVisualizer.cs:8
-#, fuzzy
 msgid "HexEdit"
 msgstr "16進エディタ"
 
@@ -21048,7 +20829,6 @@ msgid "_keyPairContainer"
 msgstr ""
 
 #: ../external/mono-addins/Mono.Addins/Mono.Addins.Description/AssemblyDependency.cs:2
-#, fuzzy
 msgid "(provided by {0})"
 msgstr "（{0} が提供）"
 
@@ -21112,7 +20892,6 @@ msgid "Add-in"
 msgstr "アドイン"
 
 #: ../external/mono-addins/Mono.Addins.Gui/Mono.Addins.Gui/ManageSitesDialog.cs:7
-#, fuzzy
 msgid "Registering repository"
 msgstr "リポジトリを追加"
 
@@ -21336,7 +21115,6 @@ msgid "Namespace {0} is missing."
 msgstr "名前空間 {0} がありません"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.Tests/CSharp/CodeIssues/UnusedParameterIssueTests.cs:10
-#, fuzzy
 msgid "\"Text\""
 msgstr "テキスト"
 
@@ -22206,7 +21984,6 @@ msgstr "文字列リテラルを分割"
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/UseExplicitTypeAction.cs:2
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/UseExplicitTypeAction.cs:35
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/UseExplicitTypeAction.cs:58
-#, fuzzy
 msgid "Use explicit type"
 msgstr "明示的な型を使う"
 
@@ -24056,7 +23833,6 @@ msgstr "CS0184: 式は決してその型になりません"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Uncategorized/ExpressionIsNeverOfProvidedTypeIssue.cs:7
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Custom/CompilerErrors/ExpressionIsNeverOfProvidedTypeIssue.cs:82
-#, fuzzy
 msgid "Given expression is never of the provided type"
 msgstr "式は決してその型になりません"
 
@@ -24188,7 +23964,6 @@ msgstr "ifをreturnに変換"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/ConvertIfStatementToReturnStatementAction.cs:11
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeActions/ConvertIfStatementToReturnStatementAction.cs:102
-#, fuzzy
 msgid "Replace with 'return'"
 msgstr "'return'で置換"
 
@@ -24458,7 +24233,6 @@ msgstr "||式に変換"
 
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/PracticesAndImprovements/ConvertIfToOrExpressionIssue.cs:8
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/PracticesAndImprovements/ConvertIfToOrExpressionIssue.cs:99
-#, fuzzy
 msgid "Replace with '||'"
 msgstr "'||'で置換"
 
@@ -27965,7 +27739,6 @@ msgstr "Android APIの用法に伴う問題を見つける"
 #~ msgid "There are no changes to be committed."
 #~ msgstr "コミットできる変更がありません。"
 
-#, fuzzy
 #~ msgid "_Patch"
 #~ msgstr "パッチ(_P)"
 
@@ -27999,31 +27772,24 @@ msgstr "Android APIの用法に伴う問題を見つける"
 #~ msgid "Convert to MSBuild"
 #~ msgstr "MSBuildに変換"
 
-#, fuzzy
 #~ msgid "Converting to MSBuild format will overwrite existing files."
 #~ msgstr "VS2005フォーマットへの変換を行えば、既存のファイルを上書きすることになります。"
 
-#, fuzzy
 #~ msgid "The project file {0} is a Visual Studio 2003 project. It must be converted to a MSBuild project."
 #~ msgstr "プロジェクトファイル {0} はVS2003のプロジェクトです。これはMonoDevelopあるいはVS2005のプロジェクトに、変換されなければなりません。"
 
-#, fuzzy
 #~ msgid "The solution file {0} is a Visual Studio 2003 solution. It must be converted to a MSBuild project."
 #~ msgstr "ソリューションファイル {0} はVS2003のソリューションです。これはMonoDevelopあるいはVS2005のソリューションに、変換されなければなりません。"
 
-#, fuzzy
 #~ msgid "_Convert"
 #~ msgstr "変換(_C)"
 
-#, fuzzy
 #~ msgid "_Keep line endings"
 #~ msgstr "行末を保持(_K)"
 
-#, fuzzy
 #~ msgid "_Convert all files"
 #~ msgstr "すべてのファイルを変換(_C)"
 
-#, fuzzy
 #~ msgid "_Keep in all files"
 #~ msgstr "すべてのファイルで保持(_K)"
 
@@ -28033,14 +27799,12 @@ msgstr "Android APIの用法に伴う問題を見つける"
 #~ msgid "Timed out."
 #~ msgstr "タイムアウトしました"
 
-#, fuzzy
 #~ msgid "Copy to Clipboard"
 #~ msgstr "クリップボードにコピー"
 
 #~ msgid "File '{0}' could not be created."
 #~ msgstr "ファイル {0} が作成できませんでした"
 
-#, fuzzy
 #~ msgid "Some packages installed in your system are not compatible with {0}:\n"
 #~ msgstr "このシステムにインストールされているパッケージのいくつかはMonoDevelopと互換性がありません:\n"
 
@@ -28050,15 +27814,12 @@ msgstr "Android APIの用法に伴う問題を見つける"
 #~ msgid "You need to upgrade the previous packages to start using MonoDevelop."
 #~ msgstr "MonoDevelopを起動するには以上のパッケージをアップグレードする必要があります"
 
-#, fuzzy
 #~ msgid "Reminiscent of Microsoft Visual Studio's default colors."
 #~ msgstr "Microsoft Visual Studioカラースキーム"
 
-#, fuzzy
 #~ msgid "Banner Style"
 #~ msgstr "メッセージスタイル"
 
-#, fuzzy
 #~ msgid "Do not wrap"
 #~ msgstr "コピーしない"
 
@@ -28113,7 +27874,6 @@ msgstr "Android APIの用法に伴う問題を見つける"
 #~ msgid "Within brackets"
 #~ msgstr "[]の内部"
 
-#, fuzzy
 #~ msgid ""
 #~ "<b>The file \"{0}\" has line endings which differ from the policy settings.</b>\n"
 #~ "Do you want to convert the line endings?"
@@ -28122,243 +27882,183 @@ msgstr "Android APIの用法に伴う問題を見つける"
 #~ msgid "Validation of style file failed."
 #~ msgstr "スタイルファイルの検証に失敗しました。"
 
-#, fuzzy
 #~ msgid "Line numbers"
 #~ msgstr "行番号"
 
-#, fuzzy
 #~ msgid "Icon bar"
 #~ msgstr "アイコン バー"
 
-#, fuzzy
 #~ msgid "Icon bar separator"
 #~ msgstr "アイコン バー セパレーター"
 
-#, fuzzy
 #~ msgid "Folding colors"
 #~ msgstr "色を折りたたむ"
 
-#, fuzzy
 #~ msgid "Current line marker"
 #~ msgstr "現在の行マーカー"
 
-#, fuzzy
 #~ msgid "Breakpoint marker color 1"
 #~ msgstr "ブレークポイント マーカー色1"
 
-#, fuzzy
 #~ msgid "Breakpoint marker color 2"
 #~ msgstr "ブレークポイント マーカー色2"
 
-#, fuzzy
 #~ msgid "Breakpoint line"
 #~ msgstr "ブレークポイント行"
 
-#, fuzzy
 #~ msgid "Current line (debugger)"
 #~ msgstr "現在の行(デバッガ)"
 
-#, fuzzy
 #~ msgid "Debugger stack line"
 #~ msgstr "デバッガのスタック行"
 
-#, fuzzy
 #~ msgid "Error underline"
 #~ msgstr "エラー下線"
 
-#, fuzzy
 #~ msgid "Warning underline"
 #~ msgstr "警告下線"
 
-#, fuzzy
 #~ msgid "Hint underline"
 #~ msgstr "ヒント下線"
 
-#, fuzzy
 #~ msgid "Message bubble warning"
 #~ msgstr "メッセージ吹き出し警告"
 
-#, fuzzy
 #~ msgid "Message bubble warning text"
 #~ msgstr "メッセージ吹き出し警告テキスト"
 
-#, fuzzy
 #~ msgid "Message bubble error text"
 #~ msgstr "メッセージ吹き出しエラーテキスト"
 
-#, fuzzy
 #~ msgid "T4 template"
 #~ msgstr "T4テンプレート"
 
-#, fuzzy
 #~ msgid "T4 template tag"
 #~ msgstr "T4テンプレートタグ"
 
-#, fuzzy
 #~ msgid "T4 template direction"
 #~ msgstr "T4テンプレート方向"
 
-#, fuzzy
 #~ msgid "Diff line removed"
 #~ msgstr "差分行(削除)"
 
-#, fuzzy
 #~ msgid "Diff line changed"
 #~ msgstr "差分行(変更)"
 
-#, fuzzy
 #~ msgid "Diff line header"
 #~ msgstr "差分行(ヘッダ)"
 
-#, fuzzy
 #~ msgid "Diff line header old file"
 #~ msgstr "差分行(旧ファイルのヘッダ)"
 
-#, fuzzy
 #~ msgid "Diff line header new file"
 #~ msgstr "差分行(新ファイルのヘッダ)"
 
-#, fuzzy
 #~ msgid "Diff line header location"
 #~ msgstr "差分行(場所のヘッダ)"
 
-#, fuzzy
 #~ msgid "Tooltip pager text"
 #~ msgstr "ツールチップ ページャー テキスト"
 
-#, fuzzy
 #~ msgid "Punctuation"
 #~ msgstr "句読点"
 
-#, fuzzy
 #~ msgid "Links"
 #~ msgstr "リンク"
 
-#, fuzzy
 #~ msgid "Xml tag names"
 #~ msgstr "XMLタグ名"
 
-#, fuzzy
 #~ msgid "Xml markup attributes"
 #~ msgstr "XMLマークアップ属性"
 
-#, fuzzy
 #~ msgid "Line comments"
 #~ msgstr "行コメント"
 
-#, fuzzy
 #~ msgid "Block comments"
 #~ msgstr "ブロックコメント"
 
-#, fuzzy
 #~ msgid "Doc comments"
 #~ msgstr "文書コメント"
 
-#, fuzzy
 #~ msgid "Comment tags"
 #~ msgstr "コメントタグ"
 
-#, fuzzy
 #~ msgid "Line comment tags"
 #~ msgstr "行コメントタグ"
 
-#, fuzzy
 #~ msgid "Block comment tags"
 #~ msgstr "ブロックコメントタグ"
 
-#, fuzzy
 #~ msgid "Doc comment tags"
 #~ msgstr "文書コメントタグ"
 
-#, fuzzy
 #~ msgid "Comment keywords"
 #~ msgstr "コメント キーワード"
 
-#, fuzzy
 #~ msgid "TODO in comments"
 #~ msgstr "コメント内のTODO"
 
-#, fuzzy
 #~ msgid "Constant literals"
 #~ msgstr "定数リテラル"
 
-#, fuzzy
 #~ msgid "Language constants"
 #~ msgstr "言語定数"
 
-#, fuzzy
 #~ msgid "Single quote strings"
 #~ msgstr "単一引用符文字列"
 
-#, fuzzy
 #~ msgid "Other strings"
 #~ msgstr "その他の文字列"
 
-#, fuzzy
 #~ msgid "Property (semantic)"
 #~ msgstr "プロパティ (セマンティック)"
 
-#, fuzzy
 #~ msgid "Event (semantic)"
 #~ msgstr "イベント (セマンティック)"
 
-#, fuzzy
 #~ msgid "Error (semantic)"
 #~ msgstr "エラー (セマンティック)"
 
-#, fuzzy
 #~ msgid "Keywords"
 #~ msgstr "キーワード"
 
-#, fuzzy
 #~ msgid "Access keywords"
 #~ msgstr "アクセス キーワード"
 
-#, fuzzy
 #~ msgid "Operator declaration keywords"
 #~ msgstr "演算子宣言キーワード"
 
-#, fuzzy
 #~ msgid "Selection keywords"
 #~ msgstr "選択キーワード"
 
-#, fuzzy
 #~ msgid "Iteration keywords"
 #~ msgstr "反復キーワード"
 
-#, fuzzy
 #~ msgid "Context keywords"
 #~ msgstr "文脈キーワード"
 
-#, fuzzy
 #~ msgid "Exception keywords"
 #~ msgstr "例外キーワード"
 
-#, fuzzy
 #~ msgid "Modifier keywords"
 #~ msgstr "修飾子キーワード"
 
-#, fuzzy
 #~ msgid "Namespace keywords"
 #~ msgstr "名前空間キーワード"
 
-#, fuzzy
 #~ msgid "Property keywords"
 #~ msgstr "プロパティ キーワード"
 
-#, fuzzy
 #~ msgid "Declaration keywords"
 #~ msgstr "宣言キーワード"
 
-#, fuzzy
 #~ msgid "Parameter keywords"
 #~ msgstr "引数キーワード"
 
-#, fuzzy
 #~ msgid "summary"
 #~ msgstr "要約"
 
-#, fuzzy
 #~ msgid "decompiler"
 #~ msgstr "逆コンパイラ"
 
@@ -28693,40 +28393,32 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Starting MonoDevelop"
 #~ msgstr "MonoDevelopを起動中"
 
-#, fuzzy
 #~ msgid "Include _Files"
 #~ msgstr "ファイルを含める(_F)"
 
-#, fuzzy
 #~ msgid "Include _Members"
 #~ msgstr "メンバを含める(_M)"
 
-#, fuzzy
 #~ msgid "_Results: Searching..."
 #~ msgstr "結果(_R): 検索中..."
 
-#, fuzzy
 #~ msgid "_Results: {0} match found."
 #~ msgid_plural "_Results: {0} matches found."
 #~ msgstr[0] "結果(_R): {0}件該当"
 #~ msgstr[1] "結果(_R): {0}件該当"
 
-#, fuzzy
 #~ msgid "Navigate to"
 #~ msgstr "ナビゲーション"
 
-#, fuzzy
 #~ msgid "_Search for:"
 #~ msgstr "検索(_S):"
 
 #~ msgid "Go to Type"
 #~ msgstr "型に移動"
 
-#, fuzzy
 #~ msgid "from Project \"{0}\""
 #~ msgstr "元プロジェクト: {0}"
 
-#, fuzzy
 #~ msgid "from \"{0} in {1}\""
 #~ msgstr "{1} の {0}から"
 
@@ -28751,7 +28443,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Getting text of {0} at revision {1}..."
 #~ msgstr "{0} のリビジョン {1} におけるテキストを取得中..."
 
-#, fuzzy
 #~ msgid "Retrieving changes in {0} ..."
 #~ msgstr "{0} の変更点を取得中..."
 
@@ -28829,7 +28520,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Visual Studio Project"
 #~ msgstr "Visual Studio プロジェクト"
 
-#, fuzzy
 #~ msgid "Show search box"
 #~ msgstr "エラーを表示"
 
@@ -28839,7 +28529,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "MonoDevelop does not currently support generating {0} for one (or more) child projects."
 #~ msgstr "現在のMonoDevelopは、子プロジェクト用の {0} の生成をサポートしていません。"
 
-#, fuzzy
 #~ msgid "Updating web references"
 #~ msgstr "Web参照の更新"
 
@@ -28988,13 +28677,11 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Non Matching:"
 #~ msgstr "非マッチ時:"
 
-#, fuzzy
 #~ msgid "Error:"
 #~ msgid_plural "Errors:"
 #~ msgstr[0] "読み込みエラー:"
 #~ msgstr[1] "読み込みエラー:"
 
-#, fuzzy
 #~ msgid "Don't Undo"
 #~ msgstr "保存しない"
 
@@ -29025,7 +28712,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "_End of line"
 #~ msgstr "改行(_E)"
 
-#, fuzzy
 #~ msgid "Line: {0}, Column: {1}"
 #~ msgstr "(行:{0},列:{1})"
 
@@ -29038,7 +28724,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Type list"
 #~ msgstr "型リスト"
 
-#, fuzzy
 #~ msgid "_Show Caret Panel"
 #~ msgstr "キャレットパネルを表示(_S)"
 
@@ -29048,7 +28733,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "<b>Version:</b>\t{0}"
 #~ msgstr "<b>バージョン:</b>\t {0}"
 
-#, fuzzy
 #~ msgid "_Visibility:"
 #~ msgstr "隠蔽(_V):"
 
@@ -29061,59 +28745,48 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "_Code Metrics"
 #~ msgstr "コード統計(_C)"
 
-#, fuzzy
 #~ msgid "Icon"
 #~ msgstr "アイコン:"
 
-#, fuzzy
 #~ msgid "Real Loc"
 #~ msgstr "ロックを開放する"
 
-#, fuzzy
 #~ msgid "Comments Loc"
 #~ msgstr "コメント"
 
-#, fuzzy
 #~ msgid "Calculating Metrics..."
 #~ msgstr "評価中..."
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Name : "
 #~ msgstr "名前:"
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Number of children : "
 #~ msgstr "反復回数"
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Constructors : "
 #~ msgstr "コンストラクタ"
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Events : "
 #~ msgstr "イベント"
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Fields : "
 #~ msgstr "フィールド"
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Methods : "
 #~ msgstr "メソッド"
 
-#, fuzzy
 #~ msgid ""
 #~ "\n"
 #~ "Properties : "
@@ -29193,7 +28866,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Throw _errors in XAML validation"
 #~ msgstr "XAML検証時にエラーを投げる(_E)"
 
-#, fuzzy
 #~ msgid "Moonlight / Silverlight 3.0"
 #~ msgstr "Moonlight / Silverlight 3.0"
 
@@ -29325,7 +28997,6 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Select parameters to be null-checked."
 #~ msgstr "選択されたパラメータをnullチェック"
 
-#, fuzzy
 #~ msgid "_Implement abstract members"
 #~ msgstr "abstractメンバを実装する(_I)"
 
@@ -29335,14 +29006,12 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "R_emove and Sort usings"
 #~ msgstr "using文の並べ替えと削除(_E)"
 
-#, fuzzy
 #~ msgid "Integrate Temporary Variable"
 #~ msgstr "一時変数を統合(_I)"
 
 #~ msgid "_Debug"
 #~ msgstr "デバッグ(_D)"
 
-#, fuzzy
 #~ msgid "_Obre"
 #~ msgstr "開く(_O)"
 
@@ -29622,16 +29291,13 @@ msgstr "エンティティ デプロイメント"
 #~ msgid "Do you want to drop your changes and reload the file?"
 #~ msgstr "本当に変更を破棄してファイルを再読み込みしますか?"
 
-#, fuzzy
 #~ msgid "Found auto save file for: »{0}«"
 #~ msgstr "項目を保存できませんでした: {0}"
 
-#, fuzzy
 #~ msgid "Do you want to restore the contents of the auto save file?"
 #~ msgstr "本当に選択されたファイルの変更を破棄して元に戻しますか?"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:24
-#, fuzzy
 msgid "_Restore"
 msgstr "復元(_R)"
 
@@ -29947,11 +29613,9 @@ msgstr "復元(_R)"
 #~ msgstr[0] "すべての置換が完了しました。{0}件見つかりました。"
 #~ msgstr[1] "すべての置換が完了しました。{0}件見つかりました。"
 
-#, fuzzy
 #~ msgid "B_uild"
 #~ msgstr "ビルド"
 
-#, fuzzy
 #~ msgid "_Deployment"
 #~ msgstr "配置"
 
@@ -30020,15 +29684,12 @@ msgstr "復元(_R)"
 #~ msgid "The &lt;value&gt; tag lets you describe a property."
 #~ msgstr "&lt;value&gt;タグはプロパティを説明するために用いられます。"
 
-#, fuzzy
 #~ msgid "Empty Moonlight Project"
 #~ msgstr "空のCプロジェクト"
 
-#, fuzzy
 #~ msgid "Creates an empty Moonlight project."
 #~ msgstr "空のC#プロジェクトを作成します。"
 
-#, fuzzy
 #~ msgid "Moonlight XAML with CodeBehind"
 #~ msgstr "ユーザーコントロールとコードビハインド"
 
@@ -30244,7 +29905,6 @@ msgstr "復元(_R)"
 #~ msgid "at column:"
 #~ msgstr "列: "
 
-#, fuzzy
 #~ msgid ""
 #~ "None\n"
 #~ "Char\n"
@@ -30525,7 +30185,6 @@ msgstr "型名または名前空間名 {0} は見つかりません"
 # C# formatting - indent
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-#, fuzzy
 msgid "Indent block contents"
 msgstr ""
 
@@ -30534,17 +30193,14 @@ msgid "Indent open and close braces"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-#, fuzzy
 msgid "Indent switch sections"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-#, fuzzy
 msgid "Indent case sections"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-#, fuzzy
 msgid "Label indentation"
 msgstr ""
 
@@ -30560,17 +30216,14 @@ msgstr ""
 # C# formatting - newline
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-#, fuzzy
 msgid "New line options for braces"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-#, fuzzy
 msgid "Place open brace on new line for types"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-#, fuzzy
 msgid "Place open brace on new line for methods"
 msgstr ""
 
@@ -30603,42 +30256,34 @@ msgid "Place open brace on new line for lambda expression"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-#, fuzzy
 msgid "New line options for keywords"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-#, fuzzy
 msgid "Place \"else\" on new line"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-#, fuzzy
 msgid "Place \"catch\" on new line"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-#, fuzzy
 msgid "Place \"finally\" on new line"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-#, fuzzy
 msgid "New line options for expressions"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-#, fuzzy
 msgid "Place members in object initializers on new line"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-#, fuzzy
 msgid "Place members in anonymous types on new line"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-#, fuzzy
 msgid "Place query expression clauses on new line"
 msgstr ""
 
@@ -30646,7 +30291,6 @@ msgstr ""
 # C# formatting - spacing
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:25
-#, fuzzy
 msgid "Set spacing for method declarations"
 msgstr ""
 
@@ -30657,7 +30301,6 @@ msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:26
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
-#, fuzzy
 msgid "Insert space within argument list parentheses"
 msgstr ""
 
@@ -30667,12 +30310,10 @@ msgid "Insert space within empty argument list parentheses"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
-#, fuzzy
 msgid "Set spacing for method calls"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:28
-#, fuzzy
 msgid "Set other spacing options"
 msgstr ""
 
@@ -30693,23 +30334,19 @@ msgid "Insert space within parentheses of control flow statements"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:30
-#, fuzzy
 msgid "Insert space after casts"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:30
-#, fuzzy
 msgid "Ignore spaces in declaration statements"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-#, fuzzy
 msgid "Set spacing for brackets"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
-#, fuzzy
 msgid "Insert space before open square bracket"
 msgstr ""
 
@@ -30718,7 +30355,6 @@ msgid "Insert space within empty square brackets"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
-#, fuzzy
 msgid "Insert space within square brackets"
 msgstr ""
 
@@ -30727,12 +30363,10 @@ msgid "Insert space after colon for base or interface in type declaration"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-#, fuzzy
 msgid "Insert space after comma"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-#, fuzzy
 msgid "Insert space after dot"
 msgstr ""
 
@@ -30745,12 +30379,10 @@ msgid "Insert space before colon for base or interface in type declaration"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-#, fuzzy
 msgid "Insert space before comma"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-#, fuzzy
 msgid "Insert space before dot"
 msgstr ""
 
@@ -31072,18 +30704,15 @@ msgid "_Build project in MonoDevelop"
 msgstr "MonoDevelopでプロジェクトをビルド(_B)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:12
-#, fuzzy
 msgid "_Include in Project"
 msgstr "プロジェクトに取り込む(_I)"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:85
-#, fuzzy
 msgid "Add _Packages..."
 msgstr "パッケージを追加(_P)..."
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:30
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:52
-#, fuzzy
 msgid "Re_target"
 msgstr "再ターゲット(_T)"
 
@@ -31252,7 +30881,6 @@ msgid "Keep {0} line endings in all files"
 msgstr "全ファイルで{0}の行末コードを保持"
 
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.NodeBuilders/ProjectReferencesFromPackagesFolderNodeBuilder.cs:48
-#, fuzzy
 msgid "From Packages"
 msgstr "パッケージより"
 
