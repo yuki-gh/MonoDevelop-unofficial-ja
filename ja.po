@@ -10099,13 +10099,101 @@ msgstr "Subversion"
 msgid "<b>User credentials are required to access the Subversion repository.</b>"
 msgstr "<b>このSubversionリポジトリにアクセスするには、ユーザー権限が必要です。</b>"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:1
+msgid "Upgrade working copy"
+msgstr ""
+
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#  nb.AppendPage (aatp, new Label ("Authors"));
+#  nb.AppendPage (changelog, new Label ("ChangeLog"));
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:1
+#, fuzzy
+msgid "Disable version control"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:2
+msgid "The subversion working copy format is too old."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:2
+msgid ""
+"Would you like to upgrade the working copy or disable subversion integration "
+"for this solution?"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:2
+msgid "The subversion working copy format is too new."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:2
+#, fuzzy
+msgid "Subversion integration will be disabled for this solution."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:24
+msgid "Receiving and indexing objects"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:28
+#, fuzzy
+msgid "Checking out files"
+msgstr "ファイルをチェックアウト中"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:32
+msgid "Applying stash"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:36
+msgid "Popping stash"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:40
+#, fuzzy
+msgid "Stashing changes"
+msgstr ""
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:39
 msgid "Updating"
 msgstr "更新中"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:95
+#, fuzzy
+msgid "Unable to authorize credentials for the repository."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:95
+#, fuzzy
+msgid "Not a valid git repository."
+msgstr ""
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:44
 msgid "Fetching from '{0}'"
 msgstr "'{0}' から読み込んでいます"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:100
+msgid "You have uncommitted changes"
+msgstr "コミットしていない変更があります"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:100
+msgid "What do you want to do?"
+msgstr "どうしますか?"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:100
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.NewStashDialog.cs:1
+msgid "Stash"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:101
+#, fuzzy
+msgid "Saving local changes"
+msgstr "ローカルの変更を保存中"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:105
+msgid "Restoring local changes"
+msgstr "ローカルの変更を復元中"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:49
 msgid "You have local changes in the submodules below"
@@ -10117,6 +10205,11 @@ msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:53
 msgid "Rebasing"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:111
+#, fuzzy
+msgid "Cherry-picking {0} - {1}/{2}"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:54
@@ -10131,26 +10224,6 @@ msgstr ""
 msgid "Updating repository submodules"
 msgstr "リポジトリサブモジュールの更新中"
 
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:58
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:72
-msgid "You have uncommitted changes"
-msgstr "コミットしていない変更があります"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:58
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:72
-msgid "What do you want to do?"
-msgstr "どうしますか?"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:60
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:74
-msgid "Saving local changes"
-msgstr "ローカルの変更を保存中"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:63
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:77
-msgid "Restoring local changes"
-msgstr "ローカルの変更を復元中"
-
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:66
 msgid "Merging"
 msgstr "マージ中"
@@ -10158,6 +10231,40 @@ msgstr "マージ中"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:85
 msgid "Reverting files"
 msgstr "ファイルを元に戻しています"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:118
+msgid "Push operation successfully completed."
+msgstr "push操作は正常に完了しました。"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:181
+#, fuzzy
+msgid "Switching to branch {0}"
+msgstr "ブランチ {0} に切り替え"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:189
+#, fuzzy
+msgid "Updating solution"
+msgstr "ソリューションを更新中"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:207
+#, fuzzy
+msgid "Moving files"
+msgstr "ファイルを移動中"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:14
+#, fuzzy
+msgid "Changes successfully stashed"
+msgstr "変更は正常にstashされました"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:14
+msgid "No changes were available to stash"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:16
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:18
+#, fuzzy
+msgid "Stash operation failed"
+msgstr "stash操作に失敗しました"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:88
 msgid "Revision {0} successfully reverted"
@@ -10188,20 +10295,8 @@ msgid "The update is a non-fast-forward update. Merge the remote changes before 
 msgstr "更新は最新の更新ではありません。リモートの変更をマージしてからもう一度プッシュしてください。"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:118
-msgid "Push operation successfully completed."
-msgstr "push操作は正常に完了しました。"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:118
 msgid "Push operation failed"
 msgstr "push処理に失敗しました。"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:137
-msgid "Switching to branch {0}"
-msgstr "ブランチ {0} に切り替えています"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:140
-msgid "Updating solution"
-msgstr "ソリューションの更新をしています"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.PushDialog.cs:1
 msgid "Push to Repository"
@@ -10230,6 +10325,11 @@ msgstr "ブランチ {0} をrebaseしています..."
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitService.cs:2
 msgid "Merging branch '{0}'..."
 msgstr "ブランチ {0} をマージしています..."
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitService.cs:9
+#, fuzzy
+msgid "Branch switch failed"
+msgstr "ブランチ切り替えに失敗しました"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitService.cs:2
 msgid "Stash operation failed."
@@ -10309,6 +10409,16 @@ msgstr "ブランチ"
 msgid "Tracking"
 msgstr "トラック中"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitConfigurationDialog.cs:14
+#, fuzzy
+msgid "Remote Source / Branch"
+msgstr "リモートソース/ブランチ"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitConfigurationDialog.cs:14
+#, fuzzy
+msgid "Url"
+msgstr "URL"
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitConfigurationDialog.cs:4
 msgid "Tag"
 msgstr "タグ"
@@ -10359,6 +10469,10 @@ msgstr "タグ"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.GitConfigurationDialog.cs:2
 msgid "Track in Local Branch"
 msgstr "ローカルブランチをトラック"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.GitConfigurationDialog.cs:2
+msgid "Fetch"
+msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.GitConfigurationDialog.cs:2
 msgid "Remote Sources"
@@ -10454,6 +10568,20 @@ msgstr "Gitの権限"
 msgid "Credentials required for the repository: {0}"
 msgstr "リポジトリに対する権限が要求されています: {0}"
 
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.CredentialsDialog.cs:5
+#, fuzzy
+msgid "<b>{0}</b>"
+msgstr "<b>{0}</b>"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCredentials.cs:14
+msgid "Select a private SSH key to use."
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCredentials.cs:14
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCredentials.cs:17
+msgid "Invalid credentials were supplied. Aborting operation."
+msgstr ""
+
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.GitOptionsPanelWidget.cs:1
 msgid "Automatically stash/unstash changes when switching branches"
 msgstr "ブランチ切り替え時に変更を自動でstash/unstashする"
@@ -10500,13 +10628,13 @@ msgid "Convert to Branch"
 msgstr "ブランチに変換"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.NewStashDialog.cs:1
-msgid "Stash"
-msgstr "スタッシュ"
-
-#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.NewStashDialog.cs:1
 #: ../src/addins/Deployment/MonoDevelop.Deployment.Linux/gtk-gui/MonoDevelop.Deployment.Linux.DotDesktopViewWidget.cs:1
 msgid "Comment:"
 msgstr "コメント:"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCommitDialogExtensionWidget.cs:2
+msgid "Pushing is only available for repositories with configured remotes."
+msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.GitCommitDialogExtensionWidget.cs:1
 msgid "Push changes to remote repository after commit"
@@ -10523,6 +10651,11 @@ msgstr "作成者のメールアドレス:"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.GitCommitDialogExtensionWidget.cs:1
 msgid "Author name:"
 msgstr "作成者の名前:"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCommitDialogExtension.cs:14
+#, fuzzy
+msgid "Not configured"
+msgstr "設定されていません"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCommitDialogExtension.cs:9
 msgid "Name not configured"
@@ -10611,6 +10744,42 @@ msgstr "Git"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:9
 msgid "Unknown error"
 msgstr "未知のエラー"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:49
+#: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/TranslationProject.cs:7
+msgid "Operation cancelled."
+msgstr "操作をキャンセルしました"
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:137
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:482
+#, fuzzy
+msgid "(unavailable)"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:141
+#, fuzzy
+msgid "The operation was interrupted"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:144
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:694
+#, fuzzy
+msgid "{0} KBytes"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:144
+msgid "{0:0.0} MBytes"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:144
+#, fuzzy
+msgid "{0} MBytes"
+msgstr ""
+
+#: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:150
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:730
+msgid "Transferred {0} in {1} seconds."
+msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:99
 msgid "Revision: {0}"
@@ -10744,6 +10913,31 @@ msgstr "'{0}'をロック解除しました"
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:141
 msgid "Get annotations {0}"
 msgstr "注釈 {0} を受け取りました"
+
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:71
+#, fuzzy
+msgid "Go to Download Page"
+msgstr ""
+
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:73
+#, fuzzy
+msgid "The Subversion add-in could not be initialized"
+msgstr ""
+
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:74
+msgid ""
+"This add-in requires the 'Microsoft Visual C++ 2010 Redistributable'. You "
+"may need to install it."
+msgstr ""
+
+#: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:695
+msgid "{0:0.00} MBytes"
+msgstr ""
+
+#: ../src/addins/MonoDevelop.GtkCore/MonoDevelop.GtkCore.addin.xml:3
+#, fuzzy
+msgid "Designer (Gtk#)"
+msgstr "デザイナ (Gtk#)"
 
 #: ../src/addins/MonoDevelop.GtkCore/MonoDevelop.GtkCore.addin.xml:3
 msgid "Gtk# Designer"
@@ -11584,10 +11778,6 @@ msgstr "コンソールVB.NETプロジェクトを作成します"
 #: ../src/addins/CSharpBinding/templates/GtkSharp2Project.xpt.xml:0
 msgid "Gtk# 2.0 Project"
 msgstr "Gtk# 2.0 プロジェクト"
-
-#: ../src/addins/CSharpBinding/templates/GtkSharp2Project.xpt.xml:0
-msgid "Creates a Gtk# 2.0 project."
-msgstr "Gtk# 2.0プロジェクトを作成します。"
 
 msgid "Create an F# desktop application (using Gtk# 2.0 and .NET 4.0)"
 msgstr "F#デスクトップアプリケーションを作成します(Gtk# 2.0と.NET 4.0を使用)"
@@ -12745,9 +12935,46 @@ msgstr "Webサービス '{0}' は '{1}' の名前ですでに存在します"
 msgid "Web Service References"
 msgstr "Webサービス参照"
 
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences/Library.cs:10
+#, fuzzy
+msgid "Service: {0}"
+msgstr "サービス: {0}"
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences/Library.cs:10
+#, fuzzy
+msgid "Discovery document"
+msgstr ""
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.NodeBuilders/WebReferenceFolderNodeBuilder.cs:1
+#, fuzzy
+msgid "Web Services"
+msgstr "Webサービス"
+
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.NodeBuilders/WebReferenceFolderNodeBuilder.cs:1
 msgid "Web References"
 msgstr "Web参照"
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:2
+msgid "The current runtime environment for your project is set to version 1.0."
+msgstr ""
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:2
+msgid "Web Service is not supported in this version."
+msgstr ""
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:2
+msgid ""
+"Do you want switch the runtime environment for this project version 2.0?"
+msgstr ""
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:2
+msgid "_Switch to .NET 2.0"
+msgstr ""
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:3
+#, fuzzy
+msgid "The web reference could not be added"
+msgstr ""
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:4
 msgid "Failed to update Web Reference '{0}'"
@@ -12757,15 +12984,27 @@ msgstr "Web参照 '{0}' の更新に失敗しました"
 msgid "Are you sure you want to delete the web service reference '{0}'?"
 msgstr "本当にWebサービス参照 '{0}' を削除しますか?"
 
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:7
+#, fuzzy
+msgid "Deleted Web Reference {0}"
+msgstr "Web参照の更新"
+
+#: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:10
+#, fuzzy
+msgid "Deleted all Web References"
+msgstr "Web参照の更新"
+
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:4
 msgid "Updating web reference"
 msgid_plural "Updating web references"
 msgstr[0] "Web参照を更新中"
+msgstr[1] "Web参照を更新中"
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:4
 msgid "Updated Web Reference {0}"
 msgid_plural "Updated Web References"
 msgstr[0] "Web参照 {0} を更新しました"
+msgstr[1] "Web参照を更新しました"
 
 #: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WebReferenceDialog.cs:1
 msgid "Go back one page"
@@ -12844,6 +13083,30 @@ msgstr "コレクションのマッピング:"
 msgid "Access level:"
 msgstr "アクセスレベル:"
 
+#: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
+msgid "Generate Asynchronous:"
+msgstr ""
+
+#: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:3
+msgid "Public"
+msgstr "public"
+
+#: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:3
+#, fuzzy
+msgid "Internal"
+msgstr "internal"
+
+#: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
+#, fuzzy
+msgid "No"
+msgstr "なし"
+
+#: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
+msgid "Async"
+msgstr "非同期"
+
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.addin.xml:3
 msgid "Web Reference"
 msgstr "Web参照"
@@ -12879,9 +13142,125 @@ msgstr "空のC#ファイルを作成します。"
 msgid "Creates an empty C# project."
 msgstr "空のC#プロジェクトを作成します。"
 
+#: ../src/addins/CSharpBinding/templates/GtkSharp2Project.xpt.xml:0
+msgid "Creates a Gtk# 2.0 project."
+msgstr "Gtk# 2.0プロジェクトを作成します"
+
 #: ../src/addins/CSharpBinding/templates/Library.xpt.xml:0
 msgid "Creates an empty C# class library"
 msgstr "空のC#クラスライブラリを作成します。"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:3
+#, fuzzy
+msgid "Show Code _Generation"
+msgstr "コード生成を表示(_G)"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:8
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:9
+#, fuzzy
+msgid "Code Navigation"
+msgstr "コードナビゲーション"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "_Find Reference Usages"
+msgstr "参照を探す(_F)"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Extension Methods"
+msgstr "拡張メソッド"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Find Extension Methods"
+msgstr "拡張メソッドを探す"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Base Symbols"
+msgstr "基底シンボル"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Find Base Symbols"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Derived Symbols"
+msgstr "派生シンボル"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Navigation/FindDerivedSymbolsHandler.cs:1
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:77
+#, fuzzy
+msgid "Find Derived Symbols"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Member Overloads"
+msgstr "メンバのオーバーロード"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Find Member Overloads"
+msgstr "メンバのオーバーロードを探す"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Implementing Members"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
+#, fuzzy
+msgid "Find Implementing Members"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ExtractMethod/ExtractMethodCodeRefactoringProvider.cs:8
+#, fuzzy
+msgid "Extract Method"
+msgstr "メソッドを抽出"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+#, fuzzy
+msgid "Extracts a method"
+msgstr "メソッドを抽出"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+msgid "Refactory Operations"
+msgstr "リファクタリング操作"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/Resources.cs:12
+#, fuzzy
+msgid "_Sort Usings"
+msgstr "using文を並べ替え(_S)"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+#, fuzzy
+msgid "_Remove Unused Usings"
+msgstr "未使用のusing文を削除(_R)"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+#, fuzzy
+msgid "R_emove and Sort"
+msgstr "using文の並べ替えと削除(_E)"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
+#, fuzzy
+msgid "Remove Unused and Sort (Usings)"
+msgstr "using文の並べ替えと削除"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:6
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:30
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:72
+#, fuzzy
+msgid "_Go to Declaration"
+msgstr "宣言に移動(_G)"
 
 msgid "An F# project for creating an F# library"
 msgstr "F#ライブラリを作成するためのF#プロジェクト"
@@ -12953,6 +13332,11 @@ msgstr "選択範囲を縮める(_S)"
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:36
 msgid "Name Conventions"
 msgstr "命名規則"
+
+#: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:39
+#, fuzzy
+msgid "Navigate"
+msgstr "ナビゲート"
 
 #: ../src/addins/CSharpBinding/templates/PortableLibrary.xpt.xml:0
 msgid "Portable Library"
@@ -13970,16 +14354,8 @@ msgid "Labels"
 msgstr "ラベル"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:3
-msgid "Public"
-msgstr "public"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:3
 msgid "Private"
 msgstr "private"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:3
-msgid "Internal"
-msgstr "internal"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:3
 msgid "Protected"
@@ -14303,10 +14679,6 @@ msgstr "メッセージ カタログを更新しています"
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/TranslationProject.cs:5
 msgid "Done"
 msgstr "完了"
-
-#: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/TranslationProject.cs:5
-msgid "Operation cancelled."
-msgstr "操作をキャンセルしました"
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/TranslationProject.cs:5
 msgid "Updating {0}"
@@ -16338,11 +16710,6 @@ msgstr "補完を実行するキー"
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:12
 msgid "MarkerOperations"
 msgstr "MarkerOperations"
-
-#: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:12
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
-msgid "Code Navigation"
-msgstr "コードナビゲーション"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:12
 msgid "Next Issue in File"
@@ -18446,9 +18813,6 @@ msgstr "リファクタリング"
 msgid "_Go to declaration"
 msgstr "宣言に移動(_G)"
 
-msgid "_Go to Declaration"
-msgstr "宣言に移動(_G)"
-
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:18
 msgid "{0}, Line {1}"
 msgstr "{0}, {1}行目"
@@ -18461,10 +18825,6 @@ msgstr "基底シンボルに移動(_B)"
 msgid "Find _Derived Symbols"
 msgstr "派生シンボルを検索(_D)"
 
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:22
-msgid "Find Member Overloads"
-msgstr "メンバのオーバーロードを探す"
-
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:23
 msgid "Go to _Base"
 msgstr "基底クラスに移動(_B)"
@@ -18476,10 +18836,6 @@ msgstr "派生クラスを検索(_D)"
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:23
 msgid "Find _implementor classes"
 msgstr "実装したクラスを検索(_I)"
-
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:23
-msgid "Find Extension Methods"
-msgstr "拡張メソッドを探す"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/Change.cs:3
 msgid "Create file '{0}'"
@@ -18764,10 +19120,6 @@ msgstr "派生クラスを検索(_D)"
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
 msgid "Refactoring"
 msgstr "リファクタリング"
-
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
-msgid "Refactory Operations"
-msgstr "リファクタリング操作"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
 msgid "Quick Fix..."
@@ -30537,18 +30889,6 @@ msgstr "Google Play開発者サービスのNuGetを追加..."
 msgid "Add Google Play Service NuGet to the project"
 msgstr "Google Play開発者サービスのNuGetをプロジェクトに追加"
 
-msgid "Extracts a method"
-msgstr "メソッドを抽出"
-
-msgid "R_emove and Sort"
-msgstr "削除して並べ替え(_E)"
-
-msgid "_Remove Unused Usings"
-msgstr "未使用のusingを削除(_R)"
-
-msgid "_Sort Usings"
-msgstr "usingを並べ替え(_S)"
-
 msgid "Show blame before"
 msgstr "以前のblameを表示"
 
@@ -30570,23 +30910,8 @@ msgstr "XAPデバイスマネージャを開く..."
 msgid "Open the Xamarin Android Player Device Manager"
 msgstr "XAP (Xamarin Android Player) デバイスマネージャを開く"
 
-msgid "Base Symbols"
-msgstr "基底シンボル"
-
-msgid "Derived Symbols"
-msgstr "派生シンボル"
-
-msgid "Extension Methods"
-msgstr "拡張メソッド"
-
 msgid "_Find reference usages"
 msgstr "参照の用法を探す(_F)"
-
-msgid "Implementing Members"
-msgstr "実装されているメンバ"
-
-msgid "Member Overloads"
-msgstr "メンバのオーバーロード"
 
 msgid "Purchase or End Trial..."
 msgstr "購入または試用終了..."
@@ -30718,9 +31043,6 @@ msgstr "パッケージを追加(_P)..."
 #: ../src/addins/MonoDevelop.PackageManagement/MonoDevelop.PackageManagement.addin.xml:52
 msgid "Re_target"
 msgstr "再ターゲット(_T)"
-
-msgid "Extract Method"
-msgstr "メソッドを抽出"
 
 # mac specific solutions
 
@@ -30996,9 +31318,6 @@ msgstr ""
 #~ msgstr "行番号を表示"
 
 # refactor
-
-msgid "Navigate"
-msgstr "ナビゲート"
 
 msgid "Sort and remove usings"
 msgstr "usingを並べ替えて削除"
