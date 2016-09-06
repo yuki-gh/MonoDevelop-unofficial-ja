@@ -114,7 +114,6 @@ msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:15
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:23
-#, fuzzy
 msgid ""
 "The project '{0}' is referencing the file '{1}' which is located outside the "
 "project directory."
@@ -10110,7 +10109,6 @@ msgstr ""
 #  nb.AppendPage (aatp, new Label ("Authors"));
 #  nb.AppendPage (changelog, new Label ("ChangeLog"));
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:1
-#, fuzzy
 msgid "Disable version control"
 msgstr ""
 
@@ -10129,7 +10127,6 @@ msgid "The subversion working copy format is too new."
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion/MonoDevelop.VersionControl.Subversion.Gui/WorkingCopyFormatDialog.cs:2
-#, fuzzy
 msgid "Subversion integration will be disabled for this solution."
 msgstr ""
 
@@ -10138,7 +10135,6 @@ msgid "Receiving and indexing objects"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:28
-#, fuzzy
 msgid "Checking out files"
 msgstr "ファイルをチェックアウト中"
 
@@ -10151,7 +10147,6 @@ msgid "Popping stash"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:40
-#, fuzzy
 msgid "Stashing changes"
 msgstr ""
 
@@ -10160,12 +10155,10 @@ msgid "Updating"
 msgstr "更新中"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:95
-#, fuzzy
 msgid "Unable to authorize credentials for the repository."
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:95
-#, fuzzy
 msgid "Not a valid git repository."
 msgstr ""
 
@@ -10187,7 +10180,6 @@ msgid "Stash"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:101
-#, fuzzy
 msgid "Saving local changes"
 msgstr "ローカルの変更を保存中"
 
@@ -10208,7 +10200,6 @@ msgid "Rebasing"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:111
-#, fuzzy
 msgid "Cherry-picking {0} - {1}/{2}"
 msgstr ""
 
@@ -10237,22 +10228,18 @@ msgid "Push operation successfully completed."
 msgstr "push操作は正常に完了しました。"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:181
-#, fuzzy
 msgid "Switching to branch {0}"
 msgstr "ブランチ {0} に切り替え"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:189
-#, fuzzy
 msgid "Updating solution"
 msgstr "ソリューションを更新中"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitRepository.cs:207
-#, fuzzy
 msgid "Moving files"
 msgstr "ファイルを移動中"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:14
-#, fuzzy
 msgid "Changes successfully stashed"
 msgstr "変更は正常にstashされました"
 
@@ -10262,7 +10249,6 @@ msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:16
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/Commands.cs:18
-#, fuzzy
 msgid "Stash operation failed"
 msgstr "stash操作に失敗しました"
 
@@ -10327,7 +10313,6 @@ msgid "Merging branch '{0}'..."
 msgstr "ブランチ {0} をマージしています..."
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitService.cs:9
-#, fuzzy
 msgid "Branch switch failed"
 msgstr "ブランチ切り替えに失敗しました"
 
@@ -10410,12 +10395,10 @@ msgid "Tracking"
 msgstr "トラック中"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitConfigurationDialog.cs:14
-#, fuzzy
 msgid "Remote Source / Branch"
 msgstr "リモートソース/ブランチ"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitConfigurationDialog.cs:14
-#, fuzzy
 msgid "Url"
 msgstr "URL"
 
@@ -10569,7 +10552,6 @@ msgid "Credentials required for the repository: {0}"
 msgstr "リポジトリに対する権限が要求されています: {0}"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/gtk-gui/MonoDevelop.VersionControl.Git.CredentialsDialog.cs:5
-#, fuzzy
 msgid "<b>{0}</b>"
 msgstr "<b>{0}</b>"
 
@@ -10653,7 +10635,6 @@ msgid "Author name:"
 msgstr "作成者の名前:"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Git/MonoDevelop.VersionControl.Git/GitCommitDialogExtension.cs:14
-#, fuzzy
 msgid "Not configured"
 msgstr "設定されていません"
 
@@ -10752,18 +10733,15 @@ msgstr "操作をキャンセルしました"
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:137
 #: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:482
-#, fuzzy
 msgid "(unavailable)"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:141
-#, fuzzy
 msgid "The operation was interrupted"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:144
 #: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:694
-#, fuzzy
 msgid "{0} KBytes"
 msgstr ""
 
@@ -10772,7 +10750,6 @@ msgid "{0:0.0} MBytes"
 msgstr ""
 
 #: ../src/addins/VersionControl/MonoDevelop.VersionControl.Subversion.Unix/MonoDevelop.VersionControl.Subversion.Unix/SvnClient.cs:144
-#, fuzzy
 msgid "{0} MBytes"
 msgstr ""
 
@@ -10915,12 +10892,10 @@ msgid "Get annotations {0}"
 msgstr "注釈 {0} を受け取りました"
 
 #: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:71
-#, fuzzy
 msgid "Go to Download Page"
 msgstr ""
 
 #: ../src/addins/VersionControl/Subversion.Win32/SvnSharpClient.cs:73
-#, fuzzy
 msgid "The Subversion add-in could not be initialized"
 msgstr ""
 
@@ -10935,7 +10910,6 @@ msgid "{0:0.00} MBytes"
 msgstr ""
 
 #: ../src/addins/MonoDevelop.GtkCore/MonoDevelop.GtkCore.addin.xml:3
-#, fuzzy
 msgid "Designer (Gtk#)"
 msgstr "デザイナ (Gtk#)"
 
@@ -12095,18 +12069,6 @@ msgstr "現在のドキュメントに適用可能なツールはありません
 msgid "An outline is not available for the current document."
 msgstr "現在のドキュメントではアウトラインは利用できません"
 
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineTextEditorExtension.cs:23
-msgid "Group entries by type"
-msgstr "エントリを種別でグループ化"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineTextEditorExtension.cs:24
-msgid "Sort entries alphabetically"
-msgstr "名前順に並べ替え"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineTextEditorExtension.cs:25
-msgid "Open preferences dialog"
-msgstr "設定ダイアログを開く"
-
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ProjectFileDescriptor.cs:3
 msgid "Resource ID"
 msgstr "リソースID"
@@ -12246,39 +12208,6 @@ msgstr "プロジェクトファイルのファイルフォーマット"
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/CodeBehindWriter.cs:7
 msgid "Failed to generate code for file '{0}'."
 msgstr "ファイル '{0}' へのコード生成に失敗しました"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/gtk-gui/MonoDevelop.DesignerSupport.ClassOutlineSortingPreferencesDialog.cs:1
-msgid "Document Outline Preferences"
-msgstr "ドキュメント アウトライン設定"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/gtk-gui/MonoDevelop.DesignerSupport.ClassOutlineSortingPreferencesDialog.cs:1
-msgid "Group sorting order when grouping is enabled:"
-msgstr "グルーピング有効時のグループ整列順:"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineSettings.cs:3
-msgid "Regions"
-msgstr "region"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineSettings.cs:3
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:1
-msgid "Namespaces"
-msgstr "名前空間"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineSettings.cs:3
-#: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:13
-msgid "Types"
-msgstr "型"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineSettings.cs:3
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:34
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:2
-msgid "Fields"
-msgstr "フィールド"
-
-#: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport/ClassOutlineSettings.cs:3
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:2
-msgid "Methods"
-msgstr "メソッド"
 
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/ImplicitFrameworkAssemblyReferenceDescriptor.cs:5
 msgid "Framework"
@@ -12936,17 +12865,14 @@ msgid "Web Service References"
 msgstr "Webサービス参照"
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences/Library.cs:10
-#, fuzzy
 msgid "Service: {0}"
 msgstr "サービス: {0}"
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences/Library.cs:10
-#, fuzzy
 msgid "Discovery document"
 msgstr ""
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.NodeBuilders/WebReferenceFolderNodeBuilder.cs:1
-#, fuzzy
 msgid "Web Services"
 msgstr "Webサービス"
 
@@ -12972,7 +12898,6 @@ msgid "_Switch to .NET 2.0"
 msgstr ""
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:3
-#, fuzzy
 msgid "The web reference could not be added"
 msgstr ""
 
@@ -12985,12 +12910,10 @@ msgid "Are you sure you want to delete the web service reference '{0}'?"
 msgstr "本当にWebサービス参照 '{0}' を削除しますか?"
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:7
-#, fuzzy
 msgid "Deleted Web Reference {0}"
 msgstr "Web参照の更新"
 
 #: ../src/addins/MonoDevelop.WebReferences/MonoDevelop.WebReferences.Commands/WebReferenceCommandHandler.cs:10
-#, fuzzy
 msgid "Deleted all Web References"
 msgstr "Web参照の更新"
 
@@ -13094,12 +13017,10 @@ msgstr "public"
 
 #: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:3
-#, fuzzy
 msgid "Internal"
 msgstr "internal"
 
 #: ../src/addins/MonoDevelop.WebReferences/gtk-gui/MonoDevelop.WebReferences.Dialogs.WCFConfigWidget.cs:2
-#, fuzzy
 msgid "No"
 msgstr "なし"
 
@@ -13151,82 +13072,67 @@ msgid "Creates an empty C# class library"
 msgstr "空のC#クラスライブラリを作成します。"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:3
-#, fuzzy
 msgid "Show Code _Generation"
 msgstr "コード生成を表示(_G)"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor.addin.xml:8
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:9
-#, fuzzy
 msgid "Code Navigation"
 msgstr "コードナビゲーション"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "_Find Reference Usages"
 msgstr "参照を探す(_F)"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Extension Methods"
 msgstr "拡張メソッド"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Find Extension Methods"
 msgstr "拡張メソッドを探す"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Base Symbols"
 msgstr "基底シンボル"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Find Base Symbols"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Derived Symbols"
 msgstr "派生シンボル"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Navigation/FindDerivedSymbolsHandler.cs:1
 #: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:77
-#, fuzzy
 msgid "Find Derived Symbols"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Member Overloads"
 msgstr "メンバのオーバーロード"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Find Member Overloads"
 msgstr "メンバのオーバーロードを探す"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Implementing Members"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:4
-#, fuzzy
 msgid "Find Implementing Members"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ExtractMethod/ExtractMethodCodeRefactoringProvider.cs:8
-#, fuzzy
 msgid "Extract Method"
 msgstr "メソッドを抽出"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
-#, fuzzy
 msgid "Extracts a method"
 msgstr "メソッドを抽出"
 
@@ -13236,29 +13142,24 @@ msgstr "リファクタリング操作"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/Resources.cs:12
-#, fuzzy
 msgid "_Sort Usings"
 msgstr "using文を並べ替え(_S)"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
-#, fuzzy
 msgid "_Remove Unused Usings"
 msgstr "未使用のusing文を削除(_R)"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
-#, fuzzy
 msgid "R_emove and Sort"
 msgstr "using文の並べ替えと削除(_E)"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:5
-#, fuzzy
 msgid "Remove Unused and Sort (Usings)"
 msgstr "using文の並べ替えと削除"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:6
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:30
 #: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:72
-#, fuzzy
 msgid "_Go to Declaration"
 msgstr "宣言に移動(_G)"
 
@@ -13334,7 +13235,6 @@ msgid "Name Conventions"
 msgstr "命名規則"
 
 #: ../src/addins/CSharpBinding/CSharpBinding.addin.xml:39
-#, fuzzy
 msgid "Navigate"
 msgstr "ナビゲート"
 
@@ -14295,6 +14195,10 @@ msgstr "列挙体"
 msgid "Interfaces"
 msgstr "インターフェース"
 
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:2
+msgid "Delegates"
+msgstr "デリゲート"
+
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring.CodeIssues/NamingInspection/NameConventionEditRuleDialog.cs:2
 #: ../src/addins/MonoDevelop.XmlEditor/MonoDevelop.Xml.Formatting/XmlFormattingPolicy.cs:2
 msgid "Attributes"
@@ -14540,6 +14444,1490 @@ msgstr "接頭辞(_A):"
 #: ../src/addins/MonoDevelop.DocFood/gtk-gui/MonoDevelop.DocFood.Options.NoTheReorderingWidget.cs:2
 msgid "A_cronym:"
 msgstr "接頭辞(_C):"
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.NewFormattingProfileDialog.cs:2
+msgid "New Profile"
+msgstr "新しいプロファイル"
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.NewFormattingProfileDialog.cs:2
+msgid "_Profile name:"
+msgstr "プロジェクト名(_P):"
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.NewFormattingProfileDialog.cs:2
+msgid "_Initialize from profile:"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:4
+msgid "leftmost column"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:4
+msgid "normal placement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:4
+msgid "one indent less"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:5
+msgid "ignore"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:5
+msgid "remove"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:5
+msgid "single"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+msgid "Show built-in profile"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+msgid "Edit Profile"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
+msgid "Indentation"
+msgstr "インデント"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+msgid "New Lines"
+msgstr "改行"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/FSharpFormattingPolicy.fs:4
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/FSharpFormattingPolicy.fs:5
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/FSharpFormattingPolicy.fs:6
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/FSharpFormattingPolicy.fs:7
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/FSharpFormattingPolicy.fs:8
+msgid "Spacing"
+msgstr "空白"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
+msgid "Wrapping"
+msgstr "折り返し"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
+msgid "Style"
+msgstr "スタイル"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
+msgid "Indent block contents"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
+msgid "Indent open and close braces"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
+msgid "Indent switch sections"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
+msgid "Indent case sections"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
+msgid "Label indentation"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
+msgid "New line options for braces"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
+msgid "Place open brace on new line for types"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
+msgid "Place open brace on new line for methods"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
+msgid "Place open brace on new line for properties"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:13
+msgid "Place open brace on new line for property accessors"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
+msgid "Place open brace on new line for anonymous methods"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
+msgid "Place open brace on new line for control blocks"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
+msgid "Place open brace on new line for anonymous types"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
+msgid "Place open brace on new line for object initializers"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
+msgid "Place open brace on new line for lambda expression"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
+msgid "New line options for keywords"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
+msgid "Place \"else\" on new line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
+msgid "Place \"catch\" on new line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
+msgid "Place \"finally\" on new line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
+msgid "New line options for expressions"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
+msgid "Place members in object initializers on new line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
+msgid "Place members in anonymous types on new line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
+msgid "Place query expression clauses on new line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:25
+msgid "Set spacing for method declarations"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:25
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
+msgid "Insert space between method name and its opening parenthesis"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:26
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
+msgid "Insert space within argument list parentheses"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:26
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
+msgid "Insert space within empty argument list parentheses"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
+msgid "Set spacing for method calls"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:28
+msgid "Set other spacing options"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:28
+msgid "Insert space after keywords in control flow statements"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:29
+msgid "Insert space within parentheses of expressions"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:29
+msgid "Insert space within parentheses of type casts"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:29
+msgid "Insert space within parentheses of control flow statements"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:30
+msgid "Insert space after casts"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:30
+msgid "Ignore spaces in declaration statements"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Set spacing for brackets"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
+msgid "Insert space before open square bracket"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
+msgid "Insert space within empty square brackets"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
+msgid "Insert space within square brackets"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space after colon for base or interface in type declaration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space after comma"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space after dot"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space after semicolon in \"for\" statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space before colon for base or interface in type declaration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space before comma"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space before dot"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
+msgid "Insert space before semicolon in \"for\" statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:33
+msgid "Set spacing for operators"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:44
+msgid "Place System directives first when sorting usings"
+msgstr "usingをソートする際にSystemを先頭に配置"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:55
+msgid "Leave block on single line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:55
+msgid "Leave statements and member declarations on the same line"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
+msgid "_Category:"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
+msgid "NewLines"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/PathedDocumentTextEditorExtension.cs:67
+msgid "No region"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/EventCreationCompletionData.cs:5
+msgid "Creates new method"
+msgstr "新しいメソッドを作成"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/EventCreationCompletionData.cs:13
+msgid "Create new method"
+msgstr "新しいメソッドを作成"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/CreateConstructorGenerator.cs:33
+msgid "Constructor"
+msgstr "コンストラクタ"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/CreateConstructorGenerator.cs:34
+msgid "Select members to be initialized by the constructor."
+msgstr "コンストラクタによって初期化されるメンバーを選択します"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/OverrideMembersGenerator.cs:3
+msgid "Override members"
+msgstr "メンバーをオーバーライドする"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/OverrideMembersGenerator.cs:4
+msgid "Select members to be overridden."
+msgstr "オーバーライドするメンバーを選択してください。"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/PropertyGenerator.cs:2
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ReadonlyPropertyGenerator.cs:2
+msgid "Select members which should be exposed."
+msgstr "公開されるメンバーを選択してください。"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ToStringGenerator.cs:3
+msgid "ToString() implementation"
+msgstr "ToString()の実装"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ToStringGenerator.cs:4
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/WriteLineGenerator.cs:2
+msgid "Select members to be outputted."
+msgstr "出力されるメンバーを選択します"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/WriteLineGenerator.cs:2
+msgid "WriteLine call"
+msgstr "WriteLineの呼び出し"
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CodeGeneration.GenerateCodeWindow.cs:2
+msgid "GenerateCodeWindow"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CodeGeneration.GenerateCodeWindow.cs:2
+msgid "_Generate"
+msgstr "生成(_G)"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ReadonlyPropertyGenerator.cs:2
+msgid "Read-only properties"
+msgstr "読み取り専用プロパティ"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/RaiseEventMethodGenerator.cs:3
+msgid "Event OnXXX method"
+msgstr "イベントのOnXXXメソッド"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/RaiseEventMethodGenerator.cs:4
+msgid "Select event to generate the method for."
+msgstr "メソッドを生成するイベントを選択してください。"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/AstAmbience.cs:6
+msgid "(abstract)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/AstAmbience.cs:6
+msgid "(partial)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:32
+msgid "Type can not be resolved."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:107
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:113
+msgid "(keyword)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} modifier can be used with classes, methods, properties, indexers, "
+"and events."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "Form"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "[modifiers] {0} {{ accessor-body }}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} keyword is used to define a custom accessor for when an event is "
+"subscribed to. If supplied, a remove accessor must also be supplied."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "Query Form"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} ordering-statement {1}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} keyword is used to set the sorting order from smallest to largest in "
+"a query expression. This is the default behaviour."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} modifier is used to specify that a class method, anonymous method, "
+"or lambda expression is asynchronous."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "expression {0} type"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} operator is used to perform conversions between compatible types."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} operator is used to specify that an {1} method is to have its "
+"execution suspended until the {0} task has completed."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} keyword is used to access members of the base class from within a "
+"derived class."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} statement terminates the closest enclosing loop or switch statement "
+"in which it appears."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"{0} constant-expression:\n"
+"  statement\n"
+"  jump-statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"{0} try-block\n"
+"  {1} (exception-declaration-1) catch-block-1\n"
+"  {1} (exception-declaration-2) catch-block-2\n"
+"  ...\n"
+"{0} try-block {1} catch-block"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"{0} block\n"
+"or\n"
+"{0} (expression)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} keyword is used to control the overflow-checking context for "
+"integral-type arithmetic operations and conversions. It can be used as an "
+"operator or a statement."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} constraint specifies that the type argument must be a reference "
+"type; this applies also to any class, interface, delegate, or array type."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"[attributes] [modifiers] {0} identifier [:base-list] {{ class-body }}[;]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid "Classes are declared using the keyword {0}."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid "[attributes] [modifiers] {0} type declarators;"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} keyword is used to modify a declaration of a field or local "
+"variable. It specifies that the value of the field or the local variable "
+"cannot be modified."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"The {0} statement passes control to the next iteration of the enclosing "
+"iteration statement in which it appears."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid "{0} (Type)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"{0} (expression) { \n"
+"  {1} constant-expression:\n"
+"    statement\n"
+"    jump-statement\n"
+"  [{2}:\n"
+"    statement\n"
+"    jump-statement]\n"
+"}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"{0} (Type)\n"
+"\n"
+"or\n"
+"\n"
+"{1} (expression) { \n"
+"  {2} constant-expression:\n"
+"    statement\n"
+"    jump-statement\n"
+"  [{3}:\n"
+"    statement\n"
+"    jump-statement]\n"
+"}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"[attributes] [modifiers] {0} result-type identifier ([formal-parameters]);"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:108
+msgid ""
+"A {0} declaration defines a reference type that can be used to encapsulate a "
+"method with a specific signature."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} type allows for an object to bypass compile-time type checking and "
+"resolve type checking during run-time."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to set the sorting order from largest to smallest in "
+"a query expression."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} statement {1} (expression);"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} statement executes a statement or a block of statements repeatedly "
+"until a specified expression evaluates to false."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} (expression)\n"
+"  statement1\n"
+"  [{1}\n"
+"  statement2]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"[attributes] [modifiers] {0} identifier [:base-type] {{ enumerator-list }} "
+"[;]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to declare an enumeration, a distinct type "
+"consisting of a set of named constants called the enumerator list."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"[attributes] [modifiers] {0} type declarator;\n"
+"[attributes] [modifiers] {0} type member-name {{ accessor-declarations }};"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "Specifies an event."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to declare an explicit user-defined type conversion "
+"operator."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"Use the {0} modifier in a method declaration to indicate that the method is "
+"implemented externally. A common use of the extern modifier is with the "
+"DllImport attribute."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} try-block {1} finally-block"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} block is useful for cleaning up any resources allocated in the try "
+"block. Control is always passed to the finally block regardless of how the "
+"try block exits."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} ( type* ptr = expr ) statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "Prevents relocation of a variable by the garbage collector."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} ([initializers]; [expression]; [iterators]) statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} loop executes a statement or a block of statements repeatedly until "
+"a specified expression evaluates to false."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} (type identifier {1} expression) statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} statement repeats a group of embedded statements for each element in "
+"an array or an object collection."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} range-variable {1} data-source [query clauses] {2} product-expression"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword marks the beginning of a query expression and defines the "
+"data source and local variable to represent the elements in the sequence."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "[modifiers] {0} [ {{ accessor-body }} ]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to define an accessor method to retrieve the value "
+"of the property or indexer element."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} :: type"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to specify a type is within the global namespace."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} identifier;\n"
+"{0} {1} constant-expression;\n"
+" {0} {2};"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} statement transfers the program control directly to a labeled "
+"statement. "
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} range-variable {1} key-value\n"
+"\n"
+"or\n"
+"\n"
+"{2} range-variable {1} key-value {3} group-name "
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword groups elements together from a query which match the key "
+"value and stores the result in an {1}. It can also be stored in a group for "
+"further use in the query with 'into'."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} statement selects a statement for execution based on the value of a "
+"Boolean expression."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} range-variable {1} key-value {2} group-name "
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword stores the result of a group statement for further use in "
+"the query."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to declare an implicit user-defined type conversion "
+"operator."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} IMyInterface&lt; {1} T&gt; {}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} (type identifier {1} expression) statement\n"
+"\n"
+"or\n"
+"\n"
+"{0} range-variable {1} data-source [query clauses] {2} product-expression\n"
+"\n"
+"or\n"
+"\n"
+"{3} IMyInterface&lt;{1} T&gt; {{}}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"[attributes] [modifiers] {0} identifier [:base-list] {{interface-body}}[;]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"An interface defines a contract. A class or struct that implements an "
+"interface must adhere to its contract."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is an access modifier for types and type members. Internal "
+"members are accessible only within files in the same assembly."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} operator is used to check whether the run-time type of an object is "
+"compatible with a given type."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} range-variable2 {1} range2 {2} statement1 {3} statement2 [ {4} group-"
+"name ]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} clause produces a new sequence of elements from two source sequences "
+"on a given equality condition."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} range-variable = expression"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} clause allows for a sub-expression to have its value stored in a new "
+"range variable for use later in the query."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} (expression) statement_block"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword marks a statement block as a critical section by obtaining "
+"the mutual-exclusion lock for a given object, executing a statement, and "
+"then releasing the lock."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} name[.name1] ...] {{\n"
+"type-declarations\n"
+" }}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "The {0} keyword is used to declare a scope."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} constraint specifies that any type argument in a generic class "
+"declaration must have a public parameterless constructor. To use the new "
+"constraint, the type cannot be abstract."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword can be used as an operator or as a modifier. The operator is "
+"used to create objects on the heap and invoke constructors. The modifier is "
+"used to hide an inherited member from a base class member."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is a literal that represents a null reference, one that does "
+"not refer to any object. {0} is the default value of reference-type "
+"variables."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"{0} result-type {1} unary-operator ( op-type operand )\n"
+"{0} result-type {1} binary-operator (\n"
+"op-type operand,\n"
+"op-type2 operand2\n"
+" )\n"
+"{0} {2} {1} conv-type-out ( conv-type-in operand )\n"
+"{0} {3} {1} conv-type-out ( conv-type-in operand )"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} keyword is used to declare an operator in a class or struct "
+"declaration."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} order-key1 [ {1}|{2}, [order-key2, ...]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid ""
+"The {0} clause specifies for the returned sequence to be sorted on a given "
+"element in either ascending or descending order."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} IMyInterface&lt;{1} T&gt; {}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+msgid "{0} parameter-name"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:109
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} method parameter keyword on a method parameter causes a method to "
+"refer to the same variable that was passed into the method."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"{0} parameter-name\n"
+"\n"
+"or\n"
+"\n"
+"{1} IMyInterface&lt;{0} T&gt; {{}}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} modifier is used to override a method, a property, an indexer, or an "
+"event."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword lets you specify a method parameter that takes an argument "
+"where the number of arguments is variable."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "[modifiers] {0} type-declaration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword on a type declaration allows for the definition to be split "
+"into multiple files."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} method-declaration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword on a method declaration allows for the implementation of a "
+"method to be defined in another part of the partial class."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"[modifiers] {0} type-declaration\n"
+"\n"
+"or\n"
+"\n"
+"{0} method-declaration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is a member access modifier. Private access is the least "
+"permissive access level. Private members are accessible only within the body "
+"of the class or the struct in which they are declared."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is a member access modifier. A protected member is "
+"accessible from within the class in which it is declared, and from within "
+"any class derived from the class that declared this member."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is an access modifier for types and type members. Public "
+"access is the most permissive access level. There are no restrictions on "
+"accessing public members."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is a modifier that you can use on fields. When a field "
+"declaration includes a {0} modifier, assignments to the fields introduced by "
+"the declaration can only occur as part of the declaration or in a "
+"constructor in the same class."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is used to define a custom accessor for when an event is "
+"unsubscribed from. If supplied, an add accessor must also be supplied."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} [expression];"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} statement terminates execution of the method in which it appears and "
+"returns control to the calling method."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} return-type"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "The {0} clause specifies the type of value to return from the query."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "A sealed class cannot be inherited."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is used to define an accessor method to assign to the value "
+"of the property or indexer element."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} (type)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "The {0} operator is used to obtain the size in bytes for a value type."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "type * ptr = {0} type [ expr ];"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "Allocates a block of memory on the stack."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"Use the {0} modifier to declare a static member, which belongs to the type "
+"itself rather than to a specific object."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} constraint specifies that the type argument must be a value type. "
+"Any value type except Nullable can be specified."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "[attributes] [modifiers] {0} identifier [:interfaces] body [;]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"A {0} type is a value type that can contain constructors, constants, fields, "
+"methods, properties, indexers, operators, events, and nested types."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"{0} (expression)\n"
+" {{\n"
+"  {1} constant-expression:\n"
+"  statement\n"
+"  jump-statement\n"
+"  [{2}:\n"
+"  statement\n"
+"  jump-statement]\n"
+" }}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} statement is a control statement that handles multiple selections by "
+"passing control to one of the {1} statements within its body."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "The {0} keyword refers to the current instance of the class."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} statement is used to signal the occurrence of an anomalous situation "
+"(exception) during the program execution."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"{0} try-block\n"
+"  {1} (exception-declaration-1) catch-block-1 \n"
+"  {1} (exception-declaration-2) catch-block-2 \n"
+"...\n"
+"{0} try-block {1} catch-block"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The try-catch statement consists of a {0} block followed by one or more {1} "
+"clauses, which specify handlers for different exceptions."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "The {0} operator is used to obtain the System.Type object for a type."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"{0} block\n"
+"{0} (expression)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is used to control the overflow-checking context for "
+"integral-type arithmetic operations and conversions."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword denotes an unsafe context, which is required for any "
+"operation involving pointers."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"{0} (expression | type identifier = initializer) statement\n"
+"{0} [alias = ]class_or_namespace;"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} directive creates an alias for a namespace or imports types defined "
+"in other namespaces. The {0} statement defines a scope at the end of which "
+"an object will be disposed."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is used to modify a method, property, indexer, or event "
+"declaration and allow for it to be overridden in a derived class."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} declaration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword indicates that a field can be modified in the program by "
+"something such as the operating system, the hardware, or a concurrently "
+"executing thread."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} condition"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} clause specifies which elements from the data source to be returned "
+"according to a given condition."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "generic-class-declaration {0} type-parameter : type-constraint"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} clause constrains which types can be used as the type parameter in a "
+"generic declaration."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"generic-class-declaration {0} type-parameter : type-constraint\n"
+"\n"
+"or\n"
+"\n"
+"query-clauses {0} condition [query-clauses]"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"{0} {1}\n"
+"\n"
+"or\n"
+"\n"
+"{0} {2} expression"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} keyword is used to indicate that a method, get accessor, or operator "
+"is an iterator."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0} (expression) statement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"The {0} statement executes a statement or a block of statements until a "
+"specified expression evaluates to false."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid "{0}(identifier)"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:110
+msgid ""
+"Used to obtain the simple (unqualified) string name of a variable, type, or "
+"member."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:115
+msgid "Constraint"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:115
+msgid ""
+"The type argument must be a reference type; this applies also to any class, "
+"interface, delegate, or array type."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:115
+msgid ""
+"The type argument must have a public parameterless constructor. When used "
+"together with other constraints, the new() constraint must be specified last."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:115
+msgid ""
+"The type argument must be a value type. Any value type except Nullable can "
+"be specified. See Using Nullable Types (C# Programming Guide) for more "
+"information."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:145
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:146
+msgid "Namespace:\t{0}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:145
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:146
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:148
+msgid "Assembly:\t{0}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:148
+msgid "From type:\t{0}"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/PartialGenerator.cs:3
+msgid "Partial methods"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/PartialGenerator.cs:4
+msgid "Select methods to be implemented."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:17
+msgid "Implement protocol members"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:18
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:21
+msgid "Select protocol members to implement"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:20
+msgid "Implement required protocol members"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynSymbolCompletionData.cs:16
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynParameterHintingFactory.cs:13
+msgid "Extension Method from"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynParameterHintingFactory.cs:17
+msgid "Parameter"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynParameterHintingFactory.cs:17
+msgid "Delegate Info"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/CSharpOutlineTextEditorExtension.cs:25
+msgid "Group entries by type"
+msgstr "エントリを種別でグループ化"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/CSharpOutlineTextEditorExtension.cs:26
+msgid "Sort entries alphabetically"
+msgstr "名前順に並べ替え"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/CSharpOutlineTextEditorExtension.cs:27
+msgid "Open preferences dialog"
+msgstr "設定ダイアログを開く"
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.ClassOutline.OutlineSortingPreferencesDialog.cs:2
+msgid "Document Outline Preferences"
+msgstr "ドキュメント アウトライン設定"
+
+#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.ClassOutline.OutlineSortingPreferencesDialog.cs:2
+msgid "Group sorting order when grouping is enabled:"
+msgstr "グルーピング有効時のグループ整列順:"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/OutlineSettings.cs:3
+msgid "Regions"
+msgstr "region"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/OutlineSettings.cs:3
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:1
+msgid "Namespaces"
+msgstr "名前空間"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/OutlineSettings.cs:3
+#: ../src/addins/MonoDevelop.AssemblyBrowser/MonoDevelop.AssemblyBrowser/AssemblyBrowserWidget.cs:21
+msgid "Types"
+msgstr "型"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/OutlineSettings.cs:3
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:2
+msgid "Fields"
+msgstr "フィールド"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/OutlineSettings.cs:3
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:2
+msgid "Methods"
+msgstr "メソッド"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Parser/CSharpParsedDocument.cs:26
+msgid "NotImplementedException({0}) thrown."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Parser/CSharpParsedDocument.cs:26
+msgid "NotImplementedException thrown."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/ImportSymbolCompletionData.cs:8
+msgid "(from '{0}')"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:4
+msgid "Fix"
+msgstr "修正"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:7
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:13
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:62
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:63
+msgid "_Options for \"{0}\""
+msgstr "{0} のオプション(_O)"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:8
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:15
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:62
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:65
+msgid "_Suppress with #pragma"
+msgstr "#pragmaで抑制(_S)"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:16
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:65
+msgid "_Suppress with file"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:17
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:65
+msgid "_Configure Rule"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:19
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:68
+msgid "Fix all"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:20
+#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionEditorExtension.cs:69
+msgid "In _Document"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:27
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:68
+msgid "Refactor"
+msgstr "リファクタリング"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:30
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:72
+#: ../external/fsharpbinding/MonoDevelop.FSharpBinding/RefactoringOperationsHandler.fs:74
+msgid "{0}, Line {1}"
+msgstr "{0}, {1}行目"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/FullyQualify/CSharpFullyQualifyCodeFixProvider.cs:28
+msgid "Change '{0}' to '{1}.{2}'"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/Async/CSharpConvertToAsyncMethodCodeFixProvider.cs:8
+msgid "Make {0} return Task instead of void"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/Async/CSharpAddAwaitCodeFixProvider.cs:17
+msgid "Insert 'await'"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/Async/CSharpAddAsyncCodeFixProvider.cs:16
+msgid "Make async"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/MoveTypeToFile/MoveTypeToFile.cs:4
+msgid "Rename file to '{0}'"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/MoveTypeToFile/MoveTypeToFile.cs:4
+msgid "Move type to file '{0}'"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/ImplementAbstractClass/ImplementAbstractClassCodeFixProvider.cs:9
+msgid "Implement Abstract Class"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/InlineTemporary/InlineTemporaryCodeRefactoringProvider.cs:12
+msgid "Inline temporary variable"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/InlineTemporary/InlineTemporaryCodeRefactoringProvider.cs:21
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/InlineTemporary/InlineTemporaryCodeRefactoringProvider.cs:98
+msgid "Conflict(s) detected."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ExtractMethod/ExtractMethodCodeRefactoringProvider.cs:8
+msgid "Extract Method + Local"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/SimplifyTypeNames/SimplifyTypeNamesCodeFixProvider.cs:11
+msgid "Simplify name '{0}'"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/SimplifyTypeNames/SimplifyTypeNamesCodeFixProvider.cs:12
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/SimplifyTypeNames/SimplifyTypeNamesDiagnosticAnalyzerBase.cs:4
+msgid "Simplify member access '{0}'"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/SimplifyTypeNames/SimplifyTypeNamesCodeFixProvider.cs:13
+msgid "Remove 'this' qualification"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/RemoveUnnecessaryUsings/RemoveUnnecessaryUsingsCodeFixProvider.cs:7
+msgid "Remove Unnecessary Usings"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/RemoveUnnecessaryCast/RemoveUnnecessaryCastDiagnosticAnalyzerBase.cs:2
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/RemoveUnnecessaryCast/RemoveUnnecessaryCastCodeFixProvider.cs:7
+msgid "Remove Unnecessary Cast"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/RemoveUnnecessaryCast/RemoveUnnecessaryCastDiagnosticAnalyzerBase.cs:2
+msgid "Cast is redundant."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/RemoveUnnecessaryImports/CSharpRemoveUnnecessaryImportsDiagnosticAnalyzer.cs:2
+msgid "Using directive is unnecessary."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/SimplifyTypeNames/SimplifyTypeNamesDiagnosticAnalyzerBase.cs:2
+msgid "Name can be simplified."
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/SimplifyTypeNames/SimplifyTypeNamesDiagnosticAnalyzerBase.cs:2
+msgid "Simplify Names"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/SimplifyTypeNames/SimplifyTypeNamesDiagnosticAnalyzerBase.cs:5
+#: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerErrors/ProhibitedModifiersIssue.cs:15
+msgid "Remove 'this'"
+msgstr "thisを除去"
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:3
+msgid "Convert fields to enumeration"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:5
+msgid "Name of enum"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:7
+msgid "Variables to include"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:10
+msgid "Included"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:10
+msgid "Field name"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:10
+msgid "Enum name"
+msgstr ""
+
+#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:15
+msgid "Warning: This may take a while..."
+msgstr ""
 
 #: ../src/addins/MonoDevelop.DocFood/gtk-gui/MonoDevelop.DocFood.Options.OfTheReorderingWidget.cs:2
 msgid "\"of the\" reordering words:"
@@ -18769,11 +20157,6 @@ msgstr "'{0}' を '{1}' に変更"
 msgid "Rename '{0}' to '{1}' with preview"
 msgstr "ファイル '{0}' を '{1}' に変更(プレビューあり)"
 
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:9
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:16
-msgid "_Options for \"{0}\""
-msgstr "{0} のオプション(_O)"
-
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:10
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:12
 msgid "Apply in file: {0}"
@@ -18783,11 +20166,6 @@ msgstr "ファイル {0} に適用"
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:13
 msgid "_Suppress with attribute"
 msgstr "属性で抑制(_S)"
-
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:13
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:14
-msgid "_Suppress with #pragma"
-msgstr "#pragmaで抑制(_S)"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.AnalysisCore/AnalysisCommands.cs:14
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.CodeActions/CodeActionWidget.cs:15
@@ -18804,18 +20182,10 @@ msgstr "コメントで無効化と復元(_A)"
 msgid "_Configure inspection"
 msgstr "検査を構成(_C)"
 
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:12
-msgid "Refactor"
-msgstr "リファクタリング"
-
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:18
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
 msgid "_Go to declaration"
 msgstr "宣言に移動(_G)"
-
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:18
-msgid "{0}, Line {1}"
-msgstr "{0}, {1}行目"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring/RefactoryCommands.cs:19
 msgid "Go to _Base Symbol"
@@ -19131,10 +20501,6 @@ msgstr "クイック修正..."
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
 msgid "Import Symbol..."
 msgstr "シンボルをインポート..."
-
-#: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:0
-msgid "Fix"
-msgstr "修正"
 
 #: ../src/addins/MonoDevelop.Refactoring/MonoDevelop.Refactoring.addin.xml:1
 msgid "Fixes"
@@ -24826,11 +26192,6 @@ msgstr "virtual修飾子を除去"
 msgid "Make class 'static'"
 msgstr "クラスをstaticにする"
 
-#: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerErrors/ProhibitedModifiersIssue.cs:15
-#: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerErrors/ProhibitedModifiersIssue.cs:145
-msgid "Remove 'this'"
-msgstr "thisを除去"
-
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerErrors/ProhibitedModifiersIssue.cs:16
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerErrors/ProhibitedModifiersIssue.cs:152
 msgid "Extension methods are only allowed in static classes"
@@ -26141,8 +27502,6 @@ msgstr "F#フォーマット"
 
 # msgid "Layout"
 # msgstr "レイアウト"
-msgid "Spacing"
-msgstr "空白"
 
 msgid "Indent blocks inside expressions"
 msgstr "式の中のブロックをインデント"
@@ -26824,9 +28183,6 @@ msgstr "XamarinProfiler.exeを選択"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Components.Commands/CommandManager.cs
 msgid "Error while executing command: "
 msgstr "コマンド実行中にエラー: "
-
-msgid "Form"
-msgstr "形式"
 
 #: ../src/addins/MonoDevelop.SourceEditor2/MonoDevelop.SourceEditor/LanguageItemWindow.cs
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Tooltips/LanguageItemTooltipProvider.cs
@@ -30536,234 +31892,6 @@ msgstr "定義済みの型 {0} は定義またはインポートされていま�
 
 msgid "The type or namespace name '{0}' could not be found (are you missing a using directive or an assembly reference?)"
 msgstr "型名または名前空間名 {0} は見つかりません"
-
-# C# formatting - indent
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-msgid "Indent block contents"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-msgid "Indent open and close braces"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-msgid "Indent switch sections"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-msgid "Indent case sections"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:10
-msgid "Label indentation"
-msgstr ""
-
-msgid "leftmost column"
-msgstr ""
-
-msgid "one indent less"
-msgstr ""
-
-msgid "normal placement"
-msgstr ""
-
-# C# formatting - newline
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-msgid "New line options for braces"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-msgid "Place open brace on new line for types"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-msgid "Place open brace on new line for methods"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:12
-msgid "Place open brace on new line for properties"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:13
-msgid "Place open brace on new line for property accessors"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
-msgid "Place open brace on new line for anonymous methods"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
-msgid "Place open brace on new line for control blocks"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
-msgid "Place open brace on new line for anonymous types"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
-msgid "Place open brace on new line for object initializers"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:15
-msgid "Place open brace on new line for lambda expression"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-msgid "New line options for keywords"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-msgid "Place \"else\" on new line"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-msgid "Place \"catch\" on new line"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:16
-msgid "Place \"finally\" on new line"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-msgid "New line options for expressions"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-msgid "Place members in object initializers on new line"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-msgid "Place members in anonymous types on new line"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:17
-msgid "Place query expression clauses on new line"
-msgstr ""
-
-
-# C# formatting - spacing
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:25
-msgid "Set spacing for method declarations"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:25
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
-msgid "Insert space between method name and its opening parenthesis"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:26
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
-msgid "Insert space within argument list parentheses"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:26
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
-msgid "Insert space within empty argument list parentheses"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:27
-msgid "Set spacing for method calls"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:28
-msgid "Set other spacing options"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:28
-msgid "Insert space after keywords in control flow statements"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:29
-msgid "Insert space within parentheses of expressions"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:29
-msgid "Insert space within parentheses of type casts"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:29
-msgid "Insert space within parentheses of control flow statements"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:30
-msgid "Insert space after casts"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:30
-msgid "Ignore spaces in declaration statements"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Set spacing for brackets"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
-msgid "Insert space before open square bracket"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
-msgid "Insert space within empty square brackets"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:31
-msgid "Insert space within square brackets"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space after colon for base or interface in type declaration"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space after comma"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space after dot"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space after semicolon in \"for\" statement"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space before colon for base or interface in type declaration"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space before comma"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space before dot"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:32
-msgid "Insert space before semicolon in \"for\" statement"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:33
-msgid "Set spacing for operators"
-msgstr ""
-
-# C# formatting - wrap
-
-msgid "Leave block on single line"
-msgstr ""
-
-msgid "Leave statements and member declarations on the same line"
-msgstr ""
-
-# C# formatting - style
-
-msgid "Style"
-msgstr "スタイル"
-
-msgid "Place System directives first when sorting usings"
-msgstr "usingをソートする際にSystemを先頭に配置"
 
 # nuget manager
 
