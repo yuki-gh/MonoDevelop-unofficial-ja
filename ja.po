@@ -1581,7 +1581,7 @@ msgstr "インデント(_I)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Indent Selection"
-msgstr "選択範囲のインデント(_I)"
+msgstr "選択範囲をインデント(_I)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Unindent selected lines of code"
@@ -1593,7 +1593,10 @@ msgstr "インデント解除(_U)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Unindent Selection"
-msgstr "選択範囲のインデント解除(_U)"
+msgstr "選択範囲をインデント解除(_U)"
+
+msgid "Unindent Selection"
+msgstr "選択範囲をインデント解除"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Convert the selected text to uppercase"
@@ -1607,6 +1610,9 @@ msgstr "大文字に変換(_C)"
 msgid "_Uppercase Selection"
 msgstr "選択範囲を大文字に変換(_U)"
 
+msgid "Uppercase Selection"
+msgstr "選択範囲を大文字に変換"
+
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Convert the selected text to lowercase"
 msgstr "選択されたテキストを小文字に変換する"
@@ -1618,6 +1624,9 @@ msgstr "小文字に変換(_L)"
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "_Lowercase Selection"
 msgstr "選択範囲を小文字に変換(_L)"
+
+msgid "Lowercase Selection"
+msgstr "選択範囲を小文字に変換"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TextStylePolicyPanelWidget.cs:2
