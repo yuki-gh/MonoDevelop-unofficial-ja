@@ -1592,8 +1592,8 @@ msgid "_Unindent"
 msgstr "インデント解除(_U)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "Unindent Selection"
-msgstr "選択範囲をインデント解除"
+msgid "_Unindent Selection"
+msgstr "選択範囲をインデント解除(_U)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Convert the selected text to uppercase"
@@ -1604,8 +1604,8 @@ msgid "Upper_case"
 msgstr "大文字に変換(_C)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "Uppercase Selection"
-msgstr "選択範囲を大文字に変換"
+msgid "_Uppercase Selection"
+msgstr "選択範囲を大文字に変換(_U)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 msgid "Convert the selected text to lowercase"
@@ -1616,8 +1616,8 @@ msgid "_Lowercase"
 msgstr "小文字に変換(_L)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
-msgid "Lowercase Selection"
-msgstr "選択範囲を小文字に変換"
+msgid "_Lowercase Selection"
+msgstr "選択範囲を小文字に変換(_L)"
 
 #: ../src/core/MonoDevelop.Ide/ExtensionModel/Commands.addin.xml:5
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.TextStylePolicyPanelWidget.cs:2
@@ -13349,18 +13349,6 @@ msgstr "{0} が見つからないか、または無効です"
 msgid "C# compiler not found for {0}."
 msgstr "{0}のC#コンパイラが見つかりません。"
 
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.NewFormattingProfileDialog.cs:2
-msgid "New Profile"
-msgstr "新しいプロファイル"
-
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.NewFormattingProfileDialog.cs:2
-msgid "_Profile name:"
-msgstr "プロジェクト名(_P):"
-
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.NewFormattingProfileDialog.cs:2
-msgid "_Initialize from profile:"
-msgstr ""
-
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:4
 msgid "leftmost column"
 msgstr ""
@@ -13384,19 +13372,6 @@ msgstr ""
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:5
 msgid "single"
 msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
-msgid "Show built-in profile"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
-msgid "Edit Profile"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
-msgid "Indentation"
-msgstr "インデント"
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Formatting/CSharpFormattingProfileDialog.cs:7
 msgid "New Lines"
@@ -13631,15 +13606,7 @@ msgid "Leave statements and member declarations on the same line"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
-msgid "_Category:"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CSharp.Formatting.CSharpFormattingProfileDialog.cs:2
 msgid "NewLines"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/PathedDocumentTextEditorExtension.cs:67
-msgid "No region"
 msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/EventCreationCompletionData.cs:5
@@ -13649,68 +13616,6 @@ msgstr "新しいメソッドを作成"
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/EventCreationCompletionData.cs:13
 msgid "Create new method"
 msgstr "新しいメソッドを作成"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/CreateConstructorGenerator.cs:33
-msgid "Constructor"
-msgstr "コンストラクタ"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/CreateConstructorGenerator.cs:34
-msgid "Select members to be initialized by the constructor."
-msgstr "コンストラクタによって初期化されるメンバーを選択します"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/OverrideMembersGenerator.cs:3
-msgid "Override members"
-msgstr "メンバーをオーバーライドする"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/OverrideMembersGenerator.cs:4
-msgid "Select members to be overridden."
-msgstr "オーバーライドするメンバーを選択してください。"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/PropertyGenerator.cs:2
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ReadonlyPropertyGenerator.cs:2
-msgid "Select members which should be exposed."
-msgstr "公開されるメンバーを選択してください。"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ToStringGenerator.cs:3
-msgid "ToString() implementation"
-msgstr "ToString()の実装"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ToStringGenerator.cs:4
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/WriteLineGenerator.cs:2
-msgid "Select members to be outputted."
-msgstr "出力されるメンバーを選択します"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/WriteLineGenerator.cs:2
-msgid "WriteLine call"
-msgstr "WriteLineの呼び出し"
-
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CodeGeneration.GenerateCodeWindow.cs:2
-msgid "GenerateCodeWindow"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/gtk-gui/MonoDevelop.CodeGeneration.GenerateCodeWindow.cs:2
-msgid "_Generate"
-msgstr "生成(_G)"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ReadonlyPropertyGenerator.cs:2
-msgid "Read-only properties"
-msgstr "読み取り専用プロパティ"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/RaiseEventMethodGenerator.cs:3
-msgid "Event OnXXX method"
-msgstr "イベントのOnXXXメソッド"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/RaiseEventMethodGenerator.cs:4
-msgid "Select event to generate the method for."
-msgstr "メソッドを生成するイベントを選択してください。"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/AstAmbience.cs:6
-msgid "(abstract)"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/AstAmbience.cs:6
-msgid "(partial)"
-msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:32
 msgid "Type can not be resolved."
@@ -14567,55 +14472,6 @@ msgid ""
 "information."
 msgstr ""
 
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:145
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:146
-msgid "Namespace:\t{0}"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:145
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:146
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:148
-msgid "Assembly:\t{0}"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp/SignatureMarkupCreator.cs:148
-msgid "From type:\t{0}"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/PartialGenerator.cs:3
-msgid "Partial methods"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/PartialGenerator.cs:4
-msgid "Select methods to be implemented."
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:17
-msgid "Implement protocol members"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:18
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:21
-msgid "Select protocol members to implement"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeGeneration/ExportCodeGenerator.cs:20
-msgid "Implement required protocol members"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynSymbolCompletionData.cs:16
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynParameterHintingFactory.cs:13
-msgid "Extension Method from"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynParameterHintingFactory.cs:17
-msgid "Parameter"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/RoslynParameterHintingFactory.cs:17
-msgid "Delegate Info"
-msgstr ""
-
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.ClassOutline/CSharpOutlineTextEditorExtension.cs:25
 msgid "Group entries by type"
 msgstr "エントリを種別でグループ化"
@@ -14659,18 +14515,6 @@ msgstr "フィールド"
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Diagnostics/InconsistentNaming/NameConventionEditRuleDialog.cs:2
 msgid "Methods"
 msgstr "メソッド"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Parser/CSharpParsedDocument.cs:26
-msgid "NotImplementedException({0}) thrown."
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Parser/CSharpParsedDocument.cs:26
-msgid "NotImplementedException thrown."
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Completion/ImportSymbolCompletionData.cs:8
-msgid "(from '{0}')"
-msgstr ""
 
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.Refactoring/RefactoryCommands.cs:4
 msgid "Fix"
@@ -14737,14 +14581,6 @@ msgstr ""
 msgid "Make async"
 msgstr ""
 
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/MoveTypeToFile/MoveTypeToFile.cs:4
-msgid "Rename file to '{0}'"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/MoveTypeToFile/MoveTypeToFile.cs:4
-msgid "Move type to file '{0}'"
-msgstr ""
-
 #: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeFixes/ImplementAbstractClass/ImplementAbstractClassCodeFixProvider.cs:9
 msgid "Implement Abstract Class"
 msgstr ""
@@ -14804,34 +14640,6 @@ msgstr ""
 #: ../external/nrefactory/ICSharpCode.NRefactory.CSharp.Refactoring/CodeIssues/Synced/CompilerErrors/ProhibitedModifiersIssue.cs:15
 msgid "Remove 'this'"
 msgstr "thisを除去"
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:3
-msgid "Convert fields to enumeration"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:5
-msgid "Name of enum"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:7
-msgid "Variables to include"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:10
-msgid "Included"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:10
-msgid "Field name"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:10
-msgid "Enum name"
-msgstr ""
-
-#: ../src/addins/CSharpBinding/MonoDevelop.CSharp.CodeRefactorings/ConvertToEnum/ConvertToEnumDialog.cs:15
-msgid "Warning: This may take a while..."
-msgstr ""
 
 #: ../src/addins/MonoDevelop.DocFood/gtk-gui/MonoDevelop.DocFood.Options.OfTheReorderingWidget.cs:2
 msgid "\"of the\" reordering words:"
