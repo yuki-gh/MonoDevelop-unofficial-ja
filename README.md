@@ -1,10 +1,12 @@
 ﻿
-# MonoDevelop & Xamarin Studio 非公式日本語カタログ
-# Unofficial Japanese Catalog for MonoDevelop & Xamarin Studio
+# MonoDevelop 非公式日本語カタログ
+# Unofficial Japanese Catalog for MonoDevelop
 
 ## 概要
 
-MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本語に翻訳します。
+MonoDevelopのユーザーインタフェースとTipsを日本語に翻訳します。
+
+Xamarin Studioは、6.1以降、日本語化が著しく改善されているので、ここでは扱いません。
 
 ## 内容
 
@@ -22,8 +24,6 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 - MonoDevelop
 	- MonoDevelop 5.9.6(Unity 5.3以降にバンドル)
 	- MonoDevelop 5.10.0(Linux用安定版)
-- Xamarin Studio
-	- Xamarin Studio 6.1.1
 - OS
 	- Windows 7 Professional x64 SP1 日本語版
 	- Windows 7 Home Premium x64 SP1 日本語版
@@ -40,12 +40,10 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 
 - Windows
 	- `C:\Program Files\Unity\MonoDevelop\bin\locale\ja\LC_MESSAGES`
-	- `C:\Program Files\Xamarin Studio\bin\locale\ja\LC_MESSAGES`
 	- 64ビット版Windowsに32ビット版ソフトウェアをインストールしている場合は、
 	  `C:\Program Files (x86)`となります。
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
-	- `/Applications/Xamarin Studio.app/Contents/MacOS/share/locale/ja/LC_MESSAGES`
 - Linux
 	- `/usr/share/locale/ja/LC_MESSAGES`
 	- `/opt/monodevelop/share/locale/ja/LC_MESSAGES`
@@ -55,10 +53,8 @@ MonoDevelop / Xamarin StudioのユーザーインタフェースとTipsを日本
 
 - Windows
 	- `C:\Program Files\Unity\MonoDevelop\data\options`
-	- `C:\Program Files\Xamarin Studio\data\options`
 - Mac OS X
 	- `/Applications/Unity/MonoDevelop.app/Contents/MacOS/lib/monodevelop/data/options`
-	- `/Applications/Xamarin Studio.app/Contents/Resources/lib/monodevelop/data/options`
 - Linux
 	- `/usr/lib/monodevelop/data/options`
 	- `/opt/monodevelop/lib/monodevelop/data/options`
@@ -100,7 +96,6 @@ UIは日本語になりません。単体で起動してください。
 - オプションのXMLフォーマットのポップアップ
 - アドインマネージャのカテゴリ
 - デバッガ周り、Unity / Xamarin拡張
-- Xamarin Studioのウェルカムページ
 - アップデータ、リリースノート
 - MonoDevelopのウェルカムページの「Solutions」「New...」「Open...」
 - プロジェクト作成時の詳細説明
@@ -108,8 +103,6 @@ UIは日本語になりません。単体で起動してください。
 一部、誤訳や不具合がある場合があります。
 
 C#関連の訳語はMSDNに準拠しています。
-
-Windows版Xamarin Studio 5.10では、ウェルカムページの右上の「デベロッパーセンター」～「ログイン」が文字化けします。
 
 ## 免責
 
